@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>ID-Verification</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu-mobile.scss">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+</head>
+
+<body class="autorization">
+        <div class="back_img_animate">
+
+    <header>
+        <div class="container">
+                        <div class="nav nav_mobile_all">
+                <div class="menu-left">
+                    <a href="">EXCHANGE </a>
+                    <a href="">MARGIN</a>
+                </div>
+                <div class="menu-right">
+                    <ul class="menu_nav">
+                        <li class="menu_balances"><a href="">Balances<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu sub_balances my_triangle">
+                                <li><a href="">Balances</a></li>
+                                <li><a href="">Balances</a></li>
+                                <li><a href="">-Balances</a></li>
+                                <li><a href="">---Balances---</a></li>
+                                <li><a href="">---Balances---</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">ORDER</a></li>
+                        <li><a href="" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu my_triangle sub_menu_emeil">
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_tuning"><a href=""><img src="img/nav-icon.png" alt=""></a></li>
+                        <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu my_triangle en_ru_submenu">
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <div class="container-menu-mobile">
+                        <!-- Этот чекбокс даст нам поведение переключателя, 
+  он будет скрыт, но работать -->
+                        <input id="toggle" type="checkbox">
+                        <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+  состояния чекбокса, является «братским» элементом для чекбокса -->
+                        <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                        <label class="toggle-container" for="toggle">
+                            <!-- Если меню открыто, то здесь будет иконка «X», 
+  в противном случае просто иконка гамбургера -->
+                            <span class="button button-toggle"></span>
+                        </label>
+                        <!-- Навигация -->
+                        <nav class="nav-mobile-menu">
+                            <a class="nav-item" href="">Balances</a>
+                            <a class="nav-item" href="">Order</a>
+                            <a class="nav-item" href="">Settings</a>
+                            <a class="nav-item" href="">Profile</a>
+                            <a class="logout_mobile nav-item " href="#">Logout</a>
+                        </nav>
+                    </div>
+    </header>
+    <section class="top-section">
+        <div class="container">
+            <div class="nav_bar_chenge id-verification_page">
+                <a href="">ID Verification</a>
+            </div>
+            <div class="chenge_pass id_passport_container">
+                <div class="pass_title">
+                    <span>Individual ID Verification</span>
+                    <a href="">Apply gor Corporate Certification</a>
+                </div>
+                <div class="incorrect_password  verification_page_form">
+                    <form action="">
+                        <div class="input_pass_new">
+                            <p>Name
+                                <br>
+                                <input type="name" id="name" required class="incorrect">
+                            </p>
+                            <p>Surname
+                                <br>
+                                <input type="name" id="surname" required class="incorrect">
+                            </p>
+                        </div>
+                        <div class="input_pass_new">
+                            <p>Patronymic
+                                <br>
+                                <input type="text" id="" required class="incorrect">
+                            </p>
+                            <div class="calendar_box">Date of Birth
+                                <br>
+                                <div class="calendar">
+                                    <p class="">
+                                        <input class="data_calendar" type="" id="day" required class="incorrect" placeholder="day"><i class="fa fa-sort-down"></i>
+                                    </p>
+                                    <p>
+                                        <input class="data_calendar" type="" id="month" required class="incorrect" placeholder="month"><i class="fa fa-sort-down"></i>
+                                    </p>
+                                    <p>
+                                        <input class="data_calendar" type="" id="year" required class="incorrect" placeholder="year"><i class="fa fa-sort-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input_pass_new">
+                            <p class="country">Сountry
+                                <br>
+                                <input type="country" id="Сountry" required class="incorrect"><i class="fa fa-sort-down"></i>
+                            </p>
+                            <p>City
+                                <br>
+                                <input type="text" id="City" required class="incorrect">
+                            </p>
+                        </div>
+                        <div class="input_pass_new">
+                            <p class="address">Address
+                                <br>
+                                <input type="" id="" required class="incorrect">
+                            </p>
+                        </div>
+                        <!--                         <div class="button_change" type="submit">
+                        <input type="submit" value="Change">
+                    </div> -->
+                        <div class="photo_id">
+                            <h2>Photo of ID</h2>
+                            <div class="box_photo_id">
+                                <button id="passports_photo">Passport’s photo
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="26px">
+                                        <defs>
+                                            <filter id="Filter_0">
+                                                <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                                <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                                <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                            </filter>
+                                        </defs>
+                                        <g filter="url(#Filter_0)">
+                                            <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M27.667,25.996 L4.336,25.996 C1.942,25.996 0.003,24.048 0.003,21.644 L0.003,4.361 C0.003,1.957 1.942,0.009 4.336,0.009 L27.667,0.009 C30.060,0.009 31.999,1.957 31.999,4.361 L31.999,21.644 C31.999,24.048 30.060,25.996 27.667,25.996 ZM29.954,4.361 C29.954,3.094 28.928,2.064 27.667,2.064 L4.336,2.064 C3.074,2.064 2.048,3.094 2.048,4.361 L2.048,21.644 C2.048,22.911 3.074,23.942 4.336,23.942 L27.667,23.942 C28.928,23.942 29.954,22.911 29.954,21.644 L29.954,4.361 ZM24.635,18.873 L19.500,18.873 L19.500,18.407 C19.500,17.645 19.278,16.934 18.900,16.332 L24.635,16.332 C25.026,16.332 25.341,16.649 25.341,17.040 L25.341,18.165 C25.341,18.557 25.026,18.873 24.635,18.873 ZM24.635,9.613 L17.115,9.613 C17.006,9.396 16.870,9.216 16.690,9.104 C16.617,8.280 16.443,7.614 16.200,7.073 L24.635,7.073 C25.026,7.073 25.341,7.391 25.341,7.781 L25.341,8.905 C25.341,9.296 25.026,9.613 24.635,9.613 ZM15.853,13.571 C15.874,13.533 15.897,13.500 15.917,13.463 C16.597,13.251 17.088,12.459 17.287,11.703 L24.635,11.703 C25.026,11.703 25.341,12.019 25.340,12.411 L25.340,13.535 C25.340,13.926 25.024,14.243 24.634,14.243 L15.853,14.243 L15.853,13.571 ZM16.512,11.008 C16.512,11.669 15.998,12.639 15.561,12.639 C15.493,12.639 15.433,12.609 15.377,12.568 C15.101,13.209 14.721,13.803 14.268,14.247 C14.161,14.351 14.101,14.494 14.101,14.646 C14.101,15.052 14.428,15.381 14.832,15.381 L15.610,15.381 C17.276,15.381 18.625,16.736 18.624,18.409 L18.624,19.248 C18.624,19.777 18.198,20.205 17.673,20.205 L7.613,20.205 C7.087,20.205 6.662,19.777 6.662,19.248 L6.662,18.409 C6.662,16.737 8.011,15.381 9.676,15.381 L10.455,15.381 C10.859,15.381 11.187,15.053 11.187,14.647 C11.187,14.496 11.126,14.352 11.019,14.247 C10.574,13.810 10.198,13.227 9.923,12.597 C9.876,12.624 9.826,12.639 9.772,12.639 C9.334,12.639 8.822,11.669 8.822,11.008 C8.822,10.347 8.881,9.811 9.319,9.811 C9.356,9.811 9.396,9.820 9.436,9.828 C9.469,8.037 9.800,5.803 12.644,5.803 C15.370,5.803 15.821,8.041 15.852,9.834 C15.908,9.820 15.962,9.811 16.014,9.811 C16.452,9.811 16.512,10.347 16.512,11.008 Z" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <button id="address_residence">Address of residence
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px">
+                                        <defs>
+                                            <filter id="Filter_0">
+                                                <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                                <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                                <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                            </filter>
+                                        </defs>
+                                        <g filter="url(#Filter_0)">
+                                            <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M2.921,2.923 C-0.988,6.832 -0.987,13.169 2.922,17.078 C6.830,20.986 13.168,20.988 17.077,17.079 C20.987,13.169 20.986,6.830 17.078,2.922 C13.169,-0.987 6.831,-0.987 2.921,2.923 ZM14.959,8.874 L14.957,11.127 C14.957,11.127 11.261,10.998 11.127,11.131 C10.997,11.262 11.126,14.959 11.126,14.959 L8.872,14.961 C8.872,14.961 9.030,11.288 8.874,11.132 C8.715,10.973 5.041,11.130 5.041,11.130 L5.041,8.874 C5.041,8.874 8.754,8.990 8.870,8.873 C8.988,8.756 8.873,5.042 8.873,5.042 L11.128,5.044 C11.128,5.044 10.995,8.743 11.129,8.876 C11.256,9.004 14.959,8.874 14.959,8.874 Z" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <button id="plus_file">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px">
+                                        <defs>
+                                            <filter id="Filter_0">
+                                                <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                                <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                                <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                            </filter>
+                                        </defs>
+                                        <g filter="url(#Filter_0)">
+                                            <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M2.921,2.923 C-0.988,6.832 -0.987,13.169 2.922,17.078 C6.830,20.986 13.168,20.988 17.077,17.079 C20.987,13.169 20.986,6.830 17.078,2.922 C13.169,-0.987 6.831,-0.987 2.921,2.923 ZM14.959,8.874 L14.957,11.127 C14.957,11.127 11.261,10.998 11.127,11.131 C10.997,11.262 11.126,14.959 11.126,14.959 L8.872,14.961 C8.872,14.961 9.030,11.288 8.874,11.132 C8.715,10.973 5.041,11.130 5.041,11.130 L5.041,8.874 C5.041,8.874 8.754,8.990 8.870,8.873 C8.988,8.756 8.873,5.042 8.873,5.042 L11.128,5.044 C11.128,5.044 10.995,8.743 11.129,8.876 C11.256,9.004 14.959,8.874 14.959,8.874 Z" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <p>Information in the ID or passport, especially the ID or passport. No <br>and the name, shall be clear and visible without any modification or cover</p>
+                            </div>
+                            <div class="">
+                                <h2>Example</h2>
+                                <img class="passport_id_photo_mobile" src="img/passport_id_photo.png" alt="">
+                                <div class="passport_id_photo_box">
+                                    <img class="passport_id_photo" src="img/passport_id_photo.png" alt="">
+
+                                    <button id="verify">Verify</button>
+                                </div>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+</div>
+</body>
+
+</html>

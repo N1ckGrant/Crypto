@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cibyntex</title>
+    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu-mobile.scss">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+    <!--     <script src="Chart.js/Chart.bundle.js"></script>
+    <script src="Chart.js/utils.js"></script> -->
+    <!-- <script src="Chart.js/analyser.js"></script> -->
+</head>
+
+<body class="home">
+    <div class="image-one">
+        <div class="image-two">
+            <header class="home_header">
+                <div class="container">
+                    <div class="nav nav_mobile_all">
+                        <div class="menu-left">
+                            <a href="">EXCHANGE </a>
+                            <a href="">MARGIN</a>
+                        </div>
+                        <div class="menu-right">
+                            <ul class="menu_nav">
+                                <li class="menu_balances"><a href="#">Balances<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu sub_balances my_triangle">
+                                        <li><a href="">Balances</a></li>
+                                        <li><a href="">Balances</a></li>
+                                        <li><a href="">-Balances</a></li>
+                                        <li><a href="">---Balances---</a></li>
+                                        <li><a href="">---Balances---</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">ORDER</a></li>
+                                <li><a href="#" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu my_triangle sub_menu_emeil">
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav_tuning"><a href="#"><img src="img/nav-icon.png" alt=""></a></li>
+                                <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu my_triangle en_ru_submenu">
+                                        <li><a href="#">RU</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-menu-mobile">
+                        <!-- Этот чекбокс даст нам поведение переключателя, 
+  он будет скрыт, но работать -->
+                        <input id="toggle" type="checkbox">
+                        <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+  состояния чекбокса, является «братским» элементом для чекбокса -->
+                        <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                        <label class="toggle-container" for="toggle">
+                            <!-- Если меню открыто, то здесь будет иконка «X», 
+  в противном случае просто иконка гамбургера -->
+                            <span class="button button-toggle"></span>
+                        </label>
+                        <!-- Навигация -->
+                        <nav class="nav-mobile-menu">
+                            <a class="nav-item" href="">Balances</a>
+                            <a class="nav-item" href="">Order</a>
+                            <a class="nav-item" href="">Settings</a>
+                            <a class="nav-item" href="">Profile</a>
+                            <a class="logout_mobile nav-item " href="">Logout</a>
+                        </nav>
+                    </div>
+                   <!--  <div class="Cybintex_text" id="layer1">
+                    </div> -->
+                    <div class="my_slider">
+                        <div class="slider">
+                            <div class="img_slider"> <img src="img/bg-home-slider.png" alt="">
+                                <div class="box_title_slider"><div class="title_slider">Cybintex</div>
+                                <div class="title_description"> exchanges of cryptocurrency with best profit & experience</div></div>
+                                <div class="slider_button"><a href="">More</a></div>
+                            </div>
+                            
+                            <div class="img_slider"> <img src="img/bg-home-slider.png" alt="">
+                                <div class="box_title_slider"><div class="title_slider">Cybintex</div>
+                                <div class="title_description"> exchanges of cryptocurrency with best profit & experience</div></div>
+                                <div class="slider_button"><a href="">More</a></div>
+                            </div>
+                            <div class="img_slider"> <img src="img/bg-home-slider.png" alt="">
+                                <div class="box_title_slider"><div class="title_slider">Cybintex</div>
+                                <div class="title_description"> exchanges of cryptocurrency with best profit & experience</div></div>
+                                <div class="slider_button"><a href="">More</a></div>
+                            </div>
+                             
+                            <!-- <div class="img_slider"> <img src="img/img_slider.png" alt="">
+                        <div class="slider_button"><a href="">More</a></div>
+                    </div>
+                     <div class="img_slider"> <img src="img/img_slider.png" alt="">
+                        <div class="slider_button"><a href="">More</a></div>
+                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <marquee direction="right" bgcolor="transparent" width="100%" height="58px">
+                <div class="cash_all">
+                    <div class="row-marquee">
+                        <div class="name_cash"><img src="img/icon-row-romb.png" alt=""><span>Ethereum ETH</span></div>
+                        <br>
+                        <span class="dollars">$ 1.223.82</span><span class="procent-green"><i class="fa fa-long-arrow-up"></i>+09.33 ( +0.86% )</span>
+                    </div>
+                    <div class="row-marquee">
+                        <div class="name_cash"><img src="img/icon-rob-bit.png" alt=""><span>Bitcoin Cash / BCC (BCH)</span></div>
+                        <br>
+                        <span class="dollars">$ 1.223.82</span><span class="procent-red"><i class="fa fa-long-arrow-down"></i>-10.62 ( -0.86% )</span>
+                    </div>
+                    <div class="row-marquee">
+                        <div class="name_cash"><img src="img/icon-rob-Ripple.png" alt=""><span>Ripple (XRP)</span></div>
+                        <br>
+                        <span class="dollars">$ 0.68</span><span class="procent-red"><i class="fa fa-long-arrow-down"></i>-0.01 ( -1.78% )</span>
+                    </div>
+                    <div class="row-marquee">
+                        <div class="name_cash"><img src="img/icon-rob-LTC.png" alt=""><span>Litecoin (LTC)</span></div>
+                        <br>
+                        <span class="dollars">$ 1.223.82</span><span class="procent-green"><i class="fa fa-long-arrow-up"></i>+09.33 ( +0.86% )</span>
+                    </div>
+                    <div class="row-marquee">
+                        <div class="name_cash"><img src="img/icon-rob-dollar.png" alt=""><span>Dollar (USD</span></div>
+                        <br>
+                        <span class="dollars">$ 1.223.82</span><span class="procent-red"><i class="fa fa-long-arrow-down"></i>+09.33 ( +0.86% )</span>
+                    </div>
+                </div>
+            </marquee>
+            <div class="container">
+                <div class="chart">
+                    <div id="chartContainer" style="height: 100%; width: 100%;">
+                    </div>
+                    <div class="chart_index">Cybintex 10 index
+                        <br> <span>816.28</span></div>
+                    <!--         <script>
+        var speedCanvas = document.getElementById("speedChart");
+
+        Chart.defaults.global.defaultFontFamily = "Lato";
+        Chart.defaults.global.defaultFontSize = 18;
+
+        var speedData = {
+            labels: ["0s", "10s", "20s", "30s", "40s", "50s", "60s"],
+            datasets: [{
+                label: "chart",
+                data: [0, 59, 75, 20, 20, 55, 40],
+                borderColor: '#6d4e97',
+                backgroundColor: '#161958'
+            }]
+        };
+
+        var chartOptions = {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: {
+                    boxWidth: 80,
+                    fontColor: 'black'
+                }
+            }
+        };
+
+        var lineChart = new Chart(speedCanvas, {
+            type: 'line',
+            data: speedData,
+            options: chartOptions
+        });
+        </script> -->
+                </div>
+            </div>
+            <script type="text/javascript">
+            window.onload = function() {
+
+                var chart = new CanvasJS.Chart("chartContainer", {
+                    backgroundColor: "#161958",
+                    // borderColor: '#6d4e97',
+                    title: {
+                        text: ""
+                    },
+                    legend: {
+                        horizontalAlign: "right",
+                        verticalAlign: "center"
+                    },
+                    axisY: {
+                        includeZero: false,
+                        gridThickness: 0,
+                        labelFontColor: "#fff"
+
+                    },
+                    axisX: {
+                        // title: null,
+
+                        viewportMinimum: -50,
+                        viewportMaximum: 50,
+                        gridThickness: 0,
+                        labelFontColor: "#fff"
+
+                    },
+                    data: [{
+                        type: "area",
+                        lineColor: "#6d4e97",
+                        fillOpacity: .3, //**Try various Opacity values **//
+                        dataPoints: dataPoints,
+                    }],
+
+                });
+
+
+                chart.render();
+            }
+
+            var limit = 1000; //increase number of dataPoints by increasing this
+            var y = 0;
+            var dataPoints = [];
+            for (var i = 0; i < limit; i += 1) {
+                y += (Math.random());
+                dataPoints.push({
+                    x: i - limit / 2,
+                    y: y
+
+                });
+            }
+            </script>
+            <div class="container">
+                <div class="table-content">
+                    <div class="table_coin">
+                        <div class="head-table">
+                            <div class="nav-table">
+                                <span class="Favorites source source-1"><svg class="svg_icon_home_table"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="23px" height="22px">
+<defs>
+<filter id="Filter_0">
+    
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  "
+ d="M22.492,9.966 C22.945,9.526 23.105,8.879 22.910,8.278 C22.714,7.678 22.204,7.249 21.578,7.158 L16.013,6.350 C15.776,6.315 15.572,6.167 15.466,5.952 L12.978,0.916 C12.698,0.350 12.131,-0.002 11.500,-0.002 C10.868,-0.002 10.301,0.350 10.022,0.916 L7.533,5.953 C7.427,6.167 7.222,6.316 6.985,6.350 L1.420,7.158 C0.795,7.249 0.285,7.678 0.089,8.279 C-0.106,8.880 0.054,9.526 0.506,9.966 L4.533,13.887 C4.704,14.054 4.783,14.295 4.742,14.530 L3.792,20.066 C3.708,20.553 3.836,21.027 4.152,21.401 C4.643,21.983 5.499,22.161 6.184,21.801 L11.161,19.187 C11.369,19.078 11.631,19.079 11.838,19.187 L16.816,21.801 C17.058,21.928 17.316,21.993 17.582,21.993 C18.069,21.993 18.530,21.777 18.847,21.401 C19.163,21.027 19.291,20.552 19.206,20.066 L18.256,14.530 C18.216,14.295 18.294,14.054 18.466,13.887 L22.492,9.966 Z"/>
+</g>
+</svg>
+Favorites</span>
+                                <span class="source source-2"><svg class="svg_icon_home_table"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="17px" height="24px">
+<defs>
+
+
+</defs>
+<path fill-rule="evenodd"  
+ d="M16.450,13.722 C16.079,13.071 15.578,12.563 14.945,12.201 C14.507,11.943 13.874,11.704 13.048,11.490 C13.819,11.222 14.438,10.883 14.909,10.473 C15.377,10.063 15.737,9.591 15.987,9.055 C16.236,8.520 16.362,7.955 16.362,7.359 C16.362,6.540 16.126,5.788 15.655,5.101 C15.182,4.414 14.509,3.888 13.632,3.522 C13.124,3.309 12.493,3.166 11.764,3.076 L11.764,0.002 L9.294,0.002 L9.294,2.971 L7.705,2.971 L7.705,0.002 L5.235,0.002 L5.235,2.971 L-0.009,2.971 L-0.009,5.470 L0.686,5.470 C1.149,5.470 1.464,5.513 1.629,5.599 C1.792,5.685 1.909,5.802 1.976,5.949 C2.045,6.096 2.077,6.436 2.077,6.971 L2.077,17.041 C2.077,17.568 2.043,17.907 1.976,18.057 C1.909,18.209 1.794,18.325 1.629,18.406 C1.464,18.488 1.149,18.531 0.686,18.531 L-0.009,18.531 L-0.009,21.029 L5.235,21.029 L5.235,23.998 L7.704,23.998 L7.704,21.029 L9.238,21.029 C9.256,21.029 9.274,21.029 9.292,21.029 L9.292,23.998 L11.763,23.998 L11.763,20.882 C12.560,20.776 13.230,20.614 13.766,20.394 C14.797,19.971 15.596,19.356 16.159,18.549 C16.724,17.743 17.006,16.860 17.006,15.901 C17.006,15.100 16.820,14.373 16.450,13.722 ZM6.443,5.884 L8.378,5.884 C9.509,5.884 10.293,5.956 10.732,6.098 C11.170,6.241 11.505,6.481 11.738,6.816 C11.969,7.154 12.086,7.559 12.086,8.035 C12.086,8.492 11.963,8.895 11.718,9.245 C11.474,9.594 11.109,9.856 10.624,10.028 C10.139,10.201 9.391,10.288 8.378,10.288 L6.443,10.288 L6.443,5.884 ZM11.910,17.042 C11.564,17.490 11.145,17.786 10.653,17.929 C10.160,18.071 9.540,18.143 8.792,18.143 L7.504,18.143 C7.074,18.143 6.812,18.119 6.715,18.072 C6.618,18.024 6.549,17.942 6.506,17.820 C6.471,17.724 6.451,17.403 6.442,16.849 L6.442,12.940 L8.726,12.940 C9.728,12.940 10.473,13.035 10.961,13.224 C11.449,13.413 11.815,13.695 12.059,14.066 C12.303,14.438 12.425,14.891 12.425,15.426 C12.427,16.054 12.254,16.594 11.910,17.042 Z"/>
+</g>
+</svg>BTC Markets</span>
+                                <span class="source source-3"><?xml version="1.0" ?><svg class="svg_icon_home_table" enable-background="new 0 0 226.777 226.777" width="27px" height="34px" id="Layer_1" version="1.1" viewBox="0 0 226.777 226.777"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polygon  points="112.553,157 112.553,86.977 44.158,116.937  "/><polygon  points="112.553,82.163 112.553,-0.056 46.362,111.156  "/><polygon  points="116.962,-0.09 116.962,82.163 184.083,111.566  "/><polygon  points="116.962,86.977 116.962,157.002 185.405,116.957  "/><polygon  points="112.553,227.406 112.553,171.085 44.618,131.31  "/><polygon  points="116.962,227.406 184.897,131.31 116.962,171.085  "/></g></svg>ETH Markets</span>
+                                <span class="source source-4">          XRP Markets</span>
+                                <span class="source source-5">
+<svg class="svg_icon_home_table" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ width="28px" height="30px"
+     viewBox="0 0 18.211 18.211" style="enable-background:new 0 0 18.211 18.211;" xml:space="preserve">
+<g>
+    <path  d="M14.081,11.806c0,1.986-1.383,3.682-3.947,4.106v2.299H7.923V16.09
+        c-1.496-0.067-2.945-0.491-3.793-0.96l0.668-2.611c0.937,0.513,2.254,0.983,3.705,0.983c1.295,0,2.164-0.513,2.164-1.383
+        c0-0.848-0.715-1.384-2.389-1.943C5.892,9.372,4.264,8.258,4.264,6.093c0-1.986,1.381-3.526,3.768-3.973V0h2.189v1.963
+        c1.473,0.046,2.477,0.379,3.258,0.738l-0.67,2.521c-0.559-0.269-1.608-0.783-3.214-0.783c-1.449,0-1.919,0.648-1.919,1.273
+        c0,0.713,0.782,1.206,2.701,1.896C13.032,8.546,14.08,9.773,14.081,11.806z"/>
+</g>
+
+</svg>USD Markets</span>
+                            </div>
+                        </div>
+                        <div class="box_table_home_scroll">
+                            <div class="ticker_head">
+                                <span class="sp_sort favourite">Pair <i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i>
+                        </span>
+                                <span class="sp_sort favourite">Last Price</span>
+                                <span class="sp_sort favourite">24h Change</span>
+                                <span class="sp_sort favourite">24h High</span>
+                                <span class="sp_sort favourite">24h Low</span>
+                                <span class="sp_sort favourite">24h Volume</span>
+                            </div>
+                            <div class="coin_list target target-1" id="scroll_bar">
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="coin_list target target-2" id="scroll_bar">
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="coin_list target target-3" id="scroll_bar">
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="coin_list target target-4" id="scroll_bar">
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="coin_list target target-5" id="scroll_bar">
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <div class="coin_unit">
+                                            <span class="uppercase"><i class="marker un_marker"></i>BTC / USDT</span>
+                                            <span class="price">9,312.01 <b class="decs">/ $9,312.01</b></span>
+                                            <span class="rate">-2.94%</span>
+                                            <span class="high">7251.34 <b class="decs">≈$7393.89</b> </span>
+                                            <span class="low">9,252.00</span>
+                                            <span class="amount">294,758,833.44181000</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="home-footer">
+                <div class="container footer">
+                    
+                    <a href="" class="logo-footer"><img src="img/logo_footer.png" alt=""><div class="text_logo_footer">
+                        Cybintex
+                    </div></a>
+                    <ul class="nav-footer">
+                        <a href="">
+                            <li>About</li>
+                        </a>
+                        <a href="">
+                            <li>Terms of use</li>
+                        </a>
+                        <a href="">
+                            <li>Privacy</li>
+                        </a>
+                        <a href="">
+                            <li>Contact </li>
+                        </a>
+                        <a href="">
+                            <li>Cabinet</li>
+                        </a>
+                        <a href="">
+                            <li>Exchange</li>
+                        </a>
+                    </ul>
+                    <div class="social-footer">
+                        <a href=""><img src="" alt=""><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="39px" height="39px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+  <stop offset="0%" stop-color="rgb(94,164,221)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(113,58,135)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+ d="M19.341,0.004 C8.679,0.004 0.004,8.750 0.004,19.499 C0.004,30.248 8.679,38.994 19.341,38.994 C30.004,38.994 38.678,30.248 38.678,19.499 C38.678,8.750 30.004,0.004 19.341,0.004 ZM27.967,15.038 C27.976,15.231 27.981,15.425 27.981,15.620 C27.981,21.549 23.504,28.386 15.317,28.386 C12.803,28.386 10.463,27.644 8.494,26.370 C8.842,26.412 9.197,26.433 9.556,26.433 C11.642,26.433 13.560,25.715 15.084,24.512 C13.136,24.476 11.492,23.179 10.926,21.396 C11.197,21.449 11.477,21.476 11.762,21.476 C12.168,21.476 12.562,21.422 12.936,21.319 C10.899,20.907 9.366,19.094 9.366,16.920 C9.366,16.901 9.366,16.882 9.367,16.864 C9.966,17.199 10.653,17.402 11.382,17.425 C10.188,16.621 9.402,15.248 9.402,13.691 C9.402,12.867 9.621,12.096 10.005,11.434 C12.199,14.149 15.479,15.935 19.178,16.123 C19.101,15.794 19.063,15.453 19.063,15.100 C19.063,12.623 21.055,10.613 23.514,10.613 C24.793,10.613 25.950,11.158 26.762,12.030 C27.777,11.829 28.728,11.457 29.589,10.940 C29.256,11.989 28.551,12.867 27.631,13.423 C28.532,13.315 29.390,13.075 30.187,12.718 C29.592,13.616 28.837,14.406 27.967,15.038 Z"/>
+<path fill="url(#PSgrad_0)"
+ d="M19.341,0.004 C8.679,0.004 0.004,8.750 0.004,19.499 C0.004,30.248 8.679,38.994 19.341,38.994 C30.004,38.994 38.678,30.248 38.678,19.499 C38.678,8.750 30.004,0.004 19.341,0.004 ZM27.967,15.038 C27.976,15.231 27.981,15.425 27.981,15.620 C27.981,21.549 23.504,28.386 15.317,28.386 C12.803,28.386 10.463,27.644 8.494,26.370 C8.842,26.412 9.197,26.433 9.556,26.433 C11.642,26.433 13.560,25.715 15.084,24.512 C13.136,24.476 11.492,23.179 10.926,21.396 C11.197,21.449 11.477,21.476 11.762,21.476 C12.168,21.476 12.562,21.422 12.936,21.319 C10.899,20.907 9.366,19.094 9.366,16.920 C9.366,16.901 9.366,16.882 9.367,16.864 C9.966,17.199 10.653,17.402 11.382,17.425 C10.188,16.621 9.402,15.248 9.402,13.691 C9.402,12.867 9.621,12.096 10.005,11.434 C12.199,14.149 15.479,15.935 19.178,16.123 C19.101,15.794 19.063,15.453 19.063,15.100 C19.063,12.623 21.055,10.613 23.514,10.613 C24.793,10.613 25.950,11.158 26.762,12.030 C27.777,11.829 28.728,11.457 29.589,10.940 C29.256,11.989 28.551,12.867 27.631,13.423 C28.532,13.315 29.390,13.075 30.187,12.718 C29.592,13.616 28.837,14.406 27.967,15.038 Z"/>
+</svg></a>
+                        <a href=""><img src="" alt=""><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="39px" height="39px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+  <stop offset="0%" stop-color="rgb(94,164,221)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(113,58,135)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+ d="M19.499,38.994 C8.837,38.994 0.162,30.248 0.162,19.499 C0.162,8.750 8.837,0.004 19.499,0.004 C30.161,0.004 38.836,8.750 38.836,19.499 C38.836,30.248 30.161,38.994 19.499,38.994 ZM30.496,17.224 L30.496,12.698 C30.496,10.334 28.590,8.413 26.245,8.413 L12.752,8.413 C10.408,8.413 8.502,10.334 8.502,12.698 L8.502,17.224 L8.502,26.302 C8.502,28.666 10.408,30.587 12.752,30.587 L26.246,30.587 C28.590,30.587 30.496,28.666 30.496,26.302 L30.496,17.224 ZM26.244,28.425 L12.752,28.425 C11.589,28.425 10.644,27.475 10.644,26.302 L10.644,17.224 L13.927,17.224 C13.643,17.926 13.484,18.695 13.484,19.499 C13.484,22.842 16.182,25.564 19.499,25.564 C22.816,25.564 25.514,22.842 25.514,19.499 C25.514,18.695 25.353,17.926 25.068,17.224 L28.352,17.224 L28.352,26.302 C28.352,27.475 27.407,28.425 26.244,28.425 ZM24.222,10.978 L27.466,10.968 L27.952,10.967 L27.952,11.453 L27.952,14.725 L24.236,14.737 L24.222,10.978 ZM19.498,23.402 C17.364,23.402 15.626,21.651 15.627,19.498 C15.628,18.649 15.901,17.864 16.359,17.223 C17.064,16.240 18.207,15.596 19.499,15.596 C20.791,15.596 21.934,16.241 22.638,17.224 C23.095,17.865 23.371,18.650 23.371,19.499 C23.371,21.652 21.632,23.402 19.498,23.402 Z"/>
+<path fill="url(#PSgrad_0)"
+ d="M19.499,38.994 C8.837,38.994 0.162,30.248 0.162,19.499 C0.162,8.750 8.837,0.004 19.499,0.004 C30.161,0.004 38.836,8.750 38.836,19.499 C38.836,30.248 30.161,38.994 19.499,38.994 ZM30.496,17.224 L30.496,12.698 C30.496,10.334 28.590,8.413 26.245,8.413 L12.752,8.413 C10.408,8.413 8.502,10.334 8.502,12.698 L8.502,17.224 L8.502,26.302 C8.502,28.666 10.408,30.587 12.752,30.587 L26.246,30.587 C28.590,30.587 30.496,28.666 30.496,26.302 L30.496,17.224 ZM26.244,28.425 L12.752,28.425 C11.589,28.425 10.644,27.475 10.644,26.302 L10.644,17.224 L13.927,17.224 C13.643,17.926 13.484,18.695 13.484,19.499 C13.484,22.842 16.182,25.564 19.499,25.564 C22.816,25.564 25.514,22.842 25.514,19.499 C25.514,18.695 25.353,17.926 25.068,17.224 L28.352,17.224 L28.352,26.302 C28.352,27.475 27.407,28.425 26.244,28.425 ZM24.222,10.978 L27.466,10.968 L27.952,10.967 L27.952,11.453 L27.952,14.725 L24.236,14.737 L24.222,10.978 ZM19.498,23.402 C17.364,23.402 15.626,21.651 15.627,19.498 C15.628,18.649 15.901,17.864 16.359,17.223 C17.064,16.240 18.207,15.596 19.499,15.596 C20.791,15.596 21.934,16.241 22.638,17.224 C23.095,17.865 23.371,18.650 23.371,19.499 C23.371,21.652 21.632,23.402 19.498,23.402 Z"/>
+</svg></a>
+                        <a href=""><img src="" alt=""><svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="39px" height="39px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+  <stop offset="0%" stop-color="rgb(94,164,221)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(113,58,135)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+ d="M19.657,0.004 C8.995,0.004 0.320,8.750 0.320,19.499 C0.320,30.248 8.995,38.994 19.657,38.994 C30.319,38.994 38.994,30.248 38.994,19.499 C38.994,8.750 30.319,0.004 19.657,0.004 ZM24.466,20.185 L21.320,20.185 C21.320,25.253 21.320,31.491 21.320,31.491 L16.658,31.491 C16.658,31.491 16.658,25.313 16.658,20.185 L14.442,20.185 L14.442,16.191 L16.658,16.191 L16.658,13.606 C16.658,11.755 17.531,8.863 21.363,8.863 L24.816,8.876 L24.816,12.754 C24.816,12.754 22.717,12.754 22.308,12.754 C21.900,12.754 21.321,12.960 21.321,13.843 L21.321,16.191 L24.873,16.191 L24.466,20.185 Z"/>
+<path fill="url(#PSgrad_0)"
+ d="M19.657,0.004 C8.995,0.004 0.320,8.750 0.320,19.499 C0.320,30.248 8.995,38.994 19.657,38.994 C30.319,38.994 38.994,30.248 38.994,19.499 C38.994,8.750 30.319,0.004 19.657,0.004 ZM24.466,20.185 L21.320,20.185 C21.320,25.253 21.320,31.491 21.320,31.491 L16.658,31.491 C16.658,31.491 16.658,25.313 16.658,20.185 L14.442,20.185 L14.442,16.191 L16.658,16.191 L16.658,13.606 C16.658,11.755 17.531,8.863 21.363,8.863 L24.816,8.876 L24.816,12.754 C24.816,12.754 22.717,12.754 22.308,12.754 C21.900,12.754 21.321,12.960 21.321,13.843 L21.321,16.191 L24.873,16.191 L24.466,20.185 Z"/>
+</svg></a>
+                    </div>
+                </div>
+                <div class="company">
+                    <a href="">© 2017-2018 Cybintex.com</a>
+                </div>
+            </footer>
+            <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="libs/jquery-migrate-1.2.1.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script type="text/javascript" src="js/myslickslider.js"></script>
+            <script type="text/javascript" src="canvasjs/canvasjs.min.js"></script>
+            <script type="text/javascript" src="js/main-table.js"></script>
+            <script type="text/javascript" src="js/main_js.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

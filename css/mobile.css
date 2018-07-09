@@ -1,0 +1,2557 @@
+                   @media screen and (max-width: 1600px) {
+                   .exchange_body .section_exchange {
+                       flex-wrap: wrap;
+                       height: 100%;
+                       justify-content: space-between;
+                   }
+                   .block_left {
+                       order: 2;
+                       height: 620px;
+                       min-width: 304px;
+                       width: 49%;
+                       margin-right: 0px;
+                   }
+                   .block_center {
+                       order: 1;
+                       height: 620px;
+                       width: 100%;
+                       /*min-width: 304px;*/
+                       margin-right: 0px;
+                       margin-bottom: 15px;
+                   }
+                   .block_right {
+                       width: 49%;
+                       order: 3;
+                       height: 620px;
+                       min-width: 304px;
+                       margin-right: 0px;
+                   }
+                   .order_box_block_right{
+                    justify-content: center;
+                   }
+                   .buy_smt{
+                    width: 250px;
+                    color: #fff;
+                   }
+               }
+
+               @media screen and (max-width: 1490px) {
+                   /*шрифт меньше*/
+                   .nav_bar_chenge a {
+                       font-size: 23px;
+                   }
+                   .box_page_account div h2 {
+                       font-size: 20px;
+                   }
+                   .box_page_account p {
+                       font-size: 17px;
+                   }
+                   .box_page_account div input {
+                       font-size: 17px;
+                   }
+                   .activate_deactivate_box span {
+                       font-size: 17px;
+                   }
+                   .login_histoty .title_block span {
+                       font-size: 20px;
+                   }
+                   .caption_table_history {
+                       font-size: 17px;
+                   }
+                   .table_history {
+                       font-size: 16px;
+                   }
+                   .referral_system_container p {
+                       font-size: 16px;
+                   }
+                   .button_change input {
+                       font-size: 18px;
+                   }
+                   .generate_link #link {
+                       font-size: 17px;
+                   }
+                   .nav__referral {
+                       font-size: 19px;
+                   }
+                   #data_from:before {
+                       margin-right: 10px;
+                   }
+                   .input_pass_new p {
+                       font-size: 16px;
+                   }
+                   .input_pass_old p {
+                       font-size: 16px;
+                   }
+                   .static_container h2 {
+                       font-size: 20px;
+                   }
+                   .static_container p {
+                       font-size: 16px;
+                   }
+                   .autorization_form p {
+                       font-size: 16px;
+                   }
+                   .autorization_form legend {
+                       font-size: 16px;
+                   }
+                   .registration_form .incorrect {
+                       margin-top: 0px;
+                   }
+                   .registration_form .igare_registration {
+                       font-size: 18px;
+                   }
+                   .chenge_pass span {
+                       font-size: 19px;
+                   }
+                   .chenge_pass a {
+                       font-size: 16px;
+                   }
+                   .incorrect {
+                       font-size: 16px;
+                   }
+                   .input_pass_old input {
+                       margin-top: 15px;
+                       font-size: 17px;
+                   }
+                   .input_pass_new input {
+                       margin-top: 15px;
+                       font-size: 17px;
+                   }
+
+                   .caption_table div {
+                       font-size: 17px;
+                   }
+                   .orders_value_table div {
+                       font-size: 16px;
+                   }
+                   .order_box_block_right div {
+                       font-size: 14px;
+                   }
+                   .buy_smt{
+                    width: 200px;
+                    color: #fff;
+                   }
+               }
+
+               @media screen and (max-width: 1400px) {
+                   .verification_page_form #passports_photo {
+                       width: 200px;
+                       font-size: 15px;
+                       padding: 0px;
+                       height: 45px;
+                       justify-content: space-around;
+                   }
+                   .verification_page_form #address_residence {
+                       width: 200px;
+                       font-size: 15px;
+                       padding: 0px;
+                       height: 45px;
+                       justify-content: space-around;
+                   }
+                   .verification_page_form #plus_file {
+                       width: 130px;
+                       /*padding-top: 21px;
+               padding-bottom: 16px;*/
+                       padding: 0px;
+                       height: 45px;
+                   }
+                   .box_photo_id {
+                       flex-wrap: wrap;
+                       align-items: center;
+                   }
+                   .verification_page_form .box_photo_id p {
+                       margin-top: 15px;
+                       font-size: 16px;
+                   }
+                   #verify {
+                       height: 45px;
+                       width: 200px;
+                       padding: 0px;
+                       display: flex;
+                       justify-content: center;
+                   }
+                   .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
+                       color: #484c83;
+                       text-align: left;
+                       font-size: 15px;
+                       padding-left: 10px;
+                   }
+
+                   .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
+                       color: #484c83;
+                       text-align: left;
+                       font-size: 15px;
+                       padding-left: 10px;
+                   }
+
+                   .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
+                       color: #484c83;
+                       text-align: left;
+                       font-size: 15px;
+                       padding-left: 10px;
+                   }
+
+                   .input_pass_new .calendar input[type=""]::placeholder {
+                       color: #484c83;
+                       text-align: left;
+                       font-size: 15px;
+                       padding-left: 10px;
+                   }
+                   .orders_container_table .orders_table {
+                       overflow-x: scroll;
+                       overflow-y: hidden;
+                   }
+
+                   .notifications_history tr th {
+                       font-size: 16px;
+                       line-height: 18px;
+                       min-width: 160px;
+                       margin-right: 10px;
+                   }
+                   .notifications_history tr td {
+                       font-size: 16px;
+                       line-height: 18px;
+                       min-width: 160px;
+                       margin-right: 10px;
+                   }
+                   .nav_orders {
+                       font-size: 18px;
+                   }
+                   .title_orders {
+                       font-size: 16px;
+                   }
+                   .slider_button {
+                       bottom: 30%;
+                       transition: all 0.5s;
+                   }
+                   .box_title_slider {
+                       bottom: 50%;
+                       transition: all 0.5s;
+                   }
+
+
+                   /*шрифт меньше*/
+                   .nav_bar_chenge a {
+                       font-size: 20px;
+                   }
+                   .nav_bar_chenge {
+                       height: 60px;
+                   }
+                   .box_page_account div h2 {
+                       font-size: 18px;
+                       padding-top: 20px;
+                   }
+                   .box_page_account p {
+                       font-size: 17px;
+                   }
+                   .box_page_account div input {
+                       font-size: 16px;
+                       width: 155px;
+                   }
+                   .activate_deactivate_box span {
+                       font-size: 17px;
+                   }
+                   .login_histoty .title_block span {
+                       font-size: 20px;
+                   }
+                   .caption_table_history {
+                       font-size: 17px;
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                   }
+                   .table_history {
+                       font-size: 16px;
+                       padding-top: 15px;
+                       padding-bottom: 15px;
+                   }
+                   .referral_system_container p {
+                       font-size: 16px;
+                   }
+                   .button_change input {
+                       font-size: 18px;
+                   }
+                   .generate_link #link {
+                       font-size: 17px;
+                   }
+                   .nav__referral {
+                       font-size: 18px;
+                   }
+                   .nav__referral {
+                       padding-top: 25px;
+                       padding-bottom: 25px;
+                   }
+                   .caption_table {
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                   }
+                   .nav_order {
+                       padding-top: 20px;
+                   }
+                   #data_from:before {
+                       margin-right: 10px;
+                   }
+                   .input_pass_new p {
+                       font-size: 16px;
+                       padding-top: 20px;
+                   }
+                   .input_pass_old p {
+                       font-size: 16px;
+                   }
+                   .static_container h2 {
+                       font-size: 18px;
+                       padding-bottom: 20px;
+                   }
+                   .static_container p {
+                       font-size: 15px;
+                   }
+                   .autorization_form p {
+                       font-size: 16px;
+                   }
+                   .autorization_form legend {
+                       font-size: 16px;
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                   }
+                   .autorization_form input {
+                       height: 45px;
+                   }
+                   .autorization_form .button_login input {
+                       width: 200px;
+                       height: 45px;
+                   }
+                   .registration_form .incorrect {
+                       margin-top: 0px;
+                   }
+                   .registration_form .igare_registration {
+                       font-size: 16px;
+                   }
+                   .chenge_pass span {
+                       font-size: 18px;
+                   }
+                   .chenge_pass a {
+                       font-size: 16px;
+                   }
+                   .incorrect {
+                       font-size: 16px;
+                   }
+                   .input_pass_old input {
+                       margin-top: 15px;
+                       font-size: 16px;
+                       height: 45px;
+                   }
+                   .input_pass_new input {
+                       margin-top: 15px;
+                       font-size: 17px;
+                       height: 45px;
+                   }
+
+
+                   .caption_table div {
+                       font-size: 17px;
+                   }
+                   .orders_value_table div {
+                       font-size: 15px;
+                   }
+                   .order_box_block_right div {
+                       font-size: 14px;
+                   }
+                   .referral_table_container #my_table tr td {
+                       font-size: 16px;
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                       line-height: 20px;
+                   }
+                   .referral_table_container #my_table tr th {
+                       padding-top: 20px;
+                       font-size: 16px;
+                   }
+                   .generate_link #link {
+                       height: 45px;
+                   }
+                   .generate_link #icon_copy {
+                       position: absolute;
+                       top: 9px;
+                       right: 55px;
+                   }
+                   .button_change input {
+                       width: 200px;
+                       height: 45px;
+                       padding: 0px;
+                   }
+                   .nav_bar_chenge {
+                       margin-bottom: 20px;
+                   }
+                   .forma_chenge_pass form fieldset input {
+                       height: 45px;
+                       margin-top: 0px;
+                   }
+                   .forma_chenge_pass form fieldset legend {
+                       font-size: 17px;
+                       padding-top: 25px;
+                   }
+                   .forma_chenge_pass .button_change input {
+                       width: 200px;
+                       padding: 0px;
+                       height: 45px;
+                   }
+                   .button_change {
+                       margin-top: 30px;
+                   }
+                   .verification_page_form .input_pass_new p {
+                       padding-top: 20px;
+                   }
+                   .calendar_box {
+                       font-size: 16px;
+                       padding-top: 20px;
+                   }
+                   .calendar_box .calendar p {
+                       padding-top: 0px;
+                   }
+                   .referral_table_container h2 {
+                       font-size: 20px;
+                   }
+                   .notifications_history tr td {
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                   }
+                   .referral_system_container .button_change {
+                       margin-top: 50px;
+                       padding-bottom: 30px;
+                   }
+                   .box_page_account .basic_info_box,
+                   .two_factor_box {
+                       padding-right: 20px;
+                       padding-left: 20px;
+                   }
+                   .login_histoty .title_block {
+                       padding-top: 20px;
+                       padding-bottom: 20px;
+                   }
+                   .container h1 {
+                       font-size: 30px;
+                       padding-bottom: 20px;
+                   }
+                   .recovery_pass_page {
+                       padding-top: 30px;
+                   }
+                   .title_recovery {
+                       padding-bottom: 20px;
+                   }
+                   .notifications_form h2 {
+                       font-size: 18px;
+                       padding-bottom: 20px;
+                       padding-top: 20px;
+                   }
+                   .notifications_history h2 {
+                       padding-bottom: 20px;
+                       padding-top: 20px;
+                       font-size: 18px;
+                   }
+                   .notifications_history tr th {
+                       padding-top: 20px;
+                   }
+                   .google_authenticator_form .incorrect {
+                       margin-top: 0px;
+                   }
+                   .autorization_form .forgot {
+                       font-size: 15px;
+                   }
+                   .button_login {
+                       margin-top: 25px;
+                   }
+                   #google_authenticator_forma p {
+                       font-size: 16px;
+                       line-height: 25px;
+                   }
+                   #google_authenticator_forma input {
+                       height: 45px;
+                       box-sizing: border-box;
+                   }
+                   #google_authenticator_forma button {
+                       height: 45px;
+                       width: 200px;
+                       padding: 0px;
+                   }
+                   .title_deposit {
+                       font-size: 18px;
+                       padding-bottom: 20px;
+                       padding-top: 20px;
+                   }
+                   .caption_table_deposit {
+                       font-size: 18px;
+                       padding-bottom: 0px;
+                   }
+                   .container_deposit {
+                       font-size: 16px;
+                   }
+                   .box_link input {
+                       height: 45px;
+                       box-sizing: border-box;
+                   }
+                   .btn {
+                       width: 200px;
+                       height: 45px;
+                   }
+                   .box_link li {
+                       font-size: 16px;
+                   }
+                   .referral_system_container p {
+                       padding-top: 15px;
+                   }
+                   .incorrect {
+                       margin-top: 0px;
+                   }
+                   .footer-registration span {
+                       font-size: 16px;
+                   }
+                   .page_404 p {
+                       font-size: 25px;
+                   }
+                   .page_404 a {
+                       width: 200px;
+                       height: 45px;
+                       padding: 0px;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                   }
+                   .referral_system_container .generate_link .button_change {
+                       margin-top: 0px;
+                       padding-bottom: 0px;
+                   }
+                   .title_404 img {
+                       width: 45%;
+                   }
+                 }
+
+
+
+                   /*-----------------------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 1110px) {
+                       header {
+                           margin-bottom: 50px;
+                       }
+                       .home header {
+                           /*margin-bottom: 100px;*/
+                       }
+                       .withdraw .box_input {
+                           flex-wrap: wrap;
+                       }
+                       .withdraw .box_input p {
+                           width: 100%;
+                       }
+                       .verification_page_form #passports_photo {
+                           width: 190px;
+                           font-size: 15px;
+                       }
+                       .verification_page_form #address_residence {
+                           width: 197px;
+                           font-size: 15px;
+                       }
+                       .verification_page_form #plus_file {
+                           width: 100px;
+                       }
+                       /*depost*/
+                       .box_link {
+                           flex-wrap: wrap;
+                           width: 100%;
+                       }
+                       /*      .box_link input{
+            min-width: 250px;
+            font-size: 17px;
+          }*/
+                       .btn_box_mobile p {
+                           width: 75%;
+                       }
+                       .box_link input {
+                           width: 100%;
+                           box-sizing: border-box;
+                           min-width: 200px;
+                           font-size: 17px;
+                       }
+                       .btn_box_mobile {
+                           justify-content: space-between;
+                           flex-wrap: nowrap;
+                       }
+                       #btn_copy {
+                           margin-left: 10px;
+                       }
+                       .box_link li {
+                           width: 100%;
+                       }
+                       /*referal_statistic*/
+                       .table_mobile_scroll_referral {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+                       .table_mobile_scroll_referral::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .table_mobile_scroll_referral::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .table_mobile_scroll_referral::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+                       .referral_table_container #my_table tr th {
+                           font-size: 17px;
+                       }
+                       .generate_link {
+                           flex-direction: column-reverse;
+                       }
+                       .generate_link .button_change input {
+                           margin-bottom: 15px;
+                       }
+                       .chenge_pass a {
+                           font-size: 15px;
+                       }
+                       /*home*/
+                       /*.head-table{
+            overflow-x: scroll;
+            overflow-y: hidden;
+          }
+          .head-table::-webkit-scrollbar {
+              height: 6px;
+          }
+
+          .head-table::-webkit-scrollbar-track {
+              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+              border-radius: 4px;
+              height: 6px;
+              background-color: #100f3f;
+          }
+
+          .table_mobile_scroll_referral::-webkit-scrollbar-thumb {
+              border-radius: 10px;
+              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+              background-color: #474b8b;
+          }*/
+                       /**/
+                       .box_page_account .basic_info_box,
+                       .two_factor_box {
+                           width: 100%;
+                           box-sizing: border-box;
+                           min-width: 590px;
+                       }
+                       /* .two_factor_box p{
+            width: 24%;
+          }*/
+                       .box_page_account {
+                           flex-wrap: wrap;
+                       }
+                       .basic_info_box {
+                           margin-right: 0px;
+                       }
+                       .two_factor_box {
+                           margin-top: 15px;
+                       }
+                       /*home*/
+                       .box_table_home_scroll {
+                           overflow-x: scroll;
+                           overflow-y: scroll;
+                       }
+                       .box_table_home_scroll::-webkit-scrollbar {
+                           height: 3px;
+                           width: 3px;
+                       }
+
+                       .box_table_home_scroll::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           width: 5px;
+                           background-color: #100f3f;
+                       }
+
+                       .box_table_home_scroll::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+                       .coin_list {
+                           overflow-x: visible;
+                           overflow-y: visible;
+                       }
+
+                       .coin_unit {
+                           font-size: 14px;
+                       }
+                       .coin_unit span {
+                           width: 140px;
+                       }
+                       .sp_sort {
+                           width: 140px;
+                           font-size: 14px;
+                       }
+                       .nav-table {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+                       .nav-table::-webkit-scrollbar {
+                           height: 3px;
+                           width: 3px;
+                       }
+
+                       .nav-table::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           width: 5px;
+                           background-color: #100f3f;
+                       }
+
+                       .nav-table::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
+                       .nav-table span {
+                           font-size: 17px;
+                           padding-top: 15px;
+                           padding-bottom: 5px;
+                       }
+                       .sort-icon-down {
+                           bottom: 12px;
+                       }
+                       .slick-slide img {
+                           /*height: 400px;*/
+                       }
+                       .title_slider {
+                           /*bottom: 320px;*/
+                           font-size: 37px;
+                       }
+                       .title_description {
+                           font-size: 20px;
+                           /*bottom: 300px;*/
+                           width: 255px;
+                       }
+                       .slider_button a {
+                           position: relative;
+                           /*bottom: 85px;*/
+                       }
+                       .slick-dots {
+                           bottom: 10%;
+                       }
+                       .slick-slide img {
+                           /*padding-right: 120px;*/
+                       }
+
+                       .nav-footer {
+                           font-size: 15px;
+                       }
+                       .nav-footer a {
+                           margin-right: 15px;
+                       }
+                       .nav-footer a:last-child {
+                           margin-right: 0px;
+                       }
+                       .social-footer a {
+                           margin-left: 15px;
+                       }
+                       .slider_button {
+                           bottom: 25%;
+                       }
+                       .box_page_account .basic_info_box,
+                       .two_factor_box {
+                           padding-right: 30px;
+                           padding-left: 30px;
+                       }
+                   }
+                   /*--------------------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 1260px) {
+                       /*home*/
+                       .Cybintex_text {
+                           width: 65%;
+                           background-size: contain;
+                       }
+                       .nav-table svg {
+                           width: 25px;
+                       }
+                       .slick-slide img {
+                           margin: 0 auto;
+                           height: auto;
+                       }
+                       /*депозит*/
+                       .select_deposit div {
+                           padding-right: 5px;
+                           padding-left: 6px;
+                           padding-bottom: 20px;
+                           padding-top: 20px;
+                           margin-top: 8px;
+                       }
+
+                       .specification_deposit {
+                           width: 50%;
+                       }
+
+                       .caption_table_deposit div {
+                           justify-content: space-between;
+                       }
+
+                       .box-1_caption_table_deposit {
+                           width: 50%;
+                           padding-bottom: 20px;
+                       }
+
+                       .box-1_caption_table_deposit div {
+                           width: auto;
+                       }
+
+                       .specification_deposit div {
+                           width: auto;
+                       }
+
+                       section {
+                           margin-right: 10px;
+                           margin-left: 10px;
+                       }
+
+                       .btn_deposit:before {
+                           top: 11px;
+                       }
+                       .chart_index {
+                           font-size: 18px;
+                       }
+                       .chart_index span {
+                           font-size: 50px;
+                       }
+                   }
+                   /*-----------------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 996px) {
+
+                       .home_header .nav {
+                           padding-top: 15px;
+                       }
+                       .my_slider {
+                           margin-top: -69px;
+                       }
+                       .menu-left a {
+                           margin-right: 10px;
+                       }
+                       .menu-right li {
+                           margin-right: 13px;
+                       }
+                       .passport_id_photo {
+                           position: relative;
+                       }
+                       .orders_value_table div {
+                           font-size: 13px;
+                       }
+                       .caption_table div {
+                           font-size: 14px;
+                       }
+                   }
+                   /*-----------------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 760px) {
+                       .box_link {
+                           flex-wrap: wrap;
+                       }
+                       .logo-footer {
+                           display: none;
+                       }
+                       .footer {
+                           flex-direction: column;
+                       }
+                       .social-footer {
+                           padding-top: 15px;
+                       }
+                       .slider_button {
+                           bottom: 15%;
+                       }
+                       .slick-slide img {
+                           /*height: 350px;*/
+                           /*padding-right: 100px;*/
+                       }
+                       .title_slider {
+                           font-size: 31px;
+                           /*bottom: 284px;*/
+                       }
+                       .title_description {
+                           /*bottom: 270px;*/
+                           font-size: 18px;
+                       }
+                       .box_title_slider {
+                           bottom: 45%;
+                       }
+
+                       .nav__referral {
+                           font-size: 16px;
+                       }
+                       .nav__referral input {
+                           font-size: 16px;
+                       }
+
+
+                       .select_pair ul {
+                           padding-top: 10px;
+                           font-size: 16px;
+                           width: 130px;
+                       }
+                       .select_pair li {
+                           height: 30px;
+                       }
+                       .select_pair p {
+                           font-size: 15px;
+                       }
+                       #data_from {
+                           /*padding-right: 0px;*/
+                       }
+                       #data_from:before {}
+                       .slick-dots {
+                           bottom: 5%;
+                       }
+                       .slider_button a {
+                           padding: 21px 99px 18px 99px;
+                       }
+                       .block_left {
+                           order: 2;
+                           height: 620px;
+                           min-width: 304px;
+                           width: 100%;
+                           margin-right: 0px;
+                       }
+                       .block_center {
+                           order: 1;
+                           height: 620px;
+                           width: 100%;
+                           /*min-width: 304px;*/
+                           margin-right: 0px;
+                           margin-bottom: 15px;
+                       }
+                       .block_right {
+                           width: 100%;
+                           order: 3;
+                           height: 620px;
+                           min-width: 304px;
+                           margin-right: 0px;
+                       }
+                       .nav_orders {
+                           font-size: 18px;
+                       }
+                       .nav_orders div {
+                           margin-right: 20px;
+                       }
+                       .orders_value_table div {
+                           font-size: 13px;
+                       }
+                       .caption_table div {
+                           font-size: 14px;
+                       }
+                       .orders_value_table div {
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                           align-items: center;
+                       }
+                       .caption_table {
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                           align-items: center;
+                       }
+                       .nav__referral input {
+                           width: 83px;
+                       }
+                       .nav__referral {
+                           padding-top: 15px;
+                           padding-bottom: 15px;
+                       }
+                       .nav_orders div {
+                           padding-top: 15px;
+                           padding-bottom: 15px;
+                       }
+                       #UUID:hover>.select_UUID {
+                           top: 57px;
+                           left: -16px;
+                       }
+                       .orders_value_table div {
+                           font-size: 13px;
+                       }
+                   }
+                   /*----------------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 600px) {
+
+                       header {
+                           margin-bottom: 50px;
+                       }
+
+                       section {
+                           margin-right: 6px;
+                           margin-left: 6px;
+                           margin-bottom: 50px;
+                       }
+
+                       .top-section {
+                           margin-top: -70px;
+                       }
+                       /*простая мобильная*/
+                       .mobile_simplified {
+                           padding-top: 20px;
+                           margin-left: 16px;
+                           align-items: end;
+                       }
+
+                       .menu-right li {
+                           margin-right: 16px;
+                       }
+
+                       .mobile_simplified .menu-right {
+                           margin-right: 20px;
+                       }
+
+                       .en_ru_submenu {
+                           left: -20px;
+                       }
+
+                       .my_triangle::after {
+                           right: 0px;
+                           display: none;
+                       }
+                       /*полная мобильная*/
+                       .nav_mobile_all {
+                           padding-top: 20px;
+                           margin-left: 16px;
+                           margin-right: 16px;
+                           align-items: end;
+                           position: relative;
+                       }
+
+                       .nav_mobile_all .menu-left {
+                           display: none;
+                       }
+
+                       .nav_mobile_all .menu-right {
+                           width: 60%;
+                           margin-right: 0px;
+                           justify-content: space-between;
+                       }
+
+                       .menu-right a {
+                           font-size: 12px;
+                       }
+
+                       .nav_mobile_all .nav_tuning {
+                           display: none;
+                       }
+
+                       .nav_mobile_all .menu-right li {
+                           justify-content: space-around;
+                           margin-right: 10px;
+                           position: relative;
+                       }
+
+                       .menu-right .sub_menu li {
+                           margin-right: 0px;
+                       }
+
+                       .nav_mobile_all .menu_nav {
+                           width: 100%;
+                           justify-content: space-between;
+                       }
+
+                       .nav_mobile_all .en_ru {
+                           display: none;
+                       }
+
+                       .nav_mobile_all .menu-right {
+                           margin-right: 0px;
+                       }
+                       /*autorization_mobile*/
+                       .autorization_form input {
+                           width: 100%;
+                           min-width: 0px;
+                           box-sizing: border-box;
+                       }
+
+                       .autorization_form p {
+                           text-align: center;
+                           margin-left: 3px;
+                           margin-right: 3px;
+                       }
+
+                       .autorization_form {
+                           width: 100%;
+                       }
+
+                       .autorization_form .capcha-sheck {
+                           width: 99%;
+                           box-sizing: border-box;
+                           margin-left: 3px;
+                           margin-right: 3px;
+                       }
+
+                       .autorization_form legend {
+                           font-size: 12px;
+                           padding-bottom: 8px;
+                           padding-top: 20px;
+                       }
+
+                       .capcha-sheck {
+                           font-size: 12px;
+                       }
+
+                       .autorization_form input {
+                           font-size: 15px;
+                       }
+
+                       .autorization_form .forgot {
+                           font-size: 12px;
+                       }
+
+                       .footer-registration span {
+                           font-size: 15px;
+                       }
+                       /*change pass*/
+                       .change_password_page_header {
+                           margin-bottom: 0px;
+                       }
+
+                       .nav_bar_chenge a {
+                           font-size: 15px;
+                           margin-right: 8px;
+                       }
+
+                       .nav_bar_chenge i {
+                           font-size: 18px;
+                           margin-right: 8px;
+                       }
+
+                       .nav_bar_chenge {
+                           height: 40px;
+                           margin-bottom: 10px;
+                           justify-content: left;
+                           padding-left: 6px;
+                       }
+
+                       .chenge_pass span {
+                           font-size: 15px;
+                           padding-top: 15px;
+                           padding-bottom: 15px;
+                       }
+
+                       .chenge_pass {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                       }
+
+                       .chenge_pass a {
+                           display: none;
+                       }
+
+                       .pass_title {
+                           border-bottom: 0px;
+                       }
+
+                       .forma_chenge_pass form {
+                           width: 100%;
+                       }
+
+                       .forma_chenge_pass form fieldset legend {
+                           font-size: 15px;
+                           font-family: Helvetica;
+                           padding-bottom: 8px;
+                           padding-top: 20px;
+                       }
+
+                       .incorrect {
+                           margin-top: 0px;
+                       }
+
+                       .forma_chenge_pass form fieldset input {
+                           padding-left: 10px;
+                           padding-right: 0px;
+                           width: 100%;
+                           border: 1px solid #484c83;
+                           background-color: rgb(21, 20, 63);
+                           box-sizing: border-box;
+                       }
+
+                       .forma_chenge_pass .button_change input {
+                           padding: 16px 102px 16px 97px;
+                           width: 257px;
+                       }
+                       /*депозит*/
+                       .title_deposit {
+                           font-size: 15px;
+                           padding-bottom: 10px;
+                           padding-top: 20px;
+                           /*font-weight: 700;*/
+                           font-family: "Helvetica Neue";
+                       }
+
+                       .title_deposit span:last-child {
+                           display: none;
+                       }
+
+                       .title_deposit span {
+                           width: 100%;
+                           text-align: left;
+                           padding-left: 6px;
+                       }
+
+                       .deposit_page_container {
+                           padding-right: 4px;
+                           padding-left: 4px;
+                       }
+
+                       .deposit_page_container .referral_system_container {
+                           background-image: none;
+                           padding-right: 0px;
+                           padding-left: 0px;
+                       }
+
+                       .deposit_page_container .title_deposit {
+
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                       }
+
+                       .deposit_page_container .specification_deposit {
+                           width: 100%;
+                           justify-content: space-around;
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                       }
+
+                       .container_deposit {
+                           flex-wrap: wrap;
+                       }
+
+                       .select_deposit {
+                           width: 100%;
+                           justify-content: space-around;
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                       }
+
+                       .select_deposit div {
+                           border: 1px solid #232658;
+                           padding-right: 0px;
+                           padding-left: 0px;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                           width: 100%;
+                           text-align: center;
+                           font-size: 14px;
+                       }
+
+                       .btn_deposit:before {
+                           display: none;
+                       }
+
+                       .specification_deposit {
+                           padding-top: 11px;
+                           padding-bottom: 11px;
+                           font-size: 14px;
+                           font-family: "Helvetica Neue";
+                       }
+
+                       .box-1_caption_table_deposit_mobile {
+                           display: flex;
+                           justify-content: space-around;
+                           font-size: 15px;
+                           font-family: "Helvetica Neue";
+                           color: #2b4fe9;
+                           padding-top: 16px;
+                           margin-top: 10px;
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                       }
+
+                       .caption_table_deposit {
+                           display: none;
+                       }
+
+                       .deposit_page_container .referral_system_container {
+                           margin-top: 10px;
+                       }
+
+                       .box_link {
+                           flex-wrap: wrap;
+                           left: 0px;
+                           padding-left: 7px;
+                           padding-right: 7px;
+                           width: auto;
+                           box-sizing: border-box;
+                       }
+
+                       .box_link input {
+                           width: 100%;
+                           min-width: 207px;
+                           background-color: rgb(21, 20, 63);
+                           border-color: rgb(72, 76, 131);
+                           border-width: 1px;
+                           font-size: 12px;
+                           text-align: left;
+                           padding-left: 0px;
+                           padding-left: 10px;
+                           box-sizing: border-box;
+                       }
+
+                       .deposit_page_container .box_link #btn_copy {
+                           /*  width: 84px;
+    position: absolute;*/
+                           width: 100px
+                       }
+
+                       .deposit_page_container .referral_system_container p {
+                           font-size: 12px;
+                           padding-top: 20px;
+                           width: 100%
+                       }
+
+                       .deposit_adress h2 {
+                           font-size: 12px;
+                           padding-top: 20px;
+                       }
+
+                       .box_link li {
+                           font-size: 12px;
+                           padding-top: 15px;
+                           width: auto;
+                       }
+
+                       .box_qr_deposit {
+                           width: 100%;
+                       }
+
+                       .deposit_page_container .box_qr_deposit p {
+                           text-align: left;
+                       }
+
+                       .triangle_QR::after {
+                           right: auto;
+                           left: -2px;
+                       }
+
+                       .withdraw .box_input {
+                           flex-wrap: wrap;
+                       }
+
+                       .withdraw .box_input p {
+                           width: 100%;
+                       }
+
+                       .deposit_header {
+                           margin-bottom: 10px;
+                       }
+
+                       .destop_h2_withdraw {
+                           display: none;
+                       }
+
+                       .withdraw_btn {
+                           justify-content: center;
+                       }
+
+                       .btn_box_mobile {
+                           justify-content: flex-end;
+                           flex-wrap: wrap;
+                       }
+
+                       .address_box_withdraw {
+                           font-size: 12px;
+                       }
+
+                       .withdraw_box {
+                           width: auto;
+                       }
+
+                       .withdraw .address_box_withdraw p {
+                           padding-top: 0px;
+                       }
+                       /*статическая страницв*/
+                       .static_page_header {
+                           margin-bottom: 10px;
+                       }
+
+                       .static_container {
+                           font-size: 12px;
+                       }
+
+                       .static_container p {
+                           font-size: 12px;
+                       }
+
+                       .static_container h2 {
+                           font-size: 15px;
+                           padding-bottom: 32px;
+                       }
+
+                       .photo_box {
+                           width: 100%;
+                           margin: 0 auto;
+                           height: 240px;
+                       }
+                       /*google_authenticator*/
+                       #google_authenticator_forma p {
+                           font-size: 12px;
+                       }
+
+                       #google_authenticator_forma form {
+                           display: flex;
+                           flex-wrap: wrap;
+                           justify-content: center;
+                       }
+
+                       #google_authenticator_forma form input {
+                           width: 100%;
+                           background-color: rgb(21, 20, 63);
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           padding-left: 10px;
+                           box-sizing: border-box;
+                       }
+
+                       #google_authenticator_forma form button {
+                           width: 210px;
+                           margin-top: 20px;
+                           margin-left: 0px;
+                           display: flex;
+                           justify-content: center;
+                       }
+                       /*ID-Verification*/
+                       .container .id-verification_page {
+                           justify-content: left;
+                           padding-left: 10px;
+                       }
+
+                       .verification_page_form .input_pass_new p {
+                           font-size: 12px;
+                           width: 100%;
+                           margin-right: 0px;
+                       }
+
+                       .verification_page_form .input_pass_new {
+                           flex-wrap: wrap;
+                       }
+
+                       .verification_page_form .input_pass_new input {
+                           margin-top: 10px;
+                           background-color: rgb(21, 20, 63);
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           padding-left: 10px;
+                           box-sizing: border-box;
+                       }
+
+                       .verification_page_form .calendar_box {
+                           font-size: 12px;
+                           width: 100%;
+                       }
+
+                       .verification_page_form .calendar i {
+                           top: 32px;
+                           right: 2px;
+                           font-size: 15px;
+                       }
+
+                       .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 12px;
+                           padding-left: 5px;
+                       }
+
+                       .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 12px;
+                           padding-left: 5px;
+                       }
+
+                       .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 12px;
+                           padding-left: 5px;
+                       }
+
+                       .input_pass_new .calendar input[type=""]::placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 12px;
+                           padding-left: 5px;
+                       }
+
+                       .verification_page_form .country i {
+                           top: 75px;
+                           right: 2px;
+                           font-size: 15px;
+                       }
+
+                       .box_photo_id {
+                           display: flex;
+                           flex-wrap: wrap;
+                       }
+
+                       .box_photo_id button {
+                           margin-top: 10px;
+                           display: flex;
+                           align-items: center;
+                       }
+
+                       .verification_page_form #passports_photo {
+                           width: 100%;
+                           font-size: 12px;
+                           /*height: 46px;*/
+                       }
+
+                       .verification_page_form #address_residence {
+                           width: 100%;
+                           font-size: 12px;
+
+                           /*height: 46px;*/
+                       }
+
+                       .verification_page_form #plus_file {
+                           width: 100%;
+                           padding-top: 21px;
+                           padding-bottom: 16px;
+                           font-size: 12px
+                           /*height: 46px;*/
+                       }
+
+                       .photo_id h2 {
+                           font-size: 13px;
+                       }
+
+                       .verification_page_form .box_photo_id p {
+                           font-size: 13px;
+                       }
+
+                       .passport_id_photo {
+                           display: none;
+                       }
+                       /*ордера*/
+                       .orders_container_table .orders_table {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+
+                       .orders_container_table .orders_table::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .orders_container_table .orders_table::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .orders_container_table .orders_table::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
+                       .orders_container_table .nav_referral_statistic .nav__referral {
+                           font-size: 15px;
+                           padding-top: 23px;
+                           padding-bottom: 10px;
+                       }
+
+                       .orders_container_table .nav_orders {
+                           font-size: 15px;
+                           width: 100%;
+                       }
+
+                       .orders_container_table .nav_orders .source {
+                           padding-top: 20px;
+                           padding-bottom: 10px;
+                       }
+
+                       .orders_container_table .title_orders {
+                           display: none;
+                       }
+
+                       .orders_container_table .nav_referral_statistic .nav__referral input {
+                           font-size: 15px;
+                           width: 0px;
+                           opacity: 0;
+                           margin-left: 0px;
+                           position: relative;
+                           left: -90px;
+                           /*display: none;*/
+                           /*padding-top: 23px;
+               padding-bottom: 10px;*/
+                       }
+
+                       .nav_referral_statistic #by {
+                           /*display: none;*/
+                           position: relative;
+                           padding-right: 10px;
+                           padding-left: 10px;
+                           padding-top: 10px;
+                           padding-bottom: 8px;
+                       }
+
+                       .orders_container_table .caption_table div {
+                           font-size: 12px;
+                       }
+
+                       .orders_container_table .caption_table {
+                           padding-top: 23px;
+                           padding-bottom: 13px;
+                       }
+
+                       .orders_container_table .orders_value_table div {
+                           font-size: 12px;
+                           padding-bottom: 20px;
+                           padding-top: 10px;
+                           height: 15px;
+                       }
+
+                       .orders_container_table .orders_value_table {
+                           /*border-bottom: 0px;*/
+                           position: relative;
+                       }
+                       /* .orders_container_table .orders_value_table:after{
+            content: "";
+            border-bottom: 1px solid #232658;
+            width: 100%;
+            height: 1px;
+            position: absolute;
+          }*/
+                       .orders_container_table {
+                           margin-top: 10px;
+                       }
+
+                       .modal-wrapper.open .modal {
+                           width: 100%;
+                           height: 100%;
+                           margin: 50% 0 0 -50%;
+                           margin-top: 0px;
+                           padding-left: 5px;
+                           padding-right: 5px;
+                           position: absolute;
+                           top: 0px;
+                       }
+
+                       .modal-wrapper.open .modal p {
+                           font-size: 15px;
+                       }
+                       /*404*/
+                       .title_404 img {
+                           width: 90%;
+                       }
+
+                       .page_404 p {
+                           font-size: 24px;
+                       }
+                       /*история операций*/
+                       .caption_table div:first-child {
+                           min-width: 100px;
+                       }
+
+                       .caption_table div {
+                           min-width: 70px;
+                       }
+                       .orders_value_table div:first-child {
+                           min-width: 100px;
+                       }
+                       .orders_value_table div:last-child {
+                           justify-content: flex-end;
+                       }
+
+                       .other_history_orders p {
+                           font-size: 15px;
+                       }
+
+                       .operations_history_page {
+                           padding-left: 10px;
+                           padding-right: 10px;
+                       }
+
+                       .operation_history {
+                           margin-bottom: 0px;
+                       }
+
+                       .operation_history .operation_history_table {
+                           border-bottom: none;
+                       }
+                       /*Password recovery*/
+                       .title_recovery {
+                           font-size: 15px;
+                       }
+
+                       .recovery_pass h1 {
+                           padding-bottom: 10px;
+                       }
+
+                       .recovery_pass .autorization_form {}
+                       /*Registration*/
+                       .registration_form .igare_registration {
+                           font-size: 15px;
+                       }
+                       /**/
+                       .login_confirmation_page .button_login {
+                           margin-top: 30px;
+                       }
+                       /*.notifications_form*/
+                       .input_pass_new input {
+                           height: 47px;
+                       }
+
+                       .notifications_form h2 {
+                           font-size: 15px;
+                       }
+
+                       .notifications_form h2 {
+                           border-bottom: none;
+                           padding-bottom: 0px;
+                       }
+
+                       .notifications_form .support_forma p {
+                           font-size: 12px;
+                           font-family: "Helvetica";
+                           width: 100%;
+                           margin-left: 0px;
+                       }
+
+                       .notifications_form .input_pass_old input {
+                           margin-top: 8px;
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           box-sizing: border-box;
+                           background-color: rgb(21, 20, 63);
+                       }
+
+                       .notifications_form .support_forma {
+                           flex-wrap: wrap;
+                       }
+
+                       .notifications_form .button_change input {
+                           background-color: #2b4fe9;
+                           /*padding: 19px 117px 18px 116px;*/
+                           width: 290px;
+                           border: 1px solid #23265a;
+                           font-size: 20px;
+                           font-family: "Helvetica Neue";
+                           color: rgb(255, 255, 255);
+                           transition: all 0.3s;
+                           cursor: pointer;
+                       }
+
+                       .notifications_form .button_change {
+                           justify-content: center;
+                           margin-top: 20px;
+                       }
+
+                       .notifications_form .input_pass_old p {
+                           font-size: 15px;
+                           padding-top: 20px;
+                       }
+
+                       .notifications_history {
+                           margin-top: 10px;
+                           padding-left: 10px;
+                           padding-right: 10px;
+                       }
+
+                       .notifications_history h2 {
+                           font-size: 15px;
+                           padding-top: 18px;
+                           padding-bottom: 8px;
+                       }
+
+                       .notifications_history tr th {
+                           font-size: 12px;
+                           line-height: 15px;
+                           padding-top: 20px;
+                           min-width: 130px;
+                       }
+
+                       .notifications_history tr td {
+                           font-size: 12px;
+                           line-height: 15px;
+                           padding-top: 20px;
+                           min-width: 130px;
+                           padding-bottom: 19px;
+                           ;
+                       }
+
+                       .notifications_history_box_mobile {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+
+                       .notifications_history_box_mobile::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .notifications_history_box_mobile::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .notifications_history_box_mobile::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
+                       .notifications_history .text_notification_history_table {
+                           min-width: 300px;
+                       }
+                       /**/
+                       .generate_link {
+                           flex-wrap: wrap;
+                           flex-direction: column-reverse;
+                           justify-content: center;
+                           align-items: center;
+                       }
+
+                       .generate_link .link_box {
+                           width: 100%;
+                           box-sizing: border-box;
+                           min-width: auto;
+                           margin-right: 0px;
+                           padding-right: 0px;
+                       }
+
+                       .generate_link #link {
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           box-sizing: border-box;
+                           background-color: rgb(21, 20, 63);
+                           font-size: 15px;
+                       }
+
+                       .referral_system_statisticc_page .referral_system_container {
+                           padding-left: 10px;
+                           padding-right: 10px;
+                           margin-top: 10px;
+                       }
+
+                       .referral_system_container p {
+                           width: 100%;
+                           text-align: left;
+                           font-size: 12px;
+                           padding-top: 10px;
+                           line-height: 15px;
+                       }
+
+                       .generate_link .button_change input {
+                           margin-bottom: 10px;
+                           padding-top: 15px;
+                           padding-bottom: 15px;
+                       }
+
+                       .referral_table_container {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                       }
+
+                       .referral_system_statisticc_page .nav__referral {
+                           font-size: 15px;
+                       }
+
+                       .table_mobile_scroll_referral {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+
+                       .referral_table_container .nav__referral {
+                           font-size: 14px;
+                       }
+
+                       .referral_table_container .nav__referral input {
+                           font-size: 13px;
+                           margin-left: 8px;
+                           width: 0;
+                           opacity: 0;
+                           position: relative;
+                           left: -90px;
+                       }
+
+                       .referral_table_container #data_from:before {
+                           margin-right: 8px;
+                       }
+
+                       .referral_table_container #data_from {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                           padding-top: 10px;
+                           padding-bottom: 8px;
+                       }
+
+                       #pair {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                           padding-top: 10px;
+                           padding-bottom: 8px;
+                       }
+
+                       .referral_table_container #UUID {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                           padding-top: 10px;
+                           padding-bottom: 8px;
+                           position: relative;
+                       }
+
+                       .referral_table_container #UUID:before {
+                           margin-right: 2px;
+                           height: 20px;
+                       }
+
+                       .referral_table_container #my_table tr th {
+                           font-size: 14px;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                           margin-left: 5px;
+                           line-height: 13px;
+                       }
+
+                       .referral_table_container #my_table tr td {
+                           font-size: 15px;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                       }
+
+                       .more_referral {
+                           font-size: 15px;
+                       }
+
+                       .more_referral i {
+                           font-size: 25px;
+                       }
+
+                       .table_mobile_scroll_referral::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .table_mobile_scroll_referral::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .table_mobile_scroll_referral::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
+                       .generate_link #icon_copy {
+                           right: 10px;
+                       }
+                       /*Account & Security*/
+                       .box_page_account .basic_info_box,
+                       .two_factor_box {
+                           min-width: auto;
+                           width: 100%;
+                           padding-right: 10px;
+                           padding-left: 10px;
+                           margin-right: 0px;
+                       }
+
+                       .box_page_account {
+                           flex-wrap: wrap;
+                       }
+
+                       .box_page_account div h2 {
+                           font-size: 15px;
+                       }
+
+                       .box_page_account p {
+                           font-size: 12px;
+                           width: 24%;
+                       }
+
+                       .box_page_account div input {
+                           font-size: 12px;
+                       }
+
+                       .activate_deactivate_box span {
+                           font-size: 12px;
+                       }
+
+                       .level_pass {
+                           font-size: 12px;
+                       }
+
+                       .two_factor_box p img {
+                           margin-right: 5px;
+                           width: 20px;
+                       }
+
+                       .deactivate_emeil {
+                           display: none;
+                           position: absolute;
+                           top: 18px;
+                           right: 5px;
+                       }
+
+                       .mobile_slash {
+                           display: block;
+                           padding-bottom: 3px;
+                           padding-left: 5px;
+                       }
+
+                       .two_factor_box .activate_deactivate_box:active>.deactivate_emeil {
+                           display: block;
+                       }
+
+                       .two_factor_box .activate_deactivate_box:hover>.deactivate_emeil {
+                           display: block;
+                       }
+
+                       .activate_deactivate_box .slash {
+                           display: none;
+                       }
+
+                       .two_factor_box .pass_check {
+                           width: 110px;
+                       }
+
+                       .two_factor_box div {
+                           justify-content: space-between;
+                       }
+
+                       .two_factor_box .info_icon_box {
+                           flex-grow: 0;
+                       }
+
+                       .login_histoty {
+                           margin-top: 10px;
+                       }
+
+                       .two_factor_box {
+                           margin-top: 10px;
+                       }
+
+                       .caption_table_history_mobile {
+                           display: flex;
+                       }
+
+                       .table_history_login {
+                           display: flex;
+                           flex-direction: column;
+                       }
+
+                       .caption_table_history {
+                           flex-direction: column;
+                           width: 30%;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                       }
+
+                       .table_history div {
+                           padding-top: 18px;
+                           padding-bottom: 10px;
+                           width: 100%;
+                           font-size: 15px;
+                       }
+
+                       .caption_table_history div {
+                           width: 100%;
+                           padding-top: 18px;
+                           padding-bottom: 10px;
+                           font-size: 15px;
+                       }
+
+                       .table_history_login div:last-child {
+                           flex-direction: row;
+                       }
+
+                       .table_history_login .box_mobile_table_history .table_history {
+                           flex-direction: column;
+                           width: 70%;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                       }
+
+                       .box_mobile_table_history {
+                           display: flex;
+                           border-bottom: 1px solid #23265a;
+                       }
+
+                       .table_history div:first-child br {
+                           display: none;
+                       }
+
+                       .login_histoty {
+                           padding-left: 10px;
+                           padding-right: 10px;
+                       }
+
+                       .table_history div:first-child {
+                           width: 100%;
+                       }
+
+                       .two_factor_box .activate_deactivate_box {
+                           position: relative;
+                       }
+
+                       .login_histoty .title_block span {
+                           font-size: 15px;
+                       }
+
+                       .login_histoty .title_block {
+                           padding-top: 20px;
+                           padding-bottom: 8px;
+                       }
+
+                       .next_link {
+                           display: none;
+                       }
+
+                       .table_history_login div:last-child {
+                           border-bottom: none;
+                       }
+                       /*support*/
+                       .support_page .support_forma {
+                           flex-wrap: wrap;
+                       }
+
+                       .support_page .support_forma p {
+                           width: 100%;
+                           position: relative;
+                           font-size: 15px;
+                           padding-top: 24px;
+                       }
+
+                       .support_page .support_forma p input {
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           box-sizing: border-box;
+                           background-color: rgb(21, 20, 63);
+                           font-size: 15px;
+                           margin-top: 10px;
+                           position: relative;
+                       }
+
+                       .support_page .support_forma p i {
+                           top: 62px;
+                       }
+
+                       .support_page .input_pass_old p {
+                           font-size: 15px;
+                       }
+
+                       .support_page .input_pass_old p input {
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           box-sizing: border-box;
+                           background-color: rgb(21, 20, 63);
+                           font-size: 15px;
+                       }
+
+                       .support_page .text_support input {
+                           margin-top: 10px;
+                       }
+
+                       .support_page .support_button {
+                           justify-content: center;
+                       }
+                       /**/
+                       .mobile_table_scroll_refferal_common {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
+                       .referral_system_common .referral_system_container {
+                           margin-top: 10px;
+                       }
+
+                       .referral_system_common .referral_system_container p {
+                           line-height: 20px;
+                       }
+
+                       .referral_system_common .referral_system_container {
+                           padding-left: 10px;
+                           padding-right: 10px;
+                       }
+
+                       .referral_system_common .referral_system_container .button_change {
+                           margin-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       /*Change password*/
+                       .change_password_page .nav_bar_chenge a {
+                           font-size: 15px;
+                           font-family: Helvetica Neue Light;
+                       }
+
+                       .nav_bar_chenge {
+                           background-image: -moz-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                           background-image: -ms-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                       }
+
+                       .input_pass_old p {
+                           font-size: 12px;
+                           font-family: Helvetica Regular;
+                       }
+
+                       .input_pass_old input {
+                           margin-top: 8px;
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           border-style: solid;
+                           background-color: rgb(21, 20, 63);
+                           height: 43px;
+                           box-sizing: border-box;
+                       }
+
+                       .input_pass_new p {
+                           font-size: 12px;
+                           font-family: Helvetica Regular;
+                           width: 100%;
+                       }
+
+                       .input_pass_new p:first-child {
+                           margin-right: 0px;
+                       }
+
+                       .input_pass_new input {
+                           margin-top: 8px;
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           border-style: solid;
+                           background-color: rgb(21, 20, 63);
+                           height: 43px;
+                           box-sizing: border-box;
+                       }
+
+                       .change_password_page .input_pass_new {
+                           flex-wrap: wrap;
+                       }
+
+                       .button_change input {
+                           font-size: 15px;
+                       }
+
+                       .change_password_page .input_pass_old input {
+                           width: 100%;
+                       }
+                       /*home*/
+                       .chart {
+                           margin-right: 10px;
+                           margin-left: 10px;
+                       }
+
+                       .slick-slide img {}
+
+                       .title_description {
+                           /*bottom: 191px;*/
+                           font-size: 11px;
+                           width: 174px;
+                       }
+
+                       .title_slider {
+                           /*bottom: 202px;*/
+                           font-size: 24px;
+                       }
+
+                       .slider {
+                           margin-top: -145px;
+                       }
+
+                       .Cybintex_text {
+                           margin-top: 0px;
+                       }
+
+                       .slider_button a {
+                           padding: 14px 96px 14px 96px;
+                           /*bottom: 45px;*/
+                       }
+
+                       .slick-dots {
+                           opacity: 0;
+                       }
+
+                       .home header {
+                           margin-bottom: 0px;
+                       }
+
+                       .slick-dotted.slick-slider {
+                           margin-bottom: 0px;
+                       }
+
+                       .cash_all {
+                           font-size: 14px;
+                       }
+
+                       .name_cash img {
+                           padding-right: 6px;
+                       }
+
+                       .row-marquee {
+                           padding-right: 40px;
+                       }
+
+                       .chart {
+                           margin-top: 10px;
+                           margin-bottom: 10px;
+                           height: 240px;
+                           position: relative;
+                       }
+
+                       #chartContainer {
+                           position: relative;
+                       }
+
+                       .chart_index {
+                           bottom: 175px;
+                           font-size: 15px;
+                           font-family: "Helvetica Regular";
+                       }
+
+                       .chart_index span {
+                           font-size: 45px;
+                           font-family: "Helvetica Regular";
+                       }
+
+                       .table-content {
+                           margin-left: 10px;
+                           margin-right: 10px;
+                           margin-bottom: 10px;
+                       }
+
+                       .sp_sort {
+                           font-size: 12px;
+                       }
+
+                       .coin_unit {
+                           font-size: 12px;
+                       }
+
+                       .coin_list {
+                           max-height: 400px;
+                       }
+
+                       .nav-table span {
+                           font-size: 15px;
+                           margin-left: 15px;
+                       }
+
+                       .table_coin {
+                           padding-right: 10px;
+                           padding-left: 10px;
+                       }
+
+                       .nav-table svg {
+                           width: 25px;
+                       }
+
+                       .nav-footer {
+                           font-size: 13px;
+                       }
+
+
+
+
+
+                       .select_pair {
+                           top: 48px;
+                       }
+
+
+
+
+                       .container-menu-mobile {
+                           display: flex;
+                       }
+
+                       .sub_menu_emeil {
+                           right: -12px;
+                       }
+                       /*pravki*/
+                       .box_page_account .basic_info_box,
+                       .two_factor_box {
+                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                       }
+
+                       .login_histoty {
+                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                       }
+
+                       .incorrect {
+                           font-size: 13px;
+                       }
+
+                       .referral_table_container #by {
+                           /*display: none;*/
+                       }
+
+                       .orders_container_table #by {
+                           display: flex;
+                       }
+
+                       .home_header .nav {
+                           padding-top: 7px;
+                       }
+                       .nav__referral input {
+                           width: 75px;
+                       }
+                       #UUID:hover>.select_UUID {
+                           top: 48px;
+                           left: -30px;
+                       }
+                       #data_from:before {
+                           width: 18px;
+                           height: 18px;
+                       }
+                       .selectWrapper .selectBox p {
+                           font-size: 14px;
+                       }
+                       .selectWrapper .selectBox ul {
+                           left: 0px;
+                       }
+                       .selectWrapper .selectBox.active ul {
+                           width: 120px;
+                       }
+                       #blue .selectWrapper .selectBox ul li {
+                           font-size: 14px;
+                           padding: 10px;
+                       }
+                   }
+                   /*----------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 336px) {
+                       /*Change password*/
+                       .nav_bar_chenge a {
+                           font-size: 14px;
+                           font-family: Helvetica Neue Light;
+                       }
+                       .referral_table_container .nav__referral {
+                           font-size: 12px;
+                       }
+                       #data_from:before {
+                           width: 18px;
+                       }
+                       .orders_container_table .selectWrapper .selectBox {
+                           width: 100px;
+                       }
+                       .selectWrapper .selectBox {
+                           width: 100px;
+                       }
+                       .selectWrapper .selectBox p {
+                           font-size: 12px;
+                       }
+                       .selectWrapper .selectBox ul {
+                           left: -28px;
+                       }
+                   }
+                   /*----------------------------------------------------------------------------------------------------------*/
+                   @media screen and (max-width: 375px) {
+                       .en_ru_submenu {
+                           left: -35px;
+                       }
+
+                       .nav-footer {
+                           flex-direction: column;
+                           text-align: center;
+                           width: 100%;
+                       }
+
+                       .nav-footer a {
+                           margin-right: 0px;
+                       }
+
+                       .nav-footer li {
+                           border-bottom: 1px solid #232658;
+                           transition: all 0.3s;
+                       }
+
+                       .social-footer a:first-child {
+                           margin-left: 0px;
+                       }
+
+                       .footer {
+                           padding-top: 10px;
+                           padding-bottom: 10px;
+                       }
+
+                       .slick-slide img {}
+
+                       .title_slider {
+                           /*bottom: 196px;*/
+                           font-size: 19px;
+                       }
+
+                       .title_description {
+                           /*bottom: 189px;*/
+                           font-size: 11px;
+                           width: 146px;
+                       }
+
+                       .nav-footer a:active {
+                           background-color: #232658;
+                       }
+
+                       .nav-footer a:hover {
+                           background-color: #232658;
+                       }
+
+                       .nav-footer a:before {
+                           display: none;
+                       }
+                       .orders_container_table .nav_referral_statistic .nav__referral {
+                           font-size: 13px;
+                       }
+                       .selectWrapper .selectBox p {
+                           font-size: 13px;
+                       }
+                   }
+                   /*----------------------------------------------------------------------------------------------------------*/
+                   @media screen and (min-width: 600px) {
+                       .box-1_caption_table_deposit_mobile {
+                           display: none;
+                       }
+
+                       .mobile_h2_withdraw {
+                           display: none;
+                       }
+
+                       .passport_id_photo_mobile {
+                           display: none;
+                       }
+
+                       .container-menu-mobile {
+                           display: none;
+                       }
+                   }
+                   /*4k*/
+                   @media screen and (min-width: 1980px) {
+                       .home {
+                           background-size: contain;
+                       }
+
+                       .container {
+                           max-width: 1980px;
+                       }
+                   }

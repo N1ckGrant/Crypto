@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Deposit</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu-mobile.scss">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.9.0.min.js" integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body class="autorization">
+        <div class="back_img_animate">
+
+    <header class="deposit_header">
+        <div class="container">
+            <div class="nav nav_mobile_all">
+                <div class="menu-left">
+                    <a href="">EXCHANGE </a>
+                    <a href="">MARGIN</a>
+                </div>
+                <div class="menu-right">
+                    <ul class="menu_nav">
+                        <li class="menu_balances"><a href="">Balances<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu sub_balances my_triangle">
+                                <li><a href="">Balances</a></li>
+                                <li><a href="">Balances</a></li>
+                                <li><a href="">-Balances</a></li>
+                                <li><a href="">---Balances---</a></li>
+                                <li><a href="">---Balances---</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">ORDER</a></li>
+                        <li><a href="" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu my_triangle sub_menu_emeil">
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                                <li><a href="">аll****@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_tuning"><a href=""><img src="img/nav-icon.png" alt=""></a></li>
+                        <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
+                            <ul class="sub_menu my_triangle en_ru_submenu">
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             <div class="container-menu-mobile">
+                        <!-- Этот чекбокс даст нам поведение переключателя, 
+  он будет скрыт, но работать -->
+                        <input id="toggle" type="checkbox">
+                        <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+  состояния чекбокса, является «братским» элементом для чекбокса -->
+                        <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                        <label class="toggle-container" for="toggle">
+                            <!-- Если меню открыто, то здесь будет иконка «X», 
+  в противном случае просто иконка гамбургера -->
+                            <span class="button button-toggle"></span>
+                        </label>
+                        <!-- Навигация -->
+                        <nav class="nav-mobile-menu">
+                            <a class="nav-item" href="">Balances</a>
+                            <a class="nav-item" href="">Order</a>
+                            <a class="nav-item" href="">Settings</a>
+                            <a class="nav-item" href="">Profile</a>
+                            <a class="logout_mobile nav-item " href="#">Logout</a>
+                        </nav>
+                    </div>
+    </header>
+    <section class="top-section">
+        <div class="container deposit_page_container">
+            <div class="nav_bar_chenge nav_bar_support ">
+                <a href="">Balances, deposits & withdrawals </a>
+            </div>
+            <div class="referral_system_container deposit_container">
+                <div class="title_deposit">
+                    <span>Estimated Value: 0.00000000 BTC</span>
+                    <span>History</span>
+                </div>
+                <div class="caption_table_deposit">
+                    <div class="box-1_caption_table_deposit">
+                        <div>Coin</div>
+                        <div>Available</div>
+                        <div>On order</div>
+                    </div>
+                    <div class="box-2_caption_table_deposit">
+                        <div>Action</div>
+                    </div>
+                </div>
+                <div class="box-1_caption_table_deposit_mobile">
+                        <div>Coin</div>
+                        <div>Available</div>
+                        <div>On order</div>
+                    </div>
+                <div class="container_deposit">
+                    <div class="box_deposit specification_deposit">
+                        <div>USDT</div>
+                        <div>0.00000000</div>
+                        <div>82.689</div>
+                    </div>
+                    <div class="box_deposit select_deposit">
+                        <div class="btn_deposit">Exhange</div>
+                        <div class="btn_deposit" id="button_withdraw">Withdraw</div>
+                        <div class="btn_deposit" id="button">Deposit</div>
+                    </div>
+                </div>
+                <div class="box_link" id="effect">
+                    <div class="deposit_adress">
+                        <div class="btn_box_mobile">
+                        <p>Deposit Address
+                            <br>
+                            <input type="text" value="1K6mxpsgiz9HuhitqFhf2qX2pcePjXwc">
+                        </p>
+                        <button class="btn" id="btn_copy">Copy</button>
+                        </div>
+                       
+                        <p>View <a href="">Deposit History to</a> track status</p>
+                         <h2>Tips</h2>
+                        <ul>
+                            <li>Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                        </ul>
+                    </div>
+                    <div class="box_qr_deposit">
+                        <p>QR Code</p>
+                        <div class="triangle_QR">
+                            <img src="img/qr_code.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <script>
+                $(function() {
+                    // run the currently selected effect
+                    function runEffect() {
+                        // get effect type from
+                        var selectedEffect = $("#effectTypes").val();
+
+                        // Most effect types need no options passed by default
+                        var options = {};
+                        // some effects have required parameters
+                        if (selectedEffect === "scale") {
+                            options = { percent: 50 };
+                        } else if (selectedEffect === "size") {
+                            options = { to: { width: 280, height: 185 } };
+                        }
+
+                        // Run the effect
+                        $("#effect").show("blind", options, 500, callback);
+                    };
+
+                    //callback function to bring a hidden box back
+                    function callback() {
+                        setTimeout(function() {
+                            $("#effect:visible").removeAttr("style").fadeOut();
+                        }, 100000);
+                    };
+
+                    // Set effect from select menu value
+                    $("#button").on("click", function() {
+                        runEffect();
+                    });
+
+                    $("#effect").hide();
+                });
+                </script>
+                <div class="box_link withdraw_box" id="effect_withdraw">
+                    <div class="deposit_adress withdraw">
+                        <div class="address_box_withdraw"><div><span>Address</span> <span class="error_title">Error</span><div class="title_address_box"><span class="avallable">Avallable: <span>0.000000</span></span><span class="limit">Limit: 0.000000</span></div></div>
+                        <p>
+                            <input class="adress_input adress_error" type="text" value="">
+                        </p></div>
+                        <div class="box_input">
+                            <p>Receive Amount<!-- <span class="range">Range: 0.001-0.001</span> -->
+                                <input type="text" placeholder="BTC">
+                            </p>
+                            <p>Fee 
+                                <input type="text" placeholder="BTC">
+                            </p>
+                            <p>Amout 
+                                <input type="text" placeholder="BTC">
+                            </p>
+                        </div>
+                        <div class="withdraw_btn">
+                            <h2 class="destop_h2_withdraw">Tips</h2>
+                            <button class="btn" id="">Withdraw</button>
+                        </div>
+                        <h2 class="mobile_h2_withdraw">Tips</h2>
+                        <ul>
+                            <li>Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                            <li> Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w Minimum withdrawal amount: 200 USDT. For security reason, w</li>
+                        </ul>
+                    </div>
+                    <script>
+                    $(function() {
+                        // run the currently selected effect
+                        function runEffect() {
+                            // get effect type from
+                            var selectedEffect = $("#effectTypes").val();
+
+                            // Most effect types need no options passed by default
+                            var options = {};
+                            // some effects have required parameters
+                            if (selectedEffect === "scale") {
+                                options = { percent: 50 };
+                            } else if (selectedEffect === "size") {
+                                options = { to: { width: 280, height: 185 } };
+                            }
+
+                            // Run the effect
+                            $("#effect_withdraw").show("blind", options, 500, callback);
+                        };
+
+                        //callback function to bring a hidden box back
+                        function callback() {
+                            setTimeout(function() {
+                                $("#effect:visible").removeAttr("style").fadeOut();
+                            }, 100000);
+                        };
+
+                        // Set effect from select menu value
+                        $("#button_withdraw").on("click", function() {
+                            runEffect();
+                        });
+
+                        $("#effect_withdraw").hide();
+                    });
+                    </script>
+
+                </div>
+                <div class="box-1_caption_table_deposit_mobile">
+                        <div>Coin</div>
+                        <div>Available</div>
+                        <div>On order</div>
+                    </div>
+                <div class="container_deposit">
+                    <div class="box_deposit specification_deposit">
+                        <div>USDT</div>
+                        <div>0.00000000</div>
+                        <div>82.689</div>
+                    </div>
+                    <div class="box_deposit select_deposit">
+                        <div class="btn_deposit">Exhange</div>
+                        <div class="btn_deposit" id="button_withdraw">Withdraw</div>
+                        <div class="btn_deposit" id="button">Deposit</div>
+                    </div>
+                </div>
+                 <div class="box-1_caption_table_deposit_mobile">
+                        <div>Coin</div>
+                        <div>Available</div>
+                        <div>On order</div>
+                    </div>
+                <div class="container_deposit">
+                    <div class="box_deposit specification_deposit">
+                        <div>USDT</div>
+                        <div>0.00000000</div>
+                        <div>82.689</div>
+                    </div>
+                    <div class="box_deposit select_deposit">
+                        <div class="btn_deposit">Exhange</div>
+                        <div class="btn_deposit" id="button_withdraw">Withdraw</div>
+                        <div class="btn_deposit" id="button">Deposit</div>
+                    </div>
+                </div>
+                 <div class="box-1_caption_table_deposit_mobile">
+                        <div>Coin</div>
+                        <div>Available</div>
+                        <div>On order</div>
+                    </div>
+                <div class="container_deposit">
+                    <div class="box_deposit specification_deposit">
+                        <div>USDT</div>
+                        <div>0.00000000</div>
+                        <div>82.689</div>
+                    </div>
+                    <div class="box_deposit select_deposit">
+                        <div class="btn_deposit">Exhange</div>
+                        <div class="btn_deposit" id="button_withdraw">Withdraw</div>
+                        <div class="btn_deposit" id="button">Deposit</div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        </div>
+    </section>
+</div>
+</body>
+
+</html>
