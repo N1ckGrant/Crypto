@@ -49,7 +49,7 @@ for (let i = 0; i < selectList.length; i++) {
 	selectBox.className = "selectBox";
 	selectBox.innerHTML = "<p>" + select[select.selectedIndex].text + "</p>";
 
-	let selectButton = document.createElement("button");
+	let selectButton = document.createElement("span");
 	selectButton.innerHTML = "<i class='fa fa-caret-down' aria-hidden='true'></i>";
 	selectBox.appendChild(selectButton);
 

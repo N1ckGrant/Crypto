@@ -696,10 +696,7 @@
 @media screen and (max-width: 400px) {
   .datepicker.-from-bottom-{
     width: 180px;
-    
-    
   }
-    }
   .datepicker--nav-title{
     font-size: 13px;
   }
@@ -720,5 +717,6 @@
     width: 80%;
     height: 80%;
   }
+  
 }
     
