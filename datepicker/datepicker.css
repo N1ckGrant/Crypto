@@ -713,7 +713,7 @@
     font-size: 11px;
   }
   .datepicker--cell.-selected-:after{
-    top: 1px;
+    top: 2px;
     left: 3px;
   }
   .datepicker--cell-day{
