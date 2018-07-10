@@ -21,7 +21,7 @@
             altField: '',
             altFieldDateFormat: '@',
             toggleSelected: true,
-            keyboardNav: true,
+            keyboardNav: false,
 
             position: 'bottom left',
             offset: 12,
@@ -45,8 +45,8 @@
             multipleDatesSeparator: ',',
             range: false,
 
-            todayButton: false,
-            clearButton: false,
+            todayButton: true,
+            clearButton: true,
 
             showEvent: 'focus',
             autoClose: false,

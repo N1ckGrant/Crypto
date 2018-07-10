@@ -2605,7 +2605,7 @@
                            font-size: 14px;
                        }
                        .selectWrapper .selectBox ul {
-                           left: 0px;
+                           left: -30px;
                        }
                        .selectWrapper .selectBox.active ul {
                            width: 130px;
@@ -2716,6 +2716,7 @@
                        .selectWrapper .selectBox p {
                            font-size: 13px;
                        }
+                       
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
