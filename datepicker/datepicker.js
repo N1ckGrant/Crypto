@@ -12,7 +12,7 @@
             '</div>',
         defaults = {
             classes: '',
-            inline: true,
+            inline: false,
             language: 'ru',
             startDate: new Date(),
             firstDay: '',

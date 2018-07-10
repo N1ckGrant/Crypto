@@ -710,8 +710,15 @@
     font-size: 11px;
   }
   .datepicker--cell.-selected-:after{
-    width: 16px;
-    height: 16px;
+
+  }
+  .datepicker--cell-day{
+    width: 24px;
+    height: 24px;
+  }
+  .datepicker--cell.-selected-:after{
+    width: 80%;
+    height: 80%;
   }
 }
     
