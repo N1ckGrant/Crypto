@@ -2600,6 +2600,12 @@
                            font-size: 14px;
                            padding: 10px;
                        }
+                       .selectBox:after{
+                        display: none;
+                       }
+                       .block_select{
+                        margin-left: 0px;
+                       }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
@@ -2646,6 +2652,8 @@
 
                        .nav-footer a {
                            margin-right: 0px;
+                           padding-top: 5px;
+                           padding-bottom: 5px;
                        }
 
                        .nav-footer li {
