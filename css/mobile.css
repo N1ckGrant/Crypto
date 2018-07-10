@@ -1,532 +1,562 @@
                    @media screen and (max-width: 1600px) {
-                   .exchange_body .section_exchange {
-                       flex-wrap: wrap;
-                       height: 100%;
-                       justify-content: space-between;
-                   }
-                   .block_left {
-                       order: 2;
-                       height: 620px;
-                       min-width: 304px;
-                       width: 49%;
-                       margin-right: 0px;
-                   }
-                   .block_center {
-                       order: 1;
-                       height: 620px;
-                       width: 100%;
-                       /*min-width: 304px;*/
-                       margin-right: 0px;
-                       margin-bottom: 15px;
-                   }
-                   .block_right {
-                       width: 49%;
-                       order: 3;
-                       height: 620px;
-                       min-width: 304px;
-                       margin-right: 0px;
-                   }
-                   .order_box_block_right{
-                    justify-content: center;
-                   }
-                   .buy_smt{
-                    width: 250px;
-                    color: #fff;
-                   }
-               }
-
-               @media screen and (max-width: 1490px) {
-                   /*шрифт меньше*/
-                   .nav_bar_chenge a {
-                       font-size: 23px;
-                   }
-                   .box_page_account div h2 {
-                       font-size: 20px;
-                   }
-                   .box_page_account p {
-                       font-size: 17px;
-                   }
-                   .box_page_account div input {
-                       font-size: 17px;
-                   }
-                   .activate_deactivate_box span {
-                       font-size: 17px;
-                   }
-                   .login_histoty .title_block span {
-                       font-size: 20px;
-                   }
-                   .caption_table_history {
-                       font-size: 17px;
-                   }
-                   .table_history {
-                       font-size: 16px;
-                   }
-                   .referral_system_container p {
-                       font-size: 16px;
-                   }
-                   .button_change input {
-                       font-size: 18px;
-                   }
-                   .generate_link #link {
-                       font-size: 17px;
-                   }
-                   .nav__referral {
-                       font-size: 19px;
-                   }
-                   #data_from:before {
-                       margin-right: 10px;
-                   }
-                   .input_pass_new p {
-                       font-size: 16px;
-                   }
-                   .input_pass_old p {
-                       font-size: 16px;
-                   }
-                   .static_container h2 {
-                       font-size: 20px;
-                   }
-                   .static_container p {
-                       font-size: 16px;
-                   }
-                   .autorization_form p {
-                       font-size: 16px;
-                   }
-                   .autorization_form legend {
-                       font-size: 16px;
-                   }
-                   .registration_form .incorrect {
-                       margin-top: 0px;
-                   }
-                   .registration_form .igare_registration {
-                       font-size: 18px;
-                   }
-                   .chenge_pass span {
-                       font-size: 19px;
-                   }
-                   .chenge_pass a {
-                       font-size: 16px;
-                   }
-                   .incorrect {
-                       font-size: 16px;
-                   }
-                   .input_pass_old input {
-                       margin-top: 15px;
-                       font-size: 17px;
-                   }
-                   .input_pass_new input {
-                       margin-top: 15px;
-                       font-size: 17px;
+                       .exchange_body .section_exchange {
+                           -ms-flex-wrap: wrap;
+                           flex-wrap: wrap;
+                           height: 100%;
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
+                           justify-content: space-between;
+                       }
+                       .block_left {
+                           -webkit-box-ordinal-group: 3;
+                           -ms-flex-order: 2;
+                           order: 2;
+                           height: 620px;
+                           min-width: 304px;
+                           width: 49%;
+                           margin-right: 0px;
+                       }
+                       .block_center {
+                           -webkit-box-ordinal-group: 2;
+                           -ms-flex-order: 1;
+                           order: 1;
+                           height: 620px;
+                           width: 100%;
+                           /*min-width: 304px;*/
+                           margin-right: 0px;
+                           margin-bottom: 15px;
+                       }
+                       .block_right {
+                           width: 49%;
+                           -webkit-box-ordinal-group: 4;
+                           -ms-flex-order: 3;
+                           order: 3;
+                           height: 620px;
+                           min-width: 304px;
+                           margin-right: 0px;
+                       }
+                       .order_box_block_right {
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
+                           justify-content: center;
+                       }
+                       .buy_smt {
+                           width: 250px;
+                           color: #fff;
+                       }
                    }
 
-                   .caption_table div {
-                       font-size: 17px;
-                   }
-                   .orders_value_table div {
-                       font-size: 16px;
-                   }
-                   .order_box_block_right div {
-                       font-size: 14px;
-                   }
-                   .buy_smt{
-                    width: 200px;
-                    color: #fff;
-                   }
-               }
+                   @media screen and (max-width: 1490px) {
+                       /*шрифт меньше*/
+                       .nav_bar_chenge a {
+                           font-size: 23px;
+                       }
+                       .box_page_account div h2 {
+                           font-size: 20px;
+                       }
+                       .box_page_account p {
+                           font-size: 17px;
+                       }
+                       .box_page_account div input {
+                           font-size: 17px;
+                       }
+                       .activate_deactivate_box span {
+                           font-size: 17px;
+                       }
+                       .login_histoty .title_block span {
+                           font-size: 20px;
+                       }
+                       .caption_table_history {
+                           font-size: 17px;
+                       }
+                       .table_history {
+                           font-size: 16px;
+                       }
+                       .referral_system_container p {
+                           font-size: 16px;
+                       }
+                       .button_change input {
+                           font-size: 18px;
+                       }
+                       .generate_link #link {
+                           font-size: 17px;
+                       }
+                       .nav__referral {
+                           font-size: 19px;
+                       }
+                       #data_from:before {
+                           margin-right: 10px;
+                       }
+                       .input_pass_new p {
+                           font-size: 16px;
+                       }
+                       .input_pass_old p {
+                           font-size: 16px;
+                       }
+                       .static_container h2 {
+                           font-size: 20px;
+                       }
+                       .static_container p {
+                           font-size: 16px;
+                       }
+                       .autorization_form p {
+                           font-size: 16px;
+                       }
+                       .autorization_form legend {
+                           font-size: 16px;
+                       }
+                       .registration_form .incorrect {
+                           margin-top: 0px;
+                       }
+                       .registration_form .igare_registration {
+                           font-size: 18px;
+                       }
+                       .chenge_pass span {
+                           font-size: 19px;
+                       }
+                       .chenge_pass a {
+                           font-size: 16px;
+                       }
+                       .incorrect {
+                           font-size: 16px;
+                       }
+                       .input_pass_old input {
+                           margin-top: 15px;
+                           font-size: 17px;
+                       }
+                       .input_pass_new input {
+                           margin-top: 15px;
+                           font-size: 17px;
+                       }
 
-               @media screen and (max-width: 1400px) {
-                   .verification_page_form #passports_photo {
-                       width: 200px;
-                       font-size: 15px;
-                       padding: 0px;
-                       height: 45px;
-                       justify-content: space-around;
+                       .caption_table div {
+                           font-size: 17px;
+                       }
+                       .orders_value_table div {
+                           font-size: 16px;
+                       }
+                       .order_box_block_right div {
+                           font-size: 14px;
+                       }
+                       .buy_smt {
+                           width: 200px;
+                           color: #fff;
+                       }
                    }
-                   .verification_page_form #address_residence {
-                       width: 200px;
-                       font-size: 15px;
-                       padding: 0px;
-                       height: 45px;
-                       justify-content: space-around;
-                   }
-                   .verification_page_form #plus_file {
-                       width: 130px;
-                       /*padding-top: 21px;
+
+                   @media screen and (max-width: 1400px) {
+                       .verification_page_form #passports_photo {
+                           width: 200px;
+                           font-size: 15px;
+                           padding: 0px;
+                           height: 45px;
+                           -ms-flex-pack: distribute;
+                           justify-content: space-around;
+                       }
+                       .verification_page_form #address_residence {
+                           width: 200px;
+                           font-size: 15px;
+                           padding: 0px;
+                           height: 45px;
+                           -ms-flex-pack: distribute;
+                           justify-content: space-around;
+                       }
+                       .verification_page_form #plus_file {
+                           width: 130px;
+                           /*padding-top: 21px;
                padding-bottom: 16px;*/
-                       padding: 0px;
-                       height: 45px;
-                   }
-                   .box_photo_id {
-                       flex-wrap: wrap;
-                       align-items: center;
-                   }
-                   .verification_page_form .box_photo_id p {
-                       margin-top: 15px;
-                       font-size: 16px;
-                   }
-                   #verify {
-                       height: 45px;
-                       width: 200px;
-                       padding: 0px;
-                       display: flex;
-                       justify-content: center;
-                   }
-                   .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
-                       color: #484c83;
-                       text-align: left;
-                       font-size: 15px;
-                       padding-left: 10px;
-                   }
+                           padding: 0px;
+                           height: 45px;
+                       }
+                       .box_photo_id {
+                           -ms-flex-wrap: wrap;
+                           flex-wrap: wrap;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
+                           align-items: center;
+                       }
+                       .verification_page_form .box_photo_id p {
+                           margin-top: 15px;
+                           font-size: 16px;
+                       }
+                       #verify {
+                           height: 45px;
+                           width: 200px;
+                           padding: 0px;
+                           display: -webkit-box;
+                           display: -ms-flexbox;
+                           display: flex;
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
+                           justify-content: center;
+                       }
+                       .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 15px;
+                           padding-left: 10px;
+                       }
 
-                   .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
-                       color: #484c83;
-                       text-align: left;
-                       font-size: 15px;
-                       padding-left: 10px;
-                   }
+                       .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 15px;
+                           padding-left: 10px;
+                       }
 
-                   .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
-                       color: #484c83;
-                       text-align: left;
-                       font-size: 15px;
-                       padding-left: 10px;
-                   }
+                       .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 15px;
+                           padding-left: 10px;
+                       }
 
-                   .input_pass_new .calendar input[type=""]::placeholder {
-                       color: #484c83;
-                       text-align: left;
-                       font-size: 15px;
-                       padding-left: 10px;
-                   }
-                   .orders_container_table .orders_table {
-                       overflow-x: scroll;
-                       overflow-y: hidden;
-                   }
+                       .input_pass_new .calendar input[type=""]::placeholder {
+                           color: #484c83;
+                           text-align: left;
+                           font-size: 15px;
+                           padding-left: 10px;
+                       }
+                       .orders_container_table .orders_table {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
 
-                   .notifications_history tr th {
-                       font-size: 16px;
-                       line-height: 18px;
-                       min-width: 160px;
-                       margin-right: 10px;
-                   }
-                   .notifications_history tr td {
-                       font-size: 16px;
-                       line-height: 18px;
-                       min-width: 160px;
-                       margin-right: 10px;
-                   }
-                   .nav_orders {
-                       font-size: 18px;
-                   }
-                   .title_orders {
-                       font-size: 16px;
-                   }
-                   .slider_button {
-                       bottom: 30%;
-                       transition: all 0.5s;
-                   }
-                   .box_title_slider {
-                       bottom: 50%;
-                       transition: all 0.5s;
-                   }
-
-
-                   /*шрифт меньше*/
-                   .nav_bar_chenge a {
-                       font-size: 20px;
-                   }
-                   .nav_bar_chenge {
-                       height: 60px;
-                   }
-                   .box_page_account div h2 {
-                       font-size: 18px;
-                       padding-top: 20px;
-                   }
-                   .box_page_account p {
-                       font-size: 17px;
-                   }
-                   .box_page_account div input {
-                       font-size: 16px;
-                       width: 155px;
-                   }
-                   .activate_deactivate_box span {
-                       font-size: 17px;
-                   }
-                   .login_histoty .title_block span {
-                       font-size: 20px;
-                   }
-                   .caption_table_history {
-                       font-size: 17px;
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                   }
-                   .table_history {
-                       font-size: 16px;
-                       padding-top: 15px;
-                       padding-bottom: 15px;
-                   }
-                   .referral_system_container p {
-                       font-size: 16px;
-                   }
-                   .button_change input {
-                       font-size: 18px;
-                   }
-                   .generate_link #link {
-                       font-size: 17px;
-                   }
-                   .nav__referral {
-                       font-size: 18px;
-                   }
-                   .nav__referral {
-                       padding-top: 25px;
-                       padding-bottom: 25px;
-                   }
-                   .caption_table {
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                   }
-                   .nav_order {
-                       padding-top: 20px;
-                   }
-                   #data_from:before {
-                       margin-right: 10px;
-                   }
-                   .input_pass_new p {
-                       font-size: 16px;
-                       padding-top: 20px;
-                   }
-                   .input_pass_old p {
-                       font-size: 16px;
-                   }
-                   .static_container h2 {
-                       font-size: 18px;
-                       padding-bottom: 20px;
-                   }
-                   .static_container p {
-                       font-size: 15px;
-                   }
-                   .autorization_form p {
-                       font-size: 16px;
-                   }
-                   .autorization_form legend {
-                       font-size: 16px;
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                   }
-                   .autorization_form input {
-                       height: 45px;
-                   }
-                   .autorization_form .button_login input {
-                       width: 200px;
-                       height: 45px;
-                   }
-                   .registration_form .incorrect {
-                       margin-top: 0px;
-                   }
-                   .registration_form .igare_registration {
-                       font-size: 16px;
-                   }
-                   .chenge_pass span {
-                       font-size: 18px;
-                   }
-                   .chenge_pass a {
-                       font-size: 16px;
-                   }
-                   .incorrect {
-                       font-size: 16px;
-                   }
-                   .input_pass_old input {
-                       margin-top: 15px;
-                       font-size: 16px;
-                       height: 45px;
-                   }
-                   .input_pass_new input {
-                       margin-top: 15px;
-                       font-size: 17px;
-                       height: 45px;
-                   }
+                       .notifications_history tr th {
+                           font-size: 16px;
+                           line-height: 18px;
+                           min-width: 160px;
+                           margin-right: 10px;
+                       }
+                       .notifications_history tr td {
+                           font-size: 16px;
+                           line-height: 18px;
+                           min-width: 160px;
+                           margin-right: 10px;
+                       }
+                       .nav_orders {
+                           font-size: 18px;
+                       }
+                       .title_orders {
+                           font-size: 16px;
+                       }
+                       .slider_button {
+                           bottom: 30%;
+                           -webkit-transition: all 0.5s;
+                           -o-transition: all 0.5s;
+                           transition: all 0.5s;
+                       }
+                       .box_title_slider {
+                           bottom: 50%;
+                           -webkit-transition: all 0.5s;
+                           -o-transition: all 0.5s;
+                           transition: all 0.5s;
+                       }
 
 
-                   .caption_table div {
-                       font-size: 17px;
-                   }
-                   .orders_value_table div {
-                       font-size: 15px;
-                   }
-                   .order_box_block_right div {
-                       font-size: 14px;
-                   }
-                   .referral_table_container #my_table tr td {
-                       font-size: 16px;
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                       line-height: 20px;
-                   }
-                   .referral_table_container #my_table tr th {
-                       padding-top: 20px;
-                       font-size: 16px;
-                   }
-                   .generate_link #link {
-                       height: 45px;
-                   }
-                   .generate_link #icon_copy {
-                       position: absolute;
-                       top: 9px;
-                       right: 55px;
-                   }
-                   .button_change input {
-                       width: 200px;
-                       height: 45px;
-                       padding: 0px;
-                   }
-                   .nav_bar_chenge {
-                       margin-bottom: 20px;
-                   }
-                   .forma_chenge_pass form fieldset input {
-                       height: 45px;
-                       margin-top: 0px;
-                   }
-                   .forma_chenge_pass form fieldset legend {
-                       font-size: 17px;
-                       padding-top: 25px;
-                   }
-                   .forma_chenge_pass .button_change input {
-                       width: 200px;
-                       padding: 0px;
-                       height: 45px;
-                   }
-                   .button_change {
-                       margin-top: 30px;
-                   }
-                   .verification_page_form .input_pass_new p {
-                       padding-top: 20px;
-                   }
-                   .calendar_box {
-                       font-size: 16px;
-                       padding-top: 20px;
-                   }
-                   .calendar_box .calendar p {
-                       padding-top: 0px;
-                   }
-                   .referral_table_container h2 {
-                       font-size: 20px;
-                   }
-                   .notifications_history tr td {
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                   }
-                   .referral_system_container .button_change {
-                       margin-top: 50px;
-                       padding-bottom: 30px;
-                   }
-                   .box_page_account .basic_info_box,
-                   .two_factor_box {
-                       padding-right: 20px;
-                       padding-left: 20px;
-                   }
-                   .login_histoty .title_block {
-                       padding-top: 20px;
-                       padding-bottom: 20px;
-                   }
-                   .container h1 {
-                       font-size: 30px;
-                       padding-bottom: 20px;
-                   }
-                   .recovery_pass_page {
-                       padding-top: 30px;
-                   }
-                   .title_recovery {
-                       padding-bottom: 20px;
-                   }
-                   .notifications_form h2 {
-                       font-size: 18px;
-                       padding-bottom: 20px;
-                       padding-top: 20px;
-                   }
-                   .notifications_history h2 {
-                       padding-bottom: 20px;
-                       padding-top: 20px;
-                       font-size: 18px;
-                   }
-                   .notifications_history tr th {
-                       padding-top: 20px;
-                   }
-                   .google_authenticator_form .incorrect {
-                       margin-top: 0px;
-                   }
-                   .autorization_form .forgot {
-                       font-size: 15px;
-                   }
-                   .button_login {
-                       margin-top: 25px;
-                   }
-                   #google_authenticator_forma p {
-                       font-size: 16px;
-                       line-height: 25px;
-                   }
-                   #google_authenticator_forma input {
-                       height: 45px;
-                       box-sizing: border-box;
-                   }
-                   #google_authenticator_forma button {
-                       height: 45px;
-                       width: 200px;
-                       padding: 0px;
-                   }
-                   .title_deposit {
-                       font-size: 18px;
-                       padding-bottom: 20px;
-                       padding-top: 20px;
-                   }
-                   .caption_table_deposit {
-                       font-size: 18px;
-                       padding-bottom: 0px;
-                   }
-                   .container_deposit {
-                       font-size: 16px;
-                   }
-                   .box_link input {
-                       height: 45px;
-                       box-sizing: border-box;
-                   }
-                   .btn {
-                       width: 200px;
-                       height: 45px;
-                   }
-                   .box_link li {
-                       font-size: 16px;
-                   }
-                   .referral_system_container p {
-                       padding-top: 15px;
-                   }
-                   .incorrect {
-                       margin-top: 0px;
-                   }
-                   .footer-registration span {
-                       font-size: 16px;
-                   }
-                   .page_404 p {
-                       font-size: 25px;
-                   }
-                   .page_404 a {
-                       width: 200px;
-                       height: 45px;
-                       padding: 0px;
-                       display: flex;
-                       justify-content: center;
-                       align-items: center;
-                   }
-                   .referral_system_container .generate_link .button_change {
-                       margin-top: 0px;
-                       padding-bottom: 0px;
-                   }
-                   .title_404 img {
-                       width: 45%;
-                   }
-                 }
+                       /*шрифт меньше*/
+                       .nav_bar_chenge a {
+                           font-size: 20px;
+                       }
+                       .nav_bar_chenge {
+                           height: 60px;
+                       }
+                       .box_page_account div h2 {
+                           font-size: 18px;
+                           padding-top: 20px;
+                       }
+                       .box_page_account p {
+                           font-size: 17px;
+                       }
+                       .box_page_account div input {
+                           font-size: 16px;
+                           width: 155px;
+                       }
+                       .activate_deactivate_box span {
+                           font-size: 17px;
+                       }
+                       .login_histoty .title_block span {
+                           font-size: 20px;
+                       }
+                       .caption_table_history {
+                           font-size: 17px;
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       .table_history {
+                           font-size: 16px;
+                           padding-top: 15px;
+                           padding-bottom: 15px;
+                       }
+                       .referral_system_container p {
+                           font-size: 16px;
+                       }
+                       .button_change input {
+                           font-size: 18px;
+                       }
+                       .generate_link #link {
+                           font-size: 17px;
+                       }
+                       .nav__referral {
+                           font-size: 18px;
+                       }
+                       .nav__referral {
+                           padding-top: 25px;
+                           padding-bottom: 25px;
+                       }
+                       .caption_table {
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       .nav_order {
+                           padding-top: 20px;
+                       }
+                       #data_from:before {
+                           margin-right: 10px;
+                       }
+                       .input_pass_new p {
+                           font-size: 16px;
+                           padding-top: 20px;
+                       }
+                       .input_pass_old p {
+                           font-size: 16px;
+                       }
+                       .static_container h2 {
+                           font-size: 18px;
+                           padding-bottom: 20px;
+                       }
+                       .static_container p {
+                           font-size: 15px;
+                       }
+                       .autorization_form p {
+                           font-size: 16px;
+                       }
+                       .autorization_form legend {
+                           font-size: 16px;
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       .autorization_form input {
+                           height: 45px;
+                       }
+                       .autorization_form .button_login input {
+                           width: 200px;
+                           height: 45px;
+                       }
+                       .registration_form .incorrect {
+                           margin-top: 0px;
+                       }
+                       .registration_form .igare_registration {
+                           font-size: 16px;
+                       }
+                       .chenge_pass span {
+                           font-size: 18px;
+                       }
+                       .chenge_pass a {
+                           font-size: 16px;
+                       }
+                       .incorrect {
+                           font-size: 16px;
+                       }
+                       .input_pass_old input {
+                           margin-top: 15px;
+                           font-size: 16px;
+                           height: 45px;
+                       }
+                       .input_pass_new input {
+                           margin-top: 15px;
+                           font-size: 17px;
+                           height: 45px;
+                       }
 
 
-
+                       .caption_table div {
+                           font-size: 17px;
+                       }
+                       .orders_value_table div {
+                           font-size: 15px;
+                       }
+                       .order_box_block_right div {
+                           font-size: 14px;
+                       }
+                       .referral_table_container #my_table tr td {
+                           font-size: 16px;
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                           line-height: 20px;
+                       }
+                       .referral_table_container #my_table tr th {
+                           padding-top: 20px;
+                           font-size: 16px;
+                       }
+                       .generate_link #link {
+                           height: 45px;
+                       }
+                       .generate_link #icon_copy {
+                           position: absolute;
+                           top: 9px;
+                           right: 55px;
+                       }
+                       .button_change input {
+                           width: 200px;
+                           height: 45px;
+                           padding: 0px;
+                       }
+                       .nav_bar_chenge {
+                           margin-bottom: 20px;
+                       }
+                       .forma_chenge_pass form fieldset input {
+                           height: 45px;
+                           margin-top: 0px;
+                       }
+                       .forma_chenge_pass form fieldset legend {
+                           font-size: 17px;
+                           padding-top: 25px;
+                       }
+                       .forma_chenge_pass .button_change input {
+                           width: 200px;
+                           padding: 0px;
+                           height: 45px;
+                       }
+                       .button_change {
+                           margin-top: 30px;
+                       }
+                       .verification_page_form .input_pass_new p {
+                           padding-top: 20px;
+                       }
+                       .calendar_box {
+                           font-size: 16px;
+                           padding-top: 20px;
+                       }
+                       .calendar_box .calendar p {
+                           padding-top: 0px;
+                       }
+                       .referral_table_container h2 {
+                           font-size: 20px;
+                       }
+                       .notifications_history tr td {
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       .referral_system_container .button_change {
+                           margin-top: 50px;
+                           padding-bottom: 30px;
+                       }
+                       .box_page_account .basic_info_box,
+                       .two_factor_box {
+                           padding-right: 20px;
+                           padding-left: 20px;
+                       }
+                       .login_histoty .title_block {
+                           padding-top: 20px;
+                           padding-bottom: 20px;
+                       }
+                       .container h1 {
+                           font-size: 30px;
+                           padding-bottom: 20px;
+                       }
+                       .recovery_pass_page {
+                           padding-top: 30px;
+                       }
+                       .title_recovery {
+                           padding-bottom: 20px;
+                       }
+                       .notifications_form h2 {
+                           font-size: 18px;
+                           padding-bottom: 20px;
+                           padding-top: 20px;
+                       }
+                       .notifications_history h2 {
+                           padding-bottom: 20px;
+                           padding-top: 20px;
+                           font-size: 18px;
+                       }
+                       .notifications_history tr th {
+                           padding-top: 20px;
+                       }
+                       .google_authenticator_form .incorrect {
+                           margin-top: 0px;
+                       }
+                       .autorization_form .forgot {
+                           font-size: 15px;
+                       }
+                       .button_login {
+                           margin-top: 25px;
+                       }
+                       #google_authenticator_forma p {
+                           font-size: 16px;
+                           line-height: 25px;
+                       }
+                       #google_authenticator_forma input {
+                           height: 45px;
+                           -webkit-box-sizing: border-box;
+                           box-sizing: border-box;
+                       }
+                       #google_authenticator_forma button {
+                           height: 45px;
+                           width: 200px;
+                           padding: 0px;
+                       }
+                       .title_deposit {
+                           font-size: 18px;
+                           padding-bottom: 20px;
+                           padding-top: 20px;
+                       }
+                       .caption_table_deposit {
+                           font-size: 18px;
+                           padding-bottom: 0px;
+                       }
+                       .container_deposit {
+                           font-size: 16px;
+                       }
+                       .box_link input {
+                           height: 45px;
+                           -webkit-box-sizing: border-box;
+                           box-sizing: border-box;
+                       }
+                       .btn {
+                           width: 200px;
+                           height: 45px;
+                       }
+                       .box_link li {
+                           font-size: 16px;
+                       }
+                       .referral_system_container p {
+                           padding-top: 15px;
+                       }
+                       .incorrect {
+                           margin-top: 0px;
+                       }
+                       .footer-registration span {
+                           font-size: 16px;
+                       }
+                       .page_404 p {
+                           font-size: 25px;
+                       }
+                       .page_404 a {
+                           width: 200px;
+                           height: 45px;
+                           padding: 0px;
+                           display: -webkit-box;
+                           display: -ms-flexbox;
+                           display: flex;
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
+                           justify-content: center;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
+                           align-items: center;
+                       }
+                       .referral_system_container .generate_link .button_change {
+                           margin-top: 0px;
+                           padding-bottom: 0px;
+                       }
+                       .title_404 img {
+                           width: 45%;
+                       }
+                   }
                    /*-----------------------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 1110px) {
                        header {
                            margin-bottom: 50px;
@@ -535,6 +565,7 @@
                            /*margin-bottom: 100px;*/
                        }
                        .withdraw .box_input {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
                        .withdraw .box_input p {
@@ -553,24 +584,26 @@
                        }
                        /*depost*/
                        .box_link {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                            width: 100%;
                        }
-                       /*      .box_link input{
-            min-width: 250px;
-            font-size: 17px;
-          }*/
+                       
                        .btn_box_mobile p {
                            width: 75%;
                        }
                        .box_link input {
                            width: 100%;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            min-width: 200px;
                            font-size: 17px;
                        }
                        .btn_box_mobile {
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
                            justify-content: space-between;
+                           -ms-flex-wrap: nowrap;
                            flex-wrap: nowrap;
                        }
                        #btn_copy {
@@ -604,6 +637,9 @@
                            font-size: 17px;
                        }
                        .generate_link {
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: reverse;
+                           -ms-flex-direction: column-reverse;
                            flex-direction: column-reverse;
                        }
                        .generate_link .button_change input {
@@ -612,38 +648,17 @@
                        .chenge_pass a {
                            font-size: 15px;
                        }
-                       /*home*/
-                       /*.head-table{
-            overflow-x: scroll;
-            overflow-y: hidden;
-          }
-          .head-table::-webkit-scrollbar {
-              height: 6px;
-          }
 
-          .head-table::-webkit-scrollbar-track {
-              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-              border-radius: 4px;
-              height: 6px;
-              background-color: #100f3f;
-          }
-
-          .table_mobile_scroll_referral::-webkit-scrollbar-thumb {
-              border-radius: 10px;
-              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-              background-color: #474b8b;
-          }*/
-                       /**/
                        .box_page_account .basic_info_box,
                        .two_factor_box {
                            width: 100%;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            min-width: 590px;
                        }
-                       /* .two_factor_box p{
-            width: 24%;
-          }*/
+
                        .box_page_account {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
                        .basic_info_box {
@@ -766,6 +781,7 @@
                        }
                    }
                    /*--------------------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 1260px) {
                        /*home*/
                        .Cybintex_text {
@@ -793,6 +809,8 @@
                        }
 
                        .caption_table_deposit div {
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
 
@@ -825,6 +843,7 @@
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 996px) {
 
                        .home_header .nav {
@@ -850,14 +869,19 @@
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 760px) {
                        .box_link {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
                        .logo-footer {
                            display: none;
                        }
                        .footer {
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: column;
                            flex-direction: column;
                        }
                        .social-footer {
@@ -912,6 +936,8 @@
                            padding: 21px 99px 18px 99px;
                        }
                        .block_left {
+                           -webkit-box-ordinal-group: 3;
+                           -ms-flex-order: 2;
                            order: 2;
                            height: 620px;
                            min-width: 304px;
@@ -919,6 +945,8 @@
                            margin-right: 0px;
                        }
                        .block_center {
+                           -webkit-box-ordinal-group: 2;
+                           -ms-flex-order: 1;
                            order: 1;
                            height: 620px;
                            width: 100%;
@@ -928,6 +956,8 @@
                        }
                        .block_right {
                            width: 100%;
+                           -webkit-box-ordinal-group: 4;
+                           -ms-flex-order: 3;
                            order: 3;
                            height: 620px;
                            min-width: 304px;
@@ -948,11 +978,15 @@
                        .orders_value_table div {
                            padding-top: 10px;
                            padding-bottom: 10px;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
                            align-items: center;
                        }
                        .caption_table {
                            padding-top: 10px;
                            padding-bottom: 10px;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
                            align-items: center;
                        }
                        .nav__referral input {
@@ -975,6 +1009,7 @@
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 600px) {
 
                        header {
@@ -986,7 +1021,16 @@
                            margin-left: 6px;
                            margin-bottom: 50px;
                        }
-
+                       .menu-right a {
+                           padding-bottom: 3px;
+                       }
+                       marquee {
+                           margin-top: 10px;
+                           margin-bottom: 10px;
+                       }
+                       .my_slider {
+                           margin-top: 68px;
+                       }
                        .top-section {
                            margin-top: -70px;
                        }
@@ -994,6 +1038,8 @@
                        .mobile_simplified {
                            padding-top: 20px;
                            margin-left: 16px;
+                           -webkit-box-align: end;
+                           -ms-flex-align: end;
                            align-items: end;
                        }
 
@@ -1018,6 +1064,8 @@
                            padding-top: 20px;
                            margin-left: 16px;
                            margin-right: 16px;
+                           -webkit-box-align: end;
+                           -ms-flex-align: end;
                            align-items: end;
                            position: relative;
                        }
@@ -1029,26 +1077,29 @@
                        .nav_mobile_all .menu-right {
                            width: 60%;
                            margin-right: 0px;
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
 
                        .menu-right a {
                            font-size: 11px;
                        }
-                       .menu-right .emeil{
-                          font-size: 11px;
-                        }
-                        .menu-right a i{
-                          padding-top: 3px;
-                        }
+                       .menu-right .emeil {
+                           font-size: 11px;
+                       }
+                       .menu-right a i {
+                           padding-top: 3px;
+                       }
 
                        .nav_mobile_all .nav_tuning {
                            display: none;
                        }
 
                        .nav_mobile_all .menu-right li {
+                           -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           margin-right: 10px;
+                           margin-right: 30px;
                            position: relative;
                        }
 
@@ -1058,6 +1109,8 @@
 
                        .nav_mobile_all .menu_nav {
                            width: 100%;
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
 
@@ -1072,6 +1125,7 @@
                        .autorization_form input {
                            width: 100%;
                            min-width: 0px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1087,6 +1141,7 @@
 
                        .autorization_form .capcha-sheck {
                            width: 99%;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            margin-left: 3px;
                            margin-right: 3px;
@@ -1131,6 +1186,8 @@
                        .nav_bar_chenge {
                            height: 40px;
                            margin-bottom: 10px;
+                           -webkit-box-pack: left;
+                           -ms-flex-pack: left;
                            justify-content: left;
                            padding-left: 6px;
                        }
@@ -1175,6 +1232,7 @@
                            width: 100%;
                            border: 1px solid #484c83;
                            background-color: rgb(21, 20, 63);
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1213,29 +1271,25 @@
                        }
 
                        .deposit_page_container .title_deposit {
-
-                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                            background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .deposit_page_container .specification_deposit {
                            width: 100%;
+                           -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                            background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .container_deposit {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
                        .select_deposit {
                            width: 100%;
+                           -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                            background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
@@ -1262,15 +1316,16 @@
                        }
 
                        .box-1_caption_table_deposit_mobile {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -ms-flex-pack: distribute;
                            justify-content: space-around;
                            font-size: 15px;
                            font-family: "Helvetica Neue";
                            color: #2b4fe9;
                            padding-top: 16px;
                            margin-top: 10px;
-                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                            background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
@@ -1283,11 +1338,13 @@
                        }
 
                        .box_link {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                            left: 0px;
                            padding-left: 7px;
                            padding-right: 7px;
                            width: auto;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1301,6 +1358,7 @@
                            text-align: left;
                            padding-left: 0px;
                            padding-left: 10px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1341,6 +1399,7 @@
                        }
 
                        .withdraw .box_input {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -1357,11 +1416,16 @@
                        }
 
                        .withdraw_btn {
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
                        }
 
                        .btn_box_mobile {
+                           -webkit-box-pack: end;
+                           -ms-flex-pack: end;
                            justify-content: flex-end;
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -1405,8 +1469,13 @@
                        }
 
                        #google_authenticator_forma form {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
                        }
 
@@ -1416,6 +1485,7 @@
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
                            padding-left: 10px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1423,11 +1493,17 @@
                            width: 210px;
                            margin-top: 20px;
                            margin-left: 0px;
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
                        }
                        /*ID-Verification*/
                        .container .id-verification_page {
+                           -webkit-box-pack: left;
+                           -ms-flex-pack: left;
                            justify-content: left;
                            padding-left: 10px;
                        }
@@ -1439,6 +1515,7 @@
                        }
 
                        .verification_page_form .input_pass_new {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -1448,6 +1525,7 @@
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
                            padding-left: 10px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -1497,13 +1575,20 @@
                        }
 
                        .box_photo_id {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
                        .box_photo_id button {
                            margin-top: 10px;
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
                            align-items: center;
                        }
 
@@ -1593,8 +1678,8 @@
                            /*padding-top: 23px;
                padding-bottom: 10px;*/
                        }
-                       .selectWrapper .selectBox button{
-                        padding: 0px;
+                       .selectWrapper .selectBox button {
+                           padding: 0px;
                        }
 
                        .nav_referral_statistic #by {
@@ -1605,20 +1690,21 @@
                            padding-top: 10px;
                            padding-bottom: 8px;
                        }
-                       .selectWrapper .selectBox p{
-                        padding: 0px;
-                        padding-right: 4px;
+                       .selectWrapper .selectBox p {
+                           padding: 0px;
+                           padding-right: 4px;
                        }
-                       .nav__referral i{
-                        padding-left: 10px;
-                        font-size: 12px;
-                            padding-bottom: 3px;
+                       .nav__referral i {
+                           padding-left: 10px;
+                           font-size: 12px;
+                           padding-bottom: 3px;
                        }
-                       .orders_container_table .selectBox:after{
-                        display: none;
+                       .orders_container_table .selectBox:after {
+                           display: none;
                        }
-                       .nav_referral_statistic{
-                        justify-content: space-around;
+                       .nav_referral_statistic {
+                           -ms-flex-pack: distribute;
+                           justify-content: space-around;
                        }
 
                        .orders_container_table .caption_table div {
@@ -1686,6 +1772,8 @@
                            min-width: 100px;
                        }
                        .orders_value_table div:last-child {
+                           -webkit-box-pack: end;
+                           -ms-flex-pack: end;
                            justify-content: flex-end;
                        }
 
@@ -1748,11 +1836,13 @@
                            margin-top: 8px;
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            background-color: rgb(21, 20, 63);
                        }
 
                        .notifications_form .support_forma {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -1764,11 +1854,15 @@
                            font-size: 20px;
                            font-family: "Helvetica Neue";
                            color: rgb(255, 255, 255);
+                           -webkit-transition: all 0.3s;
+                           -o-transition: all 0.3s;
                            transition: all 0.3s;
                            cursor: pointer;
                        }
 
                        .notifications_form .button_change {
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
                            margin-top: 20px;
                        }
@@ -1833,14 +1927,23 @@
                        }
                        /**/
                        .generate_link {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: reverse;
+                           -ms-flex-direction: column-reverse;
                            flex-direction: column-reverse;
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
+                           -webkit-box-align: center;
+                           -ms-flex-align: center;
                            align-items: center;
                        }
 
                        .generate_link .link_box {
                            width: 100%;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            min-width: auto;
                            margin-right: 0px;
@@ -1850,6 +1953,7 @@
                        .generate_link #link {
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            background-color: rgb(21, 20, 63);
                            font-size: 15px;
@@ -1986,6 +2090,7 @@
                        }
 
                        .box_page_account {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -2045,10 +2150,14 @@
                        }
 
                        .two_factor_box div {
+                           -webkit-box-pack: justify;
+                           -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
 
                        .two_factor_box .info_icon_box {
+                           -webkit-box-flex: 0;
+                           -ms-flex-positive: 0;
                            flex-grow: 0;
                        }
 
@@ -2061,15 +2170,25 @@
                        }
 
                        .caption_table_history_mobile {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
                        }
 
                        .table_history_login {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: column;
                            flex-direction: column;
                        }
 
                        .caption_table_history {
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: column;
                            flex-direction: column;
                            width: 30%;
                            padding-top: 10px;
@@ -2091,10 +2210,16 @@
                        }
 
                        .table_history_login div:last-child {
+                           -webkit-box-orient: horizontal;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: row;
                            flex-direction: row;
                        }
 
                        .table_history_login .box_mobile_table_history .table_history {
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: column;
                            flex-direction: column;
                            width: 70%;
                            padding-top: 10px;
@@ -2102,6 +2227,8 @@
                        }
 
                        .box_mobile_table_history {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
                            border-bottom: 1px solid #23265a;
                        }
@@ -2141,6 +2268,7 @@
                        }
                        /*support*/
                        .support_page .support_forma {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -2154,6 +2282,7 @@
                        .support_page .support_forma p input {
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            background-color: rgb(21, 20, 63);
                            font-size: 15px;
@@ -2172,6 +2301,7 @@
                        .support_page .input_pass_old p input {
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                            background-color: rgb(21, 20, 63);
                            font-size: 15px;
@@ -2182,6 +2312,8 @@
                        }
 
                        .support_page .support_button {
+                           -webkit-box-pack: center;
+                           -ms-flex-pack: center;
                            justify-content: center;
                        }
                        /**/
@@ -2231,8 +2363,6 @@
                        }
 
                        .nav_bar_chenge {
-                           background-image: -moz-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
-                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
                            background-image: -ms-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
                        }
 
@@ -2248,6 +2378,7 @@
                            border-style: solid;
                            background-color: rgb(21, 20, 63);
                            height: 43px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
@@ -2268,10 +2399,12 @@
                            border-style: solid;
                            background-color: rgb(21, 20, 63);
                            height: 43px;
+                           -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
 
                        .change_password_page .input_pass_new {
+                           -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                        }
 
@@ -2379,7 +2512,7 @@
                        }
 
                        .nav-table span {
-                           font-size: 15px;
+                           font-size: 13px;
                            margin-left: 15px;
                        }
 
@@ -2408,6 +2541,8 @@
 
 
                        .container-menu-mobile {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
                        }
 
@@ -2421,7 +2556,7 @@
                        }
 
                        .login_histoty {
-                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%)
                        }
 
                        .incorrect {
@@ -2433,6 +2568,8 @@
                        }
 
                        .orders_container_table #by {
+                           display: -webkit-box;
+                           display: -ms-flexbox;
                            display: flex;
                        }
 
@@ -2465,6 +2602,7 @@
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 336px) {
                        /*Change password*/
                        .nav_bar_chenge a {
@@ -2491,12 +2629,16 @@
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (max-width: 375px) {
                        .en_ru_submenu {
                            left: -35px;
                        }
 
                        .nav-footer {
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                           -ms-flex-direction: column;
                            flex-direction: column;
                            text-align: center;
                            width: 100%;
@@ -2508,6 +2650,8 @@
 
                        .nav-footer li {
                            border-bottom: 1px solid #232658;
+                           -webkit-transition: all 0.3s;
+                           -o-transition: all 0.3s;
                            transition: all 0.3s;
                        }
 
@@ -2552,6 +2696,7 @@
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
+
                    @media screen and (min-width: 600px) {
                        .box-1_caption_table_deposit_mobile {
                            display: none;
@@ -2570,6 +2715,7 @@
                        }
                    }
                    /*4k*/
+
                    @media screen and (min-width: 1980px) {
                        .home {
                            background-size: contain;
