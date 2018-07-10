@@ -3,7 +3,7 @@
 .container-menu-mobile {
   position: relative;
   top: -55px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*margin: 35px auto 0;*/
   /*width: 300px;*/
   /*height: 534px;*/
