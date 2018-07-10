@@ -709,5 +709,9 @@
   .datepicker--day-name{
     font-size: 11px;
   }
+  .datepicker--cell.-selected-:after{
+    width: 16px;
+    height: 16px;
+  }
 }
     
