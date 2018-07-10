@@ -61,6 +61,8 @@
 	border-right: 1px solid #282873;
 	transition:  all 0.5s;
 }
+
+
 .index_link_beta a:visited{
 	color: #9abee4;
 	background-color: #2f9e6b;
