@@ -2000,8 +2000,8 @@
                        .referral_table_container .nav__referral input {
                            font-size: 13px;
                            margin-left: -3px;
-                           width: 0;
-                           opacity: 0;
+                           width: 30px;
+                           opacity: 1;
                            position: relative;
                            left: -90px;
                        }
