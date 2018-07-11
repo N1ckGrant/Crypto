@@ -1238,7 +1238,7 @@ section {
     background-image: -moz-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
     background-image: -o-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
     background-image: -webkit-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
-    
+
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0px 0px;
@@ -2612,9 +2612,9 @@ input[type=checkbox]:checked+label:before {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .referral_table_container #my_table tr th {
@@ -3302,9 +3302,9 @@ input[type=checkbox]:checked+label:before {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .orders_container_table h2 {
