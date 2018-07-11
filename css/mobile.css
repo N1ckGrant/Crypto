@@ -588,7 +588,7 @@
                            flex-wrap: wrap;
                            width: 100%;
                        }
-                       
+
                        .btn_box_mobile p {
                            width: 75%;
                        }
@@ -1237,8 +1237,9 @@
                        }
 
                        .forma_chenge_pass .button_change input {
-                           padding: 16px 102px 16px 97px;
-                           width: 257px;
+                           /*padding: 16px 102px 16px 97px;*/
+                           width: 200px;
+
                        }
                        /*депозит*/
                        .title_deposit {
@@ -1442,7 +1443,7 @@
                        }
                        /*статическая страницв*/
                        .static_page_header {
-                           margin-bottom: 10px;
+                           margin-bottom: 0px;
                        }
 
                        .static_container {
@@ -1668,15 +1669,12 @@
                        }
 
                        .orders_container_table .nav_referral_statistic .nav__referral input {
-                           font-size: 15px;
-                           width: 0px;
-                           opacity: 0;
-                           margin-left: -6px;
+                           font-size: 13px;
+                           margin-left: 0px;
+                           width: 73px;
+                           opacity: 1;
                            position: relative;
-                           left: -90px;
-                           /*display: none;*/
-                           /*padding-top: 23px;
-               padding-bottom: 10px;*/
+                           left: 0px;
                        }
                        .selectWrapper .selectBox button {
                            padding: 0px;
@@ -1854,9 +1852,9 @@
                        .notifications_form .button_change input {
                            background-color: #2b4fe9;
                            /*padding: 19px 117px 18px 116px;*/
-                           width: 290px;
+                           width: 200px;
                            border: 1px solid #23265a;
-                           font-size: 20px;
+                           font-size: 15px;
                            font-family: "Helvetica Neue";
                            color: rgb(255, 255, 255);
                            -webkit-transition: all 0.3s;
@@ -2600,6 +2598,7 @@
                        #data_from:before {
                            width: 18px;
                            height: 18px;
+                           display: none;
                        }
                        .selectWrapper .selectBox p {
                            font-size: 14px;
@@ -2614,11 +2613,11 @@
                            font-size: 14px;
                            padding: 10px;
                        }
-                       .selectBox:after{
-                        display: none;
+                       .selectBox:after {
+                           display: none;
                        }
-                       .block_select{
-                        margin-left: 0px;
+                       .block_select {
+                           margin-left: 0px;
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
@@ -2716,7 +2715,6 @@
                        .selectWrapper .selectBox p {
                            font-size: 13px;
                        }
-                       
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
