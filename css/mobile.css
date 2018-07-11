@@ -1272,14 +1272,14 @@
                        }
 
                        .deposit_page_container .title_deposit {
-                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .deposit_page_container .specification_deposit {
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .container_deposit {
@@ -1291,7 +1291,7 @@
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .select_deposit div {
@@ -1327,7 +1327,7 @@
                            color: #2b4fe9;
                            padding-top: 16px;
                            margin-top: 10px;
-                           background-image: -ms-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
                        }
 
                        .caption_table_deposit {
@@ -2373,7 +2373,7 @@
                        }
 
                        .nav_bar_chenge {
-                           background-image: -ms-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
                        }
 
                        .input_pass_old p {
