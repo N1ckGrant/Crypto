@@ -98,12 +98,12 @@
                         </form>
                         <div class="box_table_tabs ">
                             <div class="nav_block_left tabs">
-                                <a class="tab-link current" data-tab="tab-1" href="#">USDT</a>
-                                <a class="tab-link" data-tab="tab-2" href="#">BTC</a>
-                                <a class="tab-link" data-tab="tab-3" href="#">ETH</a>
-                                <a class="tab-link" data-tab="tab-4" href="#">Marked</a>
+                                <span class="tab-link current" data-tab="tab-1" href="#">USDT</span>
+                                <span class="tab-link" data-tab="tab-2" >BTC</span>
+                                <span class="tab-link" data-tab="tab-3" href="#">ETH</span>
+                                <span class="tab-link" data-tab="tab-4" href="#">Marked</span>
                             </div>
-                            <div class="box_table_block_left tab-content current" id="tab-1">
+                            <div class="box_table_block_left tab-content current" id="tab-1"> 
                                 <div class="nav_table_block_left">
                                     <a href="#">Coin</a>
                                     <a href="#">Last Price</a>
@@ -227,14 +227,16 @@
 
                     </div>
                     <div class="block_right">
-                        <form action="">
-                            <div class="nav_block_right">
+                        <!-- <form action=""> -->
+                            <div class="nav_block_right tabs_sell tabs ">
                                 <input type="radio" id="BUY">
-                                <label for="BUY">BUY</label>
+                                <label for="BUY" class="tab-link current2" data-tab="tab-20">BUY</label>
                                 <input type="radio" id="SELL">
-                                <label for="SELL">SELL</label>
+                                <label for="SELL" class="tab-link" data-tab="tab-21">SELL</label>
                             </div>
-                            <div class="order_box_block_right tabs">
+                            <!-- -------------------------- -->
+                            <div class="box_sell_tabs tab-content_sell_buy current2"id="tab-20">
+                            <div class="order_box_block_right subtabs">
                                 <input type="radio" id="limit_Order">
                                 <label for="limit_Order" class="tab-link current" data-tab="tab-10">Limit Order</label>
                                 <input type="radio" id="Market Order">
@@ -242,7 +244,10 @@
                                 <input type="radio" id="Stop-Loss">
                                 <label for="Stop-Loss" class="tab-link " data-tab="tab-12">Stop-Loss</label>
                             </div>
+                                <!-- -------------------------- -->
+                                
                             <div class="box_tabs tab-content_right current" id="tab-10">
+                                <form action="">
                                 <div class="block_right_deposit">
                                     <span>Available 0.0000000 USDT</span>
                                     <span>Deposit</span>
@@ -264,8 +269,12 @@
                                         <input class="buy_smt" type="submit" value="BUY SMT">
                                     </div>
                                 </div>
+                                </form>
                             </div>
+                            
+                            
                             <div class="box_tabs tab-content_right" id="tab-11">
+                                <form action="">
                                 <div class="block_right_deposit">
                                     <span>@Available 0.0000000 USDT</span>
                                     <span>Deposit</span>
@@ -287,8 +296,79 @@
                                         <input class="buy_smt" type="submit" value="BUY SMT">
                                     </div>
                                 </div>
+                                 </form>
                             </div>
-                        </form>
+                           
+                            </div>
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+                            <div class="box_sell_tabs tab-content_sell_buy" id="tab-21" >
+                           <div class="order_box_block_right subtabs">
+                                <input type="radio" id="limit_Order">
+                                <label for="limit_Order" class="tab-link current" data-tab="tab-30">Limit Order</label>
+                                <input type="radio" id="Market Order">
+                                <label for="Market Order" class="tab-link" data-tab="tab-31">Market Order</label>
+                                <input type="radio" id="Stop-Loss">
+                                <label for="Stop-Loss" class="tab-link " data-tab="tab-32">Stop-Loss</label>
+                            </div>
+                            <!-- -------------------------- -->
+                            
+                            <div class="box_tabs tab-content_right current" id="tab-30">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            
+                            
+                            <div class="box_tabs tab-content_right" id="tab-31">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>@Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            
+                            </div>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+
+                        <!-- </form> -->
                     </div>
                 </div>
                 <div class="section_exchange">

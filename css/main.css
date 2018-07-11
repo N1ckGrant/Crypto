@@ -3932,6 +3932,15 @@ input[type=checkbox]:checked+label:before {
 .tab-content_right.current {
     display: inherit;
 }
+.tab-content_sell_buy {
+    display: none;
+}
+.tab-content_sell_buy.current2{
+    display: inherit;
+}
+
+
+
 
 
 
@@ -4315,7 +4324,7 @@ a.btn_close {}
     padding-bottom: 20px;
 }
 
-.nav_block_left a {
+.nav_block_left span {
     position: relative;
     color: #3c407a;
     -webkit-transition: all 0.3s;
@@ -4326,11 +4335,11 @@ a.btn_close {}
     font-family: "Helvetica";
 }
 
-.nav_block_left a:hover {
+.nav_block_left span:hover {
     color: #fff;
 }
 
-.nav_block_left a:after {
+.nav_block_left span:after {
     content: "";
     border-bottom: 2px solid #2b4fe9;
     height: 1px;
@@ -4343,7 +4352,7 @@ a.btn_close {}
     transition: all 0.2s;
 }
 
-.nav_block_left a:hover:after {
+.nav_block_left span:hover:after {
     content: "";
     border-bottom: 2px solid #2b4fe9;
     height: 1px;
@@ -4353,7 +4362,7 @@ a.btn_close {}
     bottom: -22px;
 }
 
-.nav_block_left a:active:after {
+.nav_block_left span:active:after {
     content: "";
     border-bottom: 2px solid #2b4fe9;
     height: 1px;
@@ -4482,10 +4491,26 @@ a.btn_close {}
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
+.tab-link.current2 {
+    display: inherit;
+        color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tab-link.current2:after{
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+}
 
 .nav_block_right label:hover:after {
     content: "";
-    border-bottom: 2px solid #2b4fe9;
+    border-bottom: 2px solid #fff;
     height: 1px;
     position: absolute;
     width: 100%;
@@ -5121,6 +5146,11 @@ marquee{
     color: #484c83;
     margin-bottom: 50px;
 }
+
+.order_box_block_right label.current{
+        color: #fff;
+    background-color: #474b8b;
+}
 /*выпадающие селекты*/
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto:300,400");
 * {
@@ -5452,4 +5482,5 @@ select {
 }
 #yellow .selectWrapper .selectBox.active button {
   color: #ca9229;
+}
 }
