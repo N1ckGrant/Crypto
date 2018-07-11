@@ -721,9 +721,9 @@ section {
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 41px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .table-content {
@@ -731,9 +731,9 @@ section {
     margin-left: 30px;
     margin-bottom: 65px;
     padding-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .ticker_head {
@@ -980,9 +980,9 @@ section {
 
 .home-footer {
     width: 100%;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .ticker_head {
@@ -1235,9 +1235,9 @@ section {
 /*авторизация*/
 
 .autorization {
-    background-image: -webkit-linear-gradient( 100deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
-    background-image: -o-linear-gradient( 100deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
-    background-image: linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0px 0px;
@@ -1463,9 +1463,11 @@ section {
     font-size: 28px;
     height: 80px;
     margin-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: -o-linear-gradient( 160deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+
     -webkit-box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
     box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
@@ -1490,9 +1492,10 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     /*margin-bottom: 265px;*/
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    /*background-image: linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);*/
 }
 
 .chenge_pass span {
@@ -1856,9 +1859,9 @@ input[type=checkbox]:checked+label:before {
 /*404*/
 
 .page_404 {
-    background-image: -webkit-linear-gradient( 100deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
-    background-image: -o-linear-gradient( 100deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
-    background-image: linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
     background-size: cover;
 }
 
@@ -2518,9 +2521,9 @@ input[type=checkbox]:checked+label:before {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .notifications_history tr th {
@@ -2560,9 +2563,9 @@ input[type=checkbox]:checked+label:before {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .referral_system_container p {
@@ -3578,9 +3581,9 @@ input[type=checkbox]:checked+label:before {
     padding-right: 30px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 .box_page_account .basic_info_box{
      width: 48%;
@@ -3589,9 +3592,9 @@ input[type=checkbox]:checked+label:before {
     padding-right: 30px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 
@@ -3788,9 +3791,9 @@ input[type=checkbox]:checked+label:before {
     margin-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
 }
 
 .login_histoty .title_block {
@@ -4251,9 +4254,9 @@ a.btn_close {}
     width: 20%;
     /*overflow-y: hidden;*/
     /*background-color: #15133b;*/
-    background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
 }
 
 
@@ -4288,9 +4291,9 @@ a.btn_close {}
     height: 100%;
     width: 60%;
     /*background-color: #15133b;*/
-    background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
 }
 
 .block_right {
@@ -4300,9 +4303,9 @@ a.btn_close {}
     padding-left: 10px;
     padding-right: 10px;
     /*background-color: #15133b;*/
-    background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+    background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
 }
 
 .title_block_left {

@@ -1202,9 +1202,10 @@
                        .chenge_pass {
                            padding-right: 10px;
                            padding-left: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgba(11, 12, 43) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .chenge_pass a {
@@ -1272,29 +1273,29 @@
                            background-image: none;
                            padding-right: 0px;
                            padding-left: 0px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
                        .referral_system_container {
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .deposit_page_container .title_deposit {
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .deposit_page_container .specification_deposit {
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .container_deposit {
@@ -1306,9 +1307,9 @@
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .select_deposit div {
@@ -1344,9 +1345,9 @@
                            color: #2b4fe9;
                            padding-top: 16px;
                            margin-top: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .caption_table_deposit {
@@ -1651,9 +1652,9 @@
                        }
                        .orders_container_table {
 
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .orders_container_table .orders_table::-webkit-scrollbar {
@@ -1904,9 +1905,9 @@
                            margin-top: 10px;
                            padding-left: 10px;
                            padding-right: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .notifications_history h2 {
@@ -2013,14 +2014,14 @@
                        .referral_table_container {
                            padding-right: 10px;
                            padding-left: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
                        .orders_container_table {
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .referral_system_statisticc_page .nav__referral {
@@ -2136,15 +2137,15 @@
                        }
                        .two_factor_box {
 
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
                        .box_page_account .basic_info_box {
 
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .box_page_account {
@@ -2221,9 +2222,9 @@
 
                        .login_histoty {
                            margin-top: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-    background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .two_factor_box {
@@ -2425,13 +2426,11 @@
 
                        .nav_bar_chenge {
 
-                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54)), color-stop(50%, rgb(20, 19, 59)), to(rgb(20, 23, 81)));
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
 
-                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
 
-                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
-
-                           background-image: linear-gradient( 0deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                        }
 
                        .input_pass_old p {
@@ -2487,9 +2486,9 @@
                        .chart {
                            margin-right: 10px;
                            margin-left: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85) 73%, rgba(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85) 73%, rgba(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85) 73%, rgba(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .slick-slide img {}
@@ -2568,9 +2567,9 @@
                            margin-left: 10px;
                            margin-right: 10px;
                            margin-bottom: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .sp_sort {
@@ -2626,18 +2625,18 @@
                        /*pravki*/
                        .box_page_account .basic_info_box,
                        .two_factor_box {
-                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54)), color-stop(50%, rgb(20, 19, 59)), to(rgb(20, 23, 81)));
-                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
-                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
-                           background-image: linear-gradient( 0deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                        }
 
                        .login_histoty {
 
-                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
-                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
-                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54)), color-stop(50%, rgb(20, 19, 59)), to(rgb(20, 23, 81)));
-                           background-image: linear-gradient( 0deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%)
+                           background-image: -webkit-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           
+                           background-image: -moz-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%)
                        }
 
                        .incorrect {
@@ -2691,9 +2690,9 @@
                            margin-left: 0px;
                        }
                        .home-footer {
-                           background-image: -webkit-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
-                           background-image: linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
@@ -2722,7 +2721,6 @@
                        .selectWrapper .selectBox ul {
                            left: -50px;
                        }
-                       
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
