@@ -1273,9 +1273,9 @@
                        }
 
                        .deposit_page_container .title_deposit {
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                            
                        }
 
@@ -1283,9 +1283,9 @@
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .container_deposit {
@@ -1297,9 +1297,9 @@
                            width: 100%;
                            -ms-flex-pack: distribute;
                            justify-content: space-around;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .select_deposit div {
@@ -1335,9 +1335,9 @@
                            color: #2b4fe9;
                            padding-top: 16px;
                            margin-top: 10px;
-                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
-                           background-image: linear-gradient( -70deg, rgb(20, 22, 72, 0.8) 0%, rgb(20, 24, 85, 0.8) 73%, rgb(20, 24, 89, 0.8) 100%);
+                           background-image: -webkit-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: -o-linear-gradient( 160deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
+                           background-image: linear-gradient( -70deg, rgb(20, 22, 72) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
 
                        .caption_table_deposit {
@@ -2579,18 +2579,18 @@
                        /*pravki*/
                        .box_page_account .basic_info_box,
                        .two_factor_box {
-                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54, 0.8)), color-stop(50%, rgb(20, 19, 59, 0.8)), to(rgb(20, 23, 81, 0.8)));
-                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
-                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
-                           background-image: linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
+                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54)), color-stop(50%, rgb(20, 19, 59)), to(rgb(20, 23, 81)));
+                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: linear-gradient( 0deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                        }
 
                        .login_histoty {
                           
-                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
-                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%);
-                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54, 0.8)), color-stop(50%, rgb(20, 19, 59, 0.8)), to(rgb(20, 23, 81, 0.8)));
-                           background-image: linear-gradient( 0deg, rgb(20, 18, 54, 0.8) 0%, rgb(20, 19, 59, 0.8) 50%, rgb(20, 23, 81, 0.8) 100%)
+                           background-image: -webkit-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -o-linear-gradient( bottom, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
+                           background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(20, 18, 54)), color-stop(50%, rgb(20, 19, 59)), to(rgb(20, 23, 81)));
+                           background-image: linear-gradient( 0deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%)
                        }
 
                        .incorrect {
