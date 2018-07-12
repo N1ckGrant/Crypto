@@ -52,4 +52,27 @@ function showTarget(targets, targetId) {
 
 main()
 
+$(document).ready(function(){
+  console.log('my_tabs_home')
+  
+  $('div.nav-table span').click(function(){
+    $('div.nav-table span').removeClass('active_tabs');
+    $('svg.svg_icon_home_table').removeClass('active_tabs_svg');
+    $(this).addClass('active_tabs',);  
+    $(this).find("svg.svg_icon_home_table").addClass('active_tabs_svg');
+    // $('.nav-table svg').removeClass('active_tabs_svg');
+
+  })
+
+})
+// $(document).ready(function(){
+//   console.log('my_tabs_svg')
+  
+//   $('div.nav-table span svg.svg_icon_home_table').click(function(){
+    
+
+   
+//   })
+
+// })
 

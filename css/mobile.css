@@ -3,11 +3,14 @@
                            -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                            height: 100%;
-                           width: 90%;
+                           width: 100%;
                            margin: auto;
                            -webkit-box-pack: justify;
                            -ms-flex-pack: justify;
                            justify-content: space-between;
+                       }
+                       .stock_exchange_page{
+                          width: 90%;
                        }
                        .block_left {
 
@@ -69,11 +72,14 @@
                            -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
                            height: 100%;
-                           width: 90%;
+                           width: 100%;
                            margin: auto;
                            -webkit-box-pack: justify;
                            -ms-flex-pack: justify;
                            justify-content: space-between;
+                       }
+                       .stock_exchange_page{
+                          width: 90%;
                        }
                        .block_left {
                            min-width: 260px;
@@ -829,6 +835,9 @@
 
                            width: 100%;
                        }
+                        .stock_exchange_page{
+                          width: 100%;
+                       }
                        .block_right_mobile {
 
                            width: 29%;
@@ -926,6 +935,9 @@
                        }
                        .exchange_body .section_exchange {
                            width: 97%;
+                       }
+                        .stock_exchange_page{
+                          width: 97%;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -1134,7 +1146,9 @@
                            margin-bottom: 50px;
                        }
 
-
+                        .nav-table span:hover{
+                              border-bottom: 1px solid transparent;
+                        }
                        section {
                            margin-right: 6px;
                            margin-left: 6px;
@@ -1667,6 +1681,14 @@
                            -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
+                       .autosize{
+                         background-color: rgb(21, 20, 63);
+                           border-width: 1px;
+                           border-color: rgb(72, 76, 131);
+                           padding-left: 10px;
+                           -webkit-box-sizing: border-box;
+                           box-sizing: border-box;
+                       }
 
                        .verification_page_form .calendar_box {
                            font-size: 12px;
@@ -1719,6 +1741,7 @@
                            display: flex;
                            -ms-flex-wrap: wrap;
                            flex-wrap: wrap;
+                           justify-content: center;
                        }
 
                        .box_photo_id button {
@@ -1732,22 +1755,23 @@
                        }
 
                        .verification_page_form #passports_photo {
-                           width: 100%;
+                           width: 290px;
                            font-size: 12px;
                            /*height: 46px;*/
                        }
 
                        .verification_page_form #address_residence {
-                           width: 100%;
+                           width: 290px;
                            font-size: 12px;
+                               padding-right: 13px;
 
                            /*height: 46px;*/
                        }
 
                        .verification_page_form #plus_file {
-                           width: 100%;
-                           padding-top: 21px;
-                           padding-bottom: 16px;
+                           width: 290px;
+                           /*padding-top: 21px;
+                           padding-bottom: 16px;*/
                            font-size: 12px
                            /*height: 46px;*/
                        }
@@ -1952,7 +1976,7 @@
                        .recovery_pass .autorization_form {}
                        /*Registration*/
                        .registration_form .igare_registration {
-                           font-size: 15px;
+                           font-size: 13px;
                        }
                        /**/
                        .login_confirmation_page .button_login {
@@ -2595,6 +2619,7 @@
 
                        .button_change input {
                            font-size: 15px;
+                               background-color: #2b4fe9;
                        }
 
                        .change_password_page .input_pass_old input {
@@ -2743,7 +2768,7 @@
                        /*pravki*/
                        .box_page_account .basic_info_box,
                        .two_factor_box {
-
+                            margin-left: 0px;
                            background-image: -webkit-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                            background-image: -o-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                            background-image: -moz-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
