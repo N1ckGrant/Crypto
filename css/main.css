@@ -1883,10 +1883,10 @@ input[type=checkbox]:checked+label:before {
 /*404*/
 
 .page_404 {
-    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -ms-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+    background-image: -moz-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
+    background-image: -o-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
+    background-image: -webkit-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
+    background-image: -ms-linear-gradient( -10deg, rgb(12, 11, 47) 0%, rgb(12, 11, 47) 31%, rgb(14, 14, 64) 65%, rgb(14, 14, 64) 100%);
     background-size: cover;
 }
 
