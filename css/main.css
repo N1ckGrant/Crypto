@@ -223,7 +223,7 @@ input, button { -webkit-appearance: none;}
 
 
 header {
-    margin-bottom: 100px;
+    margin-bottom: 55px;
 }
 
 .home_header {
@@ -5213,6 +5213,7 @@ marquee{
         color: #fff;
     background-color: #474b8b;
 }
+
 /*выпадающие селекты*/
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto:300,400");
 * {

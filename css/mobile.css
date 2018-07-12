@@ -590,6 +590,9 @@
                        .title_404 img {
                            width: 45%;
                        }
+                       .incorrect_password .incorrect {
+                           margin-top: 20px;
+                       }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------------*/
 
@@ -820,39 +823,38 @@
                            width: 100%;
                        }
                        .block_right_mobile {
-                           
+
                            width: 29%;
                            min-width: auto;
                            /*flex-grow: 1;*/
                            flex-shrink: 2;
                        }
-                       .block_center_mobile{
-                        flex-shrink: 1;
+                       .block_center_mobile {
+                           flex-shrink: 1;
                        }
-                       .caption_table_block_right div{
-                        font-size: 13px;
+                       .caption_table_block_right div {
+                           font-size: 13px;
                        }
-                       .table_block_right div{
-                        font-size: 13px;
+                       .table_block_right div {
+                           font-size: 13px;
                        }
-                       .table_block_left div{
-                        font-size: 13px;
+                       .table_block_left div {
+                           font-size: 13px;
                        }
-                       .nav_table_block_left a{
-                        font-size: 14px;
+                       .nav_table_block_left a {
+                           font-size: 14px;
                        }
-                       .table_block_left{
-                        padding-top: 18px;
-                        padding-bottom: 6px;
+                       .table_block_left {
+                           padding-top: 18px;
+                           padding-bottom: 6px;
                        }
-                       .nav_block_left{
-                        margin-top: 15px;
-                        padding-top: 15px;
+                       .nav_block_left {
+                           margin-top: 15px;
+                           padding-top: 15px;
                        }
-                       .block_center{
-                        width: 69%;
+                       .block_center {
+                           width: 69%;
                        }
-
                    }
                    /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -915,8 +917,8 @@
                        .chart_index span {
                            font-size: 50px;
                        }
-                       .exchange_body .section_exchange{
-                          width: 97%;
+                       .exchange_body .section_exchange {
+                           width: 97%;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -944,23 +946,25 @@
                        .caption_table div {
                            font-size: 14px;
                        }
-                       .block_center{
-                        order: 1;
-                        width: 100%;
-                        margin-left: 0px;
-
+                       .block_center {
+                           order: 1;
+                           width: 100%;
+                           margin-left: 0px;
                        }
-                       .block_left{
-                        order: 2;
-                        width: 49%;
+                       .block_left {
+                           order: 2;
+                           width: 49%;
                        }
-                       .block_center_mobile{
-                        order: 6;
+                       .block_center_mobile {
+                           order: 6;
                        }
-                       .block_right_mobile{
-                        order: 5;
-                        width: 49%;
-                        margin-top: 0px;
+                       .block_right_mobile {
+                           order: 5;
+                           width: 49%;
+                           margin-top: 0px;
+                       }
+                       .chenge_pass a{
+                        font-size: 11px;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
