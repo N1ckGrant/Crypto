@@ -2908,6 +2908,9 @@
                        .selectWrapper .selectBox p {
                            font-size: 13px;
                        }
+                       .nav_mobile_all .menu-right li{
+                        margin-right: 17px;
+                       }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
