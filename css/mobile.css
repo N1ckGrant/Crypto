@@ -225,6 +225,7 @@
                            -webkit-box-pack: center;
                            -ms-flex-pack: center;
                            justify-content: center;
+                           align-items: center;
                        }
                        .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
                            color: #484c83;
@@ -371,6 +372,7 @@
                            font-size: 16px;
                            padding-top: 20px;
                            padding-bottom: 20px;
+                           width: 100%;
                        }
                        .autorization_form input {
                            height: 45px;
@@ -532,6 +534,7 @@
                            height: 45px;
                            width: 200px;
                            padding: 0px;
+                           align-items: center;
                        }
                        .title_deposit {
                            font-size: 18px;
@@ -613,10 +616,14 @@
                        .verification_page_form #passports_photo {
                            width: 190px;
                            font-size: 15px;
+                           display: flex;
+                           align-items: center;
                        }
                        .verification_page_form #address_residence {
                            width: 197px;
                            font-size: 15px;
+                           display: flex;
+                           align-items: center;
                        }
                        .verification_page_form #plus_file {
                            width: 100px;
@@ -1114,6 +1121,17 @@
 
                        header {
                            margin-bottom: 50px;
+                       }
+                       .back_img_animate{
+                        background-image: none;
+                        height: 100%;
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: unset;
+    -moz-animation: unset;
+    -webkit-animation: unset;
+    -o-animation: unset;
                        }
 
                        section {
