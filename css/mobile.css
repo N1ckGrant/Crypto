@@ -970,8 +970,19 @@
                            width: 49%;
                            margin-top: 0px;
                        }
-                       .chenge_pass a{
-                        font-size: 11px;
+                       .chenge_pass a {
+                           font-size: 11px;
+                       }
+                       .back_img_animate {
+                           background-image: none;
+                           height: 100%;
+                           background-position: 0px 0px;
+                           background-size: contain;
+                           background-repeat: no-repeat;
+                           animation: unset;
+                           -moz-animation: unset;
+                           -webkit-animation: unset;
+                           -o-animation: unset;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -1122,17 +1133,7 @@
                        header {
                            margin-bottom: 50px;
                        }
-                       .back_img_animate{
-                        background-image: none;
-                        height: 100%;
-    background-position: 0px 0px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: unset;
-    -moz-animation: unset;
-    -webkit-animation: unset;
-    -o-animation: unset;
-                       }
+
 
                        section {
                            margin-right: 6px;
