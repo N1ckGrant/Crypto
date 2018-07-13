@@ -429,6 +429,10 @@ section {
     -ms-flex-align: center;
     align-items: center;
 }
+.menu_nav a svg{
+    width: 20px;
+    fill: #fff;
+}
 
 .sub_menu {
     padding-top: 30px;
@@ -2588,8 +2592,8 @@ input[type=checkbox]:checked+label:before {
 }
 
 .notifications_history tr td {
-    padding-bottom: 27px;
-    padding-top: 33px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 18px;
     font-family: "Helvetica Neue";
     color: #fff;
@@ -2669,21 +2673,28 @@ input[type=checkbox]:checked+label:before {
     background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
 }
 
+.mobile_table_scroll_refferal_common table{
+    width: 100%;
+}
+
 .referral_table_container #my_table tr th {
     /*padding-bottom: 45px;*/
     padding-top: 30px;
     width: 18%;
-    min-width: 143px;
+    min-width: 130px;
     text-align: left;
     font-size: 18px;
     font-family: "Helvetica Neue";
     color: #2641c0;
     line-height: 27px;
 }
+.notifications_history tr th{
+
+}
 
 .referral_table_container #my_table tr td {
-    padding-bottom: 27px;
-    padding-top: 33px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 18px;
     font-family: "Helvetica Neue";
     color: #fff;
@@ -3519,8 +3530,8 @@ input[type=checkbox]:checked+label:before {
     font-size: 18px;
     font-family: "Helvetica Neue";
     font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
 }
 
@@ -4314,7 +4325,20 @@ a.btn_close {}
 
 .operation_history_table .caption_table {
     border-bottom: 0px;
-    width: 60%;
+    width: 100%;
+}
+.operation_hist_row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.operation_hist_row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #23265a;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
 }
 
 
@@ -4544,9 +4568,9 @@ a.btn_close {}
     -ms-flex-pack: justify;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #232658;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .table_block_left div {
@@ -5096,8 +5120,8 @@ a.btn_close {}
 
 .table_block_right {
     padding-right: 8px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-bottom: 1px solid #23265a;
 }
 

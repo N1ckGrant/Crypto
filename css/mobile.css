@@ -294,6 +294,15 @@
                            min-width: 160px;
                            margin-right: 10px;
                        }
+                       .notifications_history .mobile_table_scroll_refferal_common tr th {
+                           min-width: 120px;
+                           padding-right: 20px;
+                           width: auto;
+                       }
+                       .notifications_history .mobile_table_scroll_refferal_common tr td {
+                           min-width: 120px;
+                           padding-right: 20px;
+                       }
                        .nav_orders {
                            font-size: 18px;
                        }
@@ -429,7 +438,7 @@
                            font-size: 17px;
                            height: 45px;
                        }
-                        .calendar_box .calendar p {
+                       .calendar_box .calendar p {
                            margin-left: 10px;
                        }
 
@@ -499,8 +508,8 @@
                        }
 
                        .notifications_history tr td {
-                           padding-top: 20px;
-                           padding-bottom: 20px;
+                           padding-top: 10px;
+                           padding-bottom: 10px;
                        }
                        .referral_system_container .button_change {
                            margin-top: 50px;
@@ -1016,6 +1025,26 @@
                            -webkit-animation: unset;
                            -o-animation: unset;
                        }
+                       .mobile_table_scroll_refferal_common {
+                           overflow-x: scroll;
+                           overflow-y: hidden;
+                       }
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .mobile_table_scroll_refferal_common::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
 
@@ -1165,6 +1194,15 @@
                        }
                        .orders_value_table div {
                            font-size: 13px;
+                       }
+                       .notifications_history tr th{
+                        font-size: 14px;
+                       }
+                       .notifications_history .mobile_table_scroll_refferal_common tr th {
+                           min-width: 110px;
+                       }
+                       .notifications_history .mobile_table_scroll_refferal_common tr td {
+                           min-width: 110px;
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------------*/
@@ -1717,7 +1755,7 @@
                            width: 100%;
                            margin-right: 0px;
                        }
-                       
+
                        .autosize {
                            background-color: rgb(21, 20, 63);
                            border-width: 1px;
