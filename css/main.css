@@ -229,7 +229,8 @@ button {
 
 
 header {
-    margin-bottom: 55px;
+    margin-bottom: 15px;
+
 }
 
 .home_header {
@@ -4874,6 +4875,10 @@ a.btn_close {}
     width: 80%;
     height: 55px;
     color: #fff;
+    cursor: pointer;
+}
+.buy_smt:hover{
+    background-color: #2f7926;
 }
 
 .btn_box {
@@ -5083,12 +5088,14 @@ a.btn_close {}
 }
 
 .table_block_right div {
+    font-size: 15px;
     color: #fff;
-    font-size: 16px;
+    /*font-size: 16px;*/
     font-family: "Helvetica";
 }
 
 .table_block_right {
+    padding-right: 8px;
     padding-bottom: 15px;
     padding-top: 15px;
     border-bottom: 1px solid #23265a;
@@ -5112,8 +5119,9 @@ a.btn_close {}
     max-height: 495px;
 }
 
+
 .scroll_table_block_right div {
-    padding-right: 6px;
+    /*padding-right: 6px;*/
 }
 
 .scroll_table_block_right::-webkit-scrollbar {
