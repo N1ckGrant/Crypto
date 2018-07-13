@@ -65,14 +65,16 @@ $(document).ready(function(){
   })
 
 })
-// $(document).ready(function(){
-//   console.log('my_tabs_svg')
+
+$(document).ready(function(){
+  console.log('my_tabs')
   
-//   $('div.nav-table span svg.svg_icon_home_table').click(function(){
-    
+  $('div.nav_orders div').click(function(){
+    $('div.nav_orders div').removeClass('active_tabs');
+    $(this).addClass('active_tabs',);  
+    ;
+    // $('.nav-table svg').removeClass('active_tabs_svg');
 
-   
-//   })
+  })
 
-// })
-
+})

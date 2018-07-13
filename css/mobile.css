@@ -9,8 +9,8 @@
                            -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
-                       .stock_exchange_page{
-                          width: 90%;
+                       .stock_exchange_page {
+                           width: 90%;
                        }
                        .block_left {
 
@@ -78,8 +78,8 @@
                            -ms-flex-pack: justify;
                            justify-content: space-between;
                        }
-                       .stock_exchange_page{
-                          width: 90%;
+                       .stock_exchange_page {
+                           width: 90%;
                        }
                        .block_left {
                            min-width: 260px;
@@ -265,6 +265,23 @@
                            overflow-y: hidden;
                        }
 
+                       .orders_container_table .orders_table::-webkit-scrollbar {
+                           height: 6px;
+                       }
+
+                       .orders_container_table .orders_table::-webkit-scrollbar-track {
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                           border-radius: 4px;
+                           height: 6px;
+                           background-color: #100f3f;
+                       }
+
+                       .orders_container_table .orders_table::-webkit-scrollbar-thumb {
+                           border-radius: 10px;
+                           -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+                           background-color: #474b8b;
+                       }
+
                        .notifications_history tr th {
                            font-size: 16px;
                            line-height: 18px;
@@ -412,7 +429,9 @@
                            font-size: 17px;
                            height: 45px;
                        }
-
+                        .calendar_box .calendar p {
+                           margin-left: 10px;
+                       }
 
                        .caption_table div {
                            font-size: 17px;
@@ -478,6 +497,7 @@
                        .referral_table_container h2 {
                            font-size: 20px;
                        }
+
                        .notifications_history tr td {
                            padding-top: 20px;
                            padding-bottom: 20px;
@@ -835,8 +855,8 @@
 
                            width: 100%;
                        }
-                        .stock_exchange_page{
-                          width: 100%;
+                       .stock_exchange_page {
+                           width: 100%;
                        }
                        .block_right_mobile {
 
@@ -936,8 +956,8 @@
                        .exchange_body .section_exchange {
                            width: 97%;
                        }
-                        .stock_exchange_page{
-                          width: 97%;
+                       .stock_exchange_page {
+                           width: 97%;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -1065,9 +1085,9 @@
                            padding: 21px 99px 18px 99px;
                        }
                        .block_left {
-                           -webkit-box-ordinal-group: 3;
-                           -ms-flex-order: 2;
-                           order: 2;
+                           /*-webkit-box-ordinal-group: 3;*/
+                           -ms-flex-order: 1;
+                           order: 1;
                            height: 620px;
                            min-width: 304px;
                            width: 100%;
@@ -1075,9 +1095,9 @@
                            margin-bottom: 10px;
                        }
                        .block_center {
-                           -webkit-box-ordinal-group: 2;
-                           -ms-flex-order: 1;
-                           order: 1;
+                           /*-webkit-box-ordinal-group: 2;*/
+                           -ms-flex-order: 2;
+                           order: 2;
                            height: 620px;
                            width: 100%;
                            /*min-width: 304px;*/
@@ -1086,12 +1106,21 @@
                        }
                        .block_right {
                            width: 100%;
-                           -webkit-box-ordinal-group: 4;
+                           /*-webkit-box-ordinal-group: 4;*/
                            -ms-flex-order: 3;
                            order: 3;
                            height: 620px;
                            min-width: 304px;
                            margin-right: 0px;
+                       }
+                       .block_left_mobile {
+                           order: 4;
+                       }
+                       .block_right_mobile {
+                           order: 5;
+                       }
+                       .block_center_mobile {
+                           order: 6;
                        }
                        .nav_orders {
                            font-size: 18px;
@@ -1146,9 +1175,9 @@
                            margin-bottom: 50px;
                        }
 
-                        .nav-table span:hover{
-                              border-bottom: 1px solid transparent;
-                        }
+                       .nav-table span:hover {
+                           border-bottom: 1px solid transparent;
+                       }
                        section {
                            margin-right: 6px;
                            margin-left: 6px;
@@ -1681,8 +1710,16 @@
                            -webkit-box-sizing: border-box;
                            box-sizing: border-box;
                        }
-                       .autosize{
-                         background-color: rgb(21, 20, 63);
+                       .country_input {
+                           width: 100%;
+                       }
+                       .verification_page_form .input_pass_new.country_input p {
+                           width: 100%;
+                           margin-right: 0px;
+                       }
+                       
+                       .autosize {
+                           background-color: rgb(21, 20, 63);
                            border-width: 1px;
                            border-color: rgb(72, 76, 131);
                            padding-left: 10px;
@@ -1763,7 +1800,7 @@
                        .verification_page_form #address_residence {
                            width: 290px;
                            font-size: 12px;
-                               padding-right: 13px;
+                           padding-right: 13px;
 
                            /*height: 46px;*/
                        }
@@ -1890,8 +1927,9 @@
                        .orders_container_table .orders_value_table div {
                            font-size: 12px;
                            padding-bottom: 20px;
-                           padding-top: 10px;
+                           padding-top: 20px;
                            height: 15px;
+                           font-weight: 400;
                        }
 
                        .orders_container_table .orders_value_table {
@@ -2619,7 +2657,7 @@
 
                        .button_change input {
                            font-size: 15px;
-                               background-color: #2b4fe9;
+                           background-color: #2b4fe9;
                        }
 
                        .change_password_page .input_pass_old input {
@@ -2768,7 +2806,7 @@
                        /*pravki*/
                        .box_page_account .basic_info_box,
                        .two_factor_box {
-                            margin-left: 0px;
+                           margin-left: 0px;
                            background-image: -webkit-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                            background-image: -o-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
                            background-image: -moz-linear-gradient( -70deg, rgb(20, 18, 54) 0%, rgb(20, 19, 59) 50%, rgb(20, 23, 81) 100%);
@@ -2933,8 +2971,8 @@
                        .selectWrapper .selectBox p {
                            font-size: 13px;
                        }
-                       .nav_mobile_all .menu-right li{
-                        margin-right: 17px;
+                       .nav_mobile_all .menu-right li {
+                           margin-right: 17px;
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/

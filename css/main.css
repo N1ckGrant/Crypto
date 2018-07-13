@@ -690,11 +690,14 @@ section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff
+    justify-content: flex-start;
+    color: #fff;
+    height: 100%;
 }
 
 .name_cash img {
-    padding-right: 20px;
+    padding-right: 15px;
+    height: 24px;
 }
 
 .dollars {
@@ -712,6 +715,7 @@ section {
 }
 
 .cash_all {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1674,6 +1678,14 @@ section {
     display: -ms-flexbox;
     display: flex;
     /*width: 100%*/
+    align-items: flex-end;
+}
+.country_input{
+    width: 50%;
+}
+.verification_page_form .input_pass_new.country_input p{
+    width: 100%;
+    margin-right: 15px;
 }
 
 .input_pass_new input {
@@ -2125,13 +2137,15 @@ input[type=checkbox]:checked+label:before {
 
 .verification_page_form .data_calendar {
     width: 100%;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .verification_page_form .input_pass_new p {
     max-width: 716px;
 }
-
+.calendar_box .calendar p{
+    margin-left: 15px;
+}
 .calendar_box {
     width: 50%;
     font-size: 18px;
@@ -2145,6 +2159,7 @@ input[type=checkbox]:checked+label:before {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 .calendar p {
@@ -3433,6 +3448,11 @@ input[type=checkbox]:checked+label:before {
     color: #fff;
     cursor: pointer;
 }
+.nav_orders .active_tabs{
+    border-bottom: 2px solid #2b4fe9;
+    color: #fff;
+    cursor: pointer;
+}
 
 .title_orders {
     width: 50%;
@@ -3500,6 +3520,7 @@ input[type=checkbox]:checked+label:before {
     font-weight: 700;
     padding-top: 20px;
     padding-bottom: 20px;
+    align-items: center;
 }
 
 .orders_value_table div svg {
@@ -5262,8 +5283,13 @@ a.btn_close {}
 }
 
 marquee {
+    width: 100%;
     margin-top: 45px;
     margin-bottom: 45px;
+}
+marquee .row-marquee{
+    margin-left: 20px;
+    height: 100%;
 }
 
 #select_UUID {
