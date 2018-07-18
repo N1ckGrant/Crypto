@@ -4463,7 +4463,9 @@ a.btn_close {}
 
 .box_table_block_left div {
     padding-right: 6px;
-    font-family: "Helvetica";
+    font-family: "14px/1.4 Open Sans,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,monospace";
+    font-size: 12px;
+
 }
 
 .box_table_block_left::-webkit-scrollbar {
@@ -4658,7 +4660,7 @@ a.btn_close {}
 }
 
 .table_block_left div {
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -5063,10 +5065,11 @@ a.btn_close {}
 }
 
 .sell_block_left span {
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     z-index: 1;
-    font-family: "Helvetica";
+    font-family: "14px/1.4 Open Sans,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,monospace";
+    
 }
 
 .sell_block_left .sell_number {
@@ -5076,7 +5079,7 @@ a.btn_close {}
 .bg_red_block_left {
     background-color: #6f1b1c;
     position: absolute;
-    height: 37px;
+    height: 35px;
     width: 20%;
 }
 
@@ -5112,19 +5115,22 @@ a.btn_close {}
     align-items: center;
     position: relative;
     margin-right: 0px;
+    border-bottom: 1px solid #23265a;
 }
 
 .bg_green_block_left {
     background-color: #224b1d;
     position: absolute;
-    height: 37px;
+    height: 35px;
     width: 20%;
 }
 
 .buy_block_left span {
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     z-index: 1;
+    font-family: "14px/1.4 Open Sans,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,monospace";
+    
 }
 
 .buy_block_left .buy_number {
@@ -5206,7 +5212,8 @@ a.btn_close {}
     font-size: 15px;
     color: #fff;
     /*font-size: 16px;*/
-    font-family: "Helvetica";
+    font-family: "14px/1.4 Open Sans,PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,monospace";
+    /*font-size: 12px;*/
 }
 
 .table_block_right {
