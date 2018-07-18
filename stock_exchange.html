@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/menu-mobile.scss">
     <link rel="stylesheet" href="css/mobile-menu.css">
+    <link rel="stylesheet" href="css/all_theme.css">
     <script src="Chart.js-master/Chart.bundle.js"></script>
     <script src="Chart.js-master/utils.js"></script>
     <style>
@@ -21,7 +22,7 @@
     <script src="https://code.jquery.com/jquery-1.9.0.min.js" integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
 </head>
 
-<body class="autorization orders_page exchange_body">
+<body class="autorization orders_page exchange_body white_theme">
     <div class="back_img_animate">
         <header class="static_page_header">
             <div class="container">
@@ -148,9 +149,9 @@
         </header>
         <section class="stock_exchange_page">
             <div class="container">
-                <div class="nav_bar_chenge nav_bar_support">
+                <!-- <div class="nav_bar_chenge nav_bar_support">
                     <a href="">Orders</a>
-                </div>
+                </div> -->
                 <div class="section_exchange">
                     <div class="block_left ">
                         <p class="title_block_left">Estimated Net Value:</p>
@@ -167,12 +168,13 @@
                                 <span class="tab-link" data-tab="tab-3" href="#">ETH</span>
                                 <span class="tab-link" data-tab="tab-4" href="#">Marked</span>
                             </div>
-                            <div class="box_table_block_left tab-content current" id="tab-1"> 
-                                <div class="nav_table_block_left">
+                            <div class="nav_table_block_left">
                                     <a href="#">Coin</a>
                                     <a href="#">Last Price</a>
                                     <a href="#">Change</a>
                                 </div>
+                            <div class="box_table_block_left tab-content current" id="tab-1"> 
+                                
                                 <div class="table_block_left">
                                     <div><i class="marker un_marker"></i>BTC</div>
                                     <div>8469.68</div>
@@ -220,11 +222,7 @@
                                 </div>
                             </div>
                             <div class="box_table_block_left tab-content" id="tab-2">
-                                <div class="nav_table_block_left">
-                                    <a href="#">Coin</a>
-                                    <a href="#">Last Price</a>
-                                    <a href="#">Change</a>
-                                </div>
+                                
                                 <div class="table_block_left">
                                     <div><i class="marker un_marker"></i>BTC</div>
                                     <div>8469.68</div>
@@ -242,11 +240,7 @@
                                 </div>
                             </div>
                             <div class="box_table_block_left tab-content" id="tab-3">
-                                <div class="nav_table_block_left">
-                                    <a href="#">Coin</a>
-                                    <a href="#">Last Price</a>
-                                    <a href="#">Change</a>
-                                </div>
+                                
                                 <div class="table_block_left">
                                     <div><i class="marker un_marker"></i>BTC</div>
                                     <div>8469.68</div>
@@ -259,11 +253,7 @@
                                 </div>
                             </div>
                             <div class="box_table_block_left tab-content" id="tab-4">
-                                <div class="nav_table_block_left">
-                                    <a href="#">Coin</a>
-                                    <a href="#">Last Price</a>
-                                    <a href="#">Change</a>
-                                </div>
+                                
                                 <div class="table_block_left">
                                     <div><i class="marker un_marker"></i>BTC</div>
                                     <div>8469.68</div>
@@ -352,6 +342,49 @@
                                     <div class="amount_box">
                                         <label for="amount">Amount</label>
                                         <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                 </form>
+                            </div>
+
+                            <div class="box_tabs tab-content_right stop-loss" id="tab-12">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>@333Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box loss-box">
+                                        <label for="amount">loren</label>
+                                        <div>
+                                            <div class="select_butom">
+                                                <select class="my_select" name="" id="">
+                                                    <option value="111">111d1</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1ss111</option>
+                                                </select>
+                                            </div>
                                             <input required type="text" id="amount"><span>SMT</span>
                                         </div>
                                     </div>
@@ -791,7 +824,7 @@
   });
 });
                 </script>
-                <div class="referral_table_container orders_container_table">
+                <div class="referral_table_container orders_container_table ">
                     <div class="box_orders_nav">
                         <div class="nav_orders">
                             <span id="button" class="button_stock_exch open_button close_button"></span>
@@ -833,17 +866,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -859,17 +888,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -885,17 +910,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -911,17 +932,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -937,17 +954,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -963,17 +976,13 @@
                                 <div>
                                     <a class="btn_close trigger" href="javascript:;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
-                                            <defs>
-                                                <filter id="Filter_0">
-                                                    <feFlood flood-color="rgb(72, 76, 131)" flood-opacity="1" result="floodOut" />
-                                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                                                </filter>
-                                            </defs>
-                                            <g filter="url(#Filter_0)">
-                                                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
-                                            </g>
-                                        </svg>
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -1018,6 +1027,8 @@
         <script type="text/javascript" src="js/main-table.js"></script>
         <script type="text/javascript" src="js/main_js.js"></script>
         <script type="text/javascript" src="js/my_tabs.js"></script>
+        <script type="text/javascript" src="js/my_select.js"></script>
+
         </div>
 </body>
 

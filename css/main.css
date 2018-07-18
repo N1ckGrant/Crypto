@@ -312,7 +312,7 @@ section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 14px;
     font-family: "Helvetica Neue";
     color: rgb(255, 255, 255);
@@ -443,6 +443,8 @@ section {
     transition: visibility 0s, opacity 0.3s linear;
     background-color: #1d265b;
     position: absolute;
+    /*border-radius: 5%;*/
+        box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
 
 .menu_balances {
@@ -734,15 +736,27 @@ section {
 }
 
 .chart {
+    height: 108%;
+    width: 106%;
+    position: relative;
+    left: -39px;
+    /*margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 41px;*/
+    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+    background-image: -ms-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
+}
+.my_box_chart{
+    position: relative;
+    overflow: hidden;
     height: 390px;
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 41px;
-    background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
-    background-image: -ms-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
 }
 
 .table-content {
@@ -794,12 +808,24 @@ section {
 
 .sort-icon-up {
     position: absolute;
-    top: 3px;
+    top: 7px;
+    font-size: 14px;
+    height: 5px;
 }
+
 
 .sort-icon-down {
     position: absolute;
-    bottom: 7px;
+    /*bottom: 7px;*/
+    top: 9px;
+    font-size: 14px;
+    height: 5px;
+}
+.sort-icon-up:hover{
+    color: #fff;
+}
+.sort-icon-down:hover{
+    color: #fff;
 }
 
 .coin_list {
@@ -837,6 +863,7 @@ section {
     table-layout: fixed;
 }
 
+
 .coin_unit {
     width: 100%;
     display: table;
@@ -863,7 +890,12 @@ section {
 .price {
     color: #3e822d;
 }
-
+.decs{
+    color: #fff;
+}
+.coin_unit{
+    padding-right: 10px;
+}
 .coin_unit span {
     display: table-cell;
 }
@@ -947,6 +979,7 @@ section {
 }
 
 .nav-table span {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -965,17 +998,37 @@ section {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+.nav-table span:after{
+    content: "";
+    height: 1px;
+    width: 0%;
+    left: 0px;
+    bottom: -3px;
+    border-bottom: 2px solid #2b4fe9;
+    position: absolute;
+    transition: all 0.3s;
+}
+.nav-table span:hover:after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0px;
+    bottom: -3px;
+    border-bottom: 2px solid #2b4fe9;
+    position: absolute;
+    transition: all 0.3s;
+}
 
 .nav-table span:hover {
-    border-bottom: 1px solid #2b4fe9;
+    /*border-bottom: 1px solid #2b4fe9;*/
 }
 
 .nav-table span:active {
-    border-bottom: 1px solid #2b4fe9;
+    /*border-bottom: 1px solid #2b4fe9;*/
 }
 
 .nav-table span:focus {
-    border-bottom: 1px solid #2b4fe9;
+    /*border-bottom: 1px solid #2b4fe9;*/
 }
 
 .nav-table span:hover {
@@ -1130,6 +1183,7 @@ section {
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    border-radius: 50%;
 }
 
 .social-footer a svg:hover {
@@ -1344,7 +1398,7 @@ section {
 .incorrect_login {
     color: red;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
 }
 
 .autorization_form legend {
@@ -2556,7 +2610,7 @@ input[type=checkbox]:checked+label:before {
     font-size: 22px;
     font-family: "Helvetica Neue";
     color: #2642c4;
-    border-bottom: 1px solid #23265a;
+    border-bottom: 2px solid #23265a;
 }
 
 .notifications_history h2 {
@@ -2565,7 +2619,7 @@ input[type=checkbox]:checked+label:before {
     font-size: 22px;
     font-family: "Helvetica Neue";
     color: rgb(255, 255, 255);
-    border-bottom: 1px solid #23265a;
+    /*border-bottom: 1px solid #23265a;*/
 }
 
 .notifications_history {
@@ -2600,6 +2654,9 @@ input[type=checkbox]:checked+label:before {
     line-height: 27px;
     border-bottom: 1px solid #232658;
 }
+/*.notifications_history tr td:last-child{
+    border-bottom: none;
+}*/
 
 
 
@@ -2689,7 +2746,8 @@ input[type=checkbox]:checked+label:before {
     line-height: 27px;
 }
 .notifications_history tr th{
-
+    border-bottom: 1px solid #232658;
+    padding-bottom: 30px;
 }
 
 .referral_table_container #my_table tr td {
@@ -2778,6 +2836,7 @@ input[type=checkbox]:checked+label:before {
     position: absolute;
     top: 17px;
     right: 71px;
+    fill: rgb(72, 76, 131);
 }
 
 .generate_link #icon_upload {
@@ -2942,6 +3001,9 @@ input[type=checkbox]:checked+label:before {
     color: #fff;
     font-size: 22px;
     font-family: "Helvetica Neue";
+}
+.title_deposit span{
+    font-family: inherit;
 }
 
 .title_deposit span:last-child {
@@ -3483,6 +3545,9 @@ input[type=checkbox]:checked+label:before {
     font-family: "Helvetica Neue";
     font-weight: 700;
 }
+.title_orders span{
+    cursor: pointer;
+}
 
 .caption_table {
     display: -webkit-box;
@@ -3529,7 +3594,7 @@ input[type=checkbox]:checked+label:before {
     color: #fff;
     font-size: 18px;
     font-family: "Helvetica Neue";
-    font-weight: 700;
+    /*font-weight: 700;*/
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
@@ -3538,6 +3603,10 @@ input[type=checkbox]:checked+label:before {
 .orders_value_table div svg {
     margin: 0 auto;
     cursor: pointer;
+    fill: rgb(72, 76, 131);
+}
+.orders_value_table div svg:hover{
+    fill: red;
 }
 
 
@@ -3637,6 +3706,7 @@ input[type=checkbox]:checked+label:before {
 .other_history_orders svg {
     margin-top: 62px;
     margin-bottom: 23px;
+    fill: #484c83;
 }
 
 .other_history_orders p {
@@ -3911,10 +3981,11 @@ input[type=checkbox]:checked+label:before {
 
     position: absolute;
     width: 0px;
-    bottom: -15px;
+    bottom: -16px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    border-bottom: 2px solid #2b4fe9;
 }
 
 .login_histoty .title_block span:hover:before {
@@ -3922,7 +3993,7 @@ input[type=checkbox]:checked+label:before {
     border-bottom: 2px solid #2b4fe9;
     position: absolute;
     width: 100%;
-    bottom: -15px;
+    bottom: -16px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -4070,7 +4141,12 @@ input[type=checkbox]:checked+label:before {
 .tab-content_sell_buy.current2 {
     display: inherit;
 }
-
+.stop-loss .amount_box{
+    padding-top: 5px;
+}
+.stop-loss .amount_box div{
+    margin-top: 7px;
+}
 
 
 
@@ -4382,11 +4458,12 @@ a.btn_close {}
 .box_table_block_left {
     overflow-y: scroll;
     overflow-x: hidden;
-    max-height: 380px;
+    max-height: 331px;
 }
 
 .box_table_block_left div {
     padding-right: 6px;
+    font-family: "Helvetica";
 }
 
 .box_table_block_left::-webkit-scrollbar {
@@ -4544,7 +4621,7 @@ a.btn_close {}
 }
 
 .nav_table_block_left {
-    margin-top: 40px;
+    margin-top: 15px;
     margin-bottom: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4559,6 +4636,10 @@ a.btn_close {}
     font-family: "Helvetica Neue Medium";
     font-size: 18px;
 }
+.nav_table_block_left a:last-child{
+    width: 73px;
+}
+
 
 .table_block_left {
     display: -webkit-box;
@@ -4571,6 +4652,9 @@ a.btn_close {}
     padding-bottom: 10px;
     border-bottom: 2px solid #232658;
     padding-top: 10px;
+}
+.table_block_left div:last-child{
+    width: 65px;
 }
 
 .table_block_left div {
@@ -4735,7 +4819,7 @@ a.btn_close {}
     color: #3c407a;
     cursor: pointer;
     padding-top: 20px;
-    width: 120px;
+    width: 34%;
     padding-bottom: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -4743,7 +4827,10 @@ a.btn_close {}
     -o-transition: all 0.3s;
     transition: all 0.3s;
 
-    margin-right: 2px;
+    /*margin-right: 2px;*/
+}
+.order_box_block_right label:nth-child(4):after{
+    left: -1px;
 }
 
 .order_box_block_right label:after {
@@ -4777,9 +4864,11 @@ a.btn_close {}
     border-bottom: 2px solid #232658;
 }
 
+
 .block_right_deposit span {
     font-size: 18px;
     color: #fff;
+    cursor: pointer;
 }
 
 .block_right_deposit span:last-child {
@@ -4961,7 +5050,7 @@ a.btn_close {}
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
+    margin-right: 0px;
     position: relative;
 }
 
@@ -4977,6 +5066,7 @@ a.btn_close {}
     font-size: 16px;
     color: #fff;
     z-index: 1;
+    font-family: "Helvetica";
 }
 
 .sell_block_left .sell_number {
@@ -5021,6 +5111,7 @@ a.btn_close {}
     -ms-flex-align: center;
     align-items: center;
     position: relative;
+    margin-right: 0px;
 }
 
 .bg_green_block_left {
@@ -5201,7 +5292,7 @@ a.btn_close {}
     content: "";
     border-bottom: 2px solid #2b4fe9;
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     width: 0%;
     height: 1px;
     left: 0px;
@@ -5214,17 +5305,35 @@ a.btn_close {}
     content: "";
     border-bottom: 2px solid #2b4fe9;
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     width: 100%;
     height: 1px;
     left: 0px;
 }
 
-.filter_orders div:active:after {
+
+.filter_orders .active_tabs:after {
     content: "";
     border-bottom: 2px solid #2b4fe9;
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.filter_orders .active_tabs{
+    color:#fff;
+}
+
+
+.filter_orders div:hover:after {
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    position: absolute;
+    bottom: -2px;
     width: 100%;
     height: 1px;
     left: 0px;
@@ -5316,8 +5425,11 @@ a.btn_close {}
 
 marquee {
     width: 100%;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 marquee .row-marquee{
     margin-left: 20px;
@@ -5381,6 +5493,16 @@ marquee .row-marquee{
 .nav-table span.active_tabs{
     color: #fff;
 }
+.nav-table span.active_tabs:after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+    border-bottom: 2px solid #2b4fe9;
+    position: absolute;
+    transition: all 0.3s;
+}
 .svg_icon_home_table.active_tabs_svg{
     fill: #fff;
 }
@@ -5398,8 +5520,92 @@ marquee .row-marquee{
     background-color: transparent;
     border: 2px solid #484c83;
 }
+.nav_bar_chenge a:last-child{
+    color: #fff;
 }
-/*выпадающие селекты*/
+.forma_chenge_pass .button_change input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 50px;
+}
+
+.stop-loss .selectWrapper{
+    height: 100%;
+    margin-top: 0px;
+}
+.stop-loss .amount_box div .select_butom{
+    margin-top: 0px;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+.stop-loss .amount_box div .select_butom div{
+    margin-top: 0px;
+    /*justify-content: flex-start;*/
+    background-color: #474b8b;
+}
+
+.stop-loss .selectBox:after{
+    display: none;
+}
+.stop-loss .selectWrapper .selectBox p{
+    padding: 0px;
+}
+.stop-loss .selectWrapper .selectBox{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.amount_box div .selectWrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.stop-loss .amount_box.loss-box div{
+    padding-left: 0px;
+}
+.loss-box .selectWrapper .selectBox p{
+    color: #fff;
+}
+.loss-box .selectBox .fa{
+    padding-left: 5px;
+}
+.loss-box .selectWrapper .selectBox.active ul{
+    padding-top: 10px;
+    width: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+    background-color:#474b8b;
+    color: #fff; 
+}
+.loss-box .selectWrapper .selectBox.active ul li:hover{
+    background-color: rgb(38, 41, 93);
+}
+.top_modal{
+    margin-bottom: 70px;
+}
+.exchange_body .orders_container_table{
+    margin-top: 0px;
+}
+.title_orders span{
+    position: relative;
+}
+.title_orders span:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url(../img/exel.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    left: -30px;
+    bottom: -2px;
+}
+
+/*выпадающие селекты-------------------------------------------------------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto:300,400");
 * {
@@ -5446,7 +5652,7 @@ p#end {
     color: #525251;
 }
 
-select {
+.my_select {
     position: absolute;
     z-index: -1;
     visibility: hidden;
@@ -5777,4 +5983,6 @@ select {
 }
 
 
-}
+
+
+

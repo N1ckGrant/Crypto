@@ -631,12 +631,30 @@
                        .incorrect_password .incorrect {
                            margin-top: 20px;
                        }
+                       .block_center{
+                        margin-bottom: 10px;
+
+                       }
+                       .block_center_mobile{
+                        margin-top: 0px;
+                       }
+                       .block_right_mobile{
+                        margin-top: 0px;
+                       }
+                       marquee {
+                        width: 100%;
+                        height: 100px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        display: flex;
+                        align-items: center;
+                      }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------------*/
 
                    @media screen and (max-width: 1110px) {
                        header {
-                           margin-bottom: 50px;
+                           margin-bottom: 15px;
                        }
                        .home header {
                            /*margin-bottom: 100px;*/
@@ -754,15 +772,15 @@
                            overflow-y: scroll;
                        }
                        .box_table_home_scroll::-webkit-scrollbar {
-                           height: 3px;
-                           width: 3px;
+                           height: 6px;
+                           width: 6px;
                        }
 
                        .box_table_home_scroll::-webkit-scrollbar-track {
                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
                            border-radius: 4px;
                            height: 6px;
-                           width: 5px;
+                           width: 6px;
                            background-color: #100f3f;
                        }
 
@@ -900,6 +918,14 @@
                        .block_center {
                            width: 69%;
                        }
+                       marquee {
+                        width: 100%;
+                        height: 90px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        display: flex;
+                        align-items: center;
+                      }
                    }
                    /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -965,8 +991,25 @@
                        .exchange_body .section_exchange {
                            width: 97%;
                        }
+                       .stock_exchange_page .orders_container_table{
+                        width: 97%;
+                        margin: 0 auto;
+                       }
                        .stock_exchange_page {
                            width: 97%;
+                       }
+                        .sort-icon-up {
+                           position: absolute;
+                           top: 3px;
+                           font-size: 14px;
+                           height: 5px;
+                       }
+                       .sort-icon-down {
+                           position: absolute;
+                           /*bottom: 7px;*/
+                           top: 3px;
+                           font-size: 14px;
+                           height: 5px;
                        }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -1045,6 +1088,14 @@
                            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
                            background-color: #474b8b;
                        }
+                       marquee {
+                        width: 100%;
+                        height: 80px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        display: flex;
+                        align-items: center;
+                      }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
 
@@ -1195,8 +1246,8 @@
                        .orders_value_table div {
                            font-size: 13px;
                        }
-                       .notifications_history tr th{
-                        font-size: 14px;
+                       .notifications_history tr th {
+                           font-size: 14px;
                        }
                        .notifications_history .mobile_table_scroll_refferal_common tr th {
                            min-width: 110px;
@@ -1271,6 +1322,9 @@
                        }
 
                        .nav_mobile_all .menu-left {
+                           display: none;
+                       }
+                       .menu_nav a svg {
                            display: none;
                        }
 
@@ -2761,10 +2815,19 @@
                        }
 
                        .chart {
+                           height: 110%;
+                           width: 107%;
+                           position: relative;
+                           left: -41px;
+                           top: 10px;
+                       }
+                       .my_box_chart {
                            margin-top: 10px;
                            margin-bottom: 10px;
                            height: 240px;
                            position: relative;
+                           margin-left: 10px;
+                           margin-right: 10px;
                        }
 
                        #chartContainer {
@@ -2913,6 +2976,21 @@
                            background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                            background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgb(20, 24, 85) 73%, rgb(20, 24, 89) 100%);
                        }
+
+
+                       .sort-icon-up {
+                           position: absolute;
+                           top: 3px;
+                           font-size: 14px;
+                           height: 5px;
+                       }
+                       .sort-icon-down {
+                           position: absolute;
+                           /*bottom: 7px;*/
+                           top: 3px;
+                           font-size: 14px;
+                           height: 5px;
+                       }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/
 
@@ -3041,5 +3119,13 @@
 
                        .container {
                            max-width: 1980px;
+                       }
+                       .block_right{
+                        margin-right: 0px;
+                       }
+                   }
+                   @media screen and (min-width: 1400px) {
+                    .block_right{
+                        margin-right: 0px;
                        }
                    }

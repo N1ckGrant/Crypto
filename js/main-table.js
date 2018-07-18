@@ -78,3 +78,15 @@ $(document).ready(function(){
   })
 
 })
+$(document).ready(function(){
+  console.log('my_tabs_order')
+  
+  $('div.filter_orders div').click(function(){
+    $('div.filter_orders div').removeClass('active_tabs');
+    $(this).addClass('active_tabs',);  
+    ;
+    // $('.nav-table svg').removeClass('active_tabs_svg');
+
+  })
+
+})

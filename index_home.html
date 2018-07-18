@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/menu-mobile.scss">
     <link rel="stylesheet" href="css/mobile-menu.css">
+    <link rel="stylesheet" href="css/all_theme.css">
     <!-- <link rel="stylesheet" href="css/all_theme.css"> -->
     <!--     <script src="Chart.js/Chart.bundle.js"></script>
     <script src="Chart.js/utils.js"></script> -->
     <!-- <script src="Chart.js/analyser.js"></script> -->
 </head>
 
-<body class="home">
+<body class="home white_theme">
     <div class="image-one">
         <div class="image-two">
             <header class="home_header">
@@ -205,6 +206,7 @@
                 </div>
             </marquee>
             <div class="container">
+                <div class="my_box_chart">
                 <div class="chart">
                     <div id="chartContainer" style="height: 100%; width: 100%;">
                     </div>
@@ -244,12 +246,13 @@
         });
         </script> -->
                 </div>
+                </div>
             </div>
             <script type="text/javascript">
             window.onload = function() {
 
                 var chart = new CanvasJS.Chart("chartContainer", {
-                    backgroundColor: "#161958",
+                    backgroundColor: "transparent",
                     // borderColor: '#6d4e97',
                     title: {
                         text: ""
@@ -354,11 +357,11 @@ Favorites</span>
                             <div class="ticker_head">
                                 <span class="sp_sort favourite">Pair <i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i>
                         </span>
-                                <span class="sp_sort favourite">Last Price</span>
-                                <span class="sp_sort favourite">24h Change</span>
-                                <span class="sp_sort favourite">24h High</span>
-                                <span class="sp_sort favourite">24h Low</span>
-                                <span class="sp_sort favourite">24h Volume</span>
+                                <span class="sp_sort favourite">Last Price<i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i></span>
+                                <span class="sp_sort favourite">24h Change<i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i></span>
+                                <span class="sp_sort favourite">24h High<i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i></span>
+                                <span class="sp_sort favourite">24h Low<i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i></span>
+                                <span class="sp_sort favourite">24h Volume<i class="sort-icon"><i class="fa fa-sort-up sort-icon-up"></i><i class="fa fa-sort-down sort-icon-down"></i></i></span>
                             </div>
                             <div class="coin_list target target-1" id="scroll_bar">
                                 <dl>
@@ -773,7 +776,7 @@ Favorites</span>
                         </a>
                     </ul>
                     <div class="social-footer">
-                        <a href=""><img src="" alt=""><svg 
+                        <a href=""><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  width="39px" height="39px">
@@ -789,7 +792,7 @@ Favorites</span>
 <path fill="url(#PSgrad_0)"
  d="M19.341,0.004 C8.679,0.004 0.004,8.750 0.004,19.499 C0.004,30.248 8.679,38.994 19.341,38.994 C30.004,38.994 38.678,30.248 38.678,19.499 C38.678,8.750 30.004,0.004 19.341,0.004 ZM27.967,15.038 C27.976,15.231 27.981,15.425 27.981,15.620 C27.981,21.549 23.504,28.386 15.317,28.386 C12.803,28.386 10.463,27.644 8.494,26.370 C8.842,26.412 9.197,26.433 9.556,26.433 C11.642,26.433 13.560,25.715 15.084,24.512 C13.136,24.476 11.492,23.179 10.926,21.396 C11.197,21.449 11.477,21.476 11.762,21.476 C12.168,21.476 12.562,21.422 12.936,21.319 C10.899,20.907 9.366,19.094 9.366,16.920 C9.366,16.901 9.366,16.882 9.367,16.864 C9.966,17.199 10.653,17.402 11.382,17.425 C10.188,16.621 9.402,15.248 9.402,13.691 C9.402,12.867 9.621,12.096 10.005,11.434 C12.199,14.149 15.479,15.935 19.178,16.123 C19.101,15.794 19.063,15.453 19.063,15.100 C19.063,12.623 21.055,10.613 23.514,10.613 C24.793,10.613 25.950,11.158 26.762,12.030 C27.777,11.829 28.728,11.457 29.589,10.940 C29.256,11.989 28.551,12.867 27.631,13.423 C28.532,13.315 29.390,13.075 30.187,12.718 C29.592,13.616 28.837,14.406 27.967,15.038 Z"/>
 </svg></a>
-                        <a href=""><img src="" alt=""><svg 
+                        <a href=""><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  width="39px" height="39px">
@@ -805,7 +808,7 @@ Favorites</span>
 <path fill="url(#PSgrad_0)"
  d="M19.499,38.994 C8.837,38.994 0.162,30.248 0.162,19.499 C0.162,8.750 8.837,0.004 19.499,0.004 C30.161,0.004 38.836,8.750 38.836,19.499 C38.836,30.248 30.161,38.994 19.499,38.994 ZM30.496,17.224 L30.496,12.698 C30.496,10.334 28.590,8.413 26.245,8.413 L12.752,8.413 C10.408,8.413 8.502,10.334 8.502,12.698 L8.502,17.224 L8.502,26.302 C8.502,28.666 10.408,30.587 12.752,30.587 L26.246,30.587 C28.590,30.587 30.496,28.666 30.496,26.302 L30.496,17.224 ZM26.244,28.425 L12.752,28.425 C11.589,28.425 10.644,27.475 10.644,26.302 L10.644,17.224 L13.927,17.224 C13.643,17.926 13.484,18.695 13.484,19.499 C13.484,22.842 16.182,25.564 19.499,25.564 C22.816,25.564 25.514,22.842 25.514,19.499 C25.514,18.695 25.353,17.926 25.068,17.224 L28.352,17.224 L28.352,26.302 C28.352,27.475 27.407,28.425 26.244,28.425 ZM24.222,10.978 L27.466,10.968 L27.952,10.967 L27.952,11.453 L27.952,14.725 L24.236,14.737 L24.222,10.978 ZM19.498,23.402 C17.364,23.402 15.626,21.651 15.627,19.498 C15.628,18.649 15.901,17.864 16.359,17.223 C17.064,16.240 18.207,15.596 19.499,15.596 C20.791,15.596 21.934,16.241 22.638,17.224 C23.095,17.865 23.371,18.650 23.371,19.499 C23.371,21.652 21.632,23.402 19.498,23.402 Z"/>
 </svg></a>
-                        <a href=""><img src="" alt=""><svg 
+                        <a href=""><svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  width="39px" height="39px">
