@@ -16,7 +16,7 @@
 
                            -ms-flex-order: 1;
                            order: 1;
-                           height: 620px;
+                           height: 510px;
                            min-width: 304px;
                            width: 29%;
                            margin-right: 0px;
@@ -30,7 +30,7 @@
                            margin-left: 10px;
                            -ms-flex-order: 2;
                            order: 2;
-                           height: 620px;
+                           height: 510px;
                            width: 70%;
                            /*min-width: 304px;*/
                            margin-right: 0px;
@@ -47,7 +47,7 @@
                            -webkit-box-ordinal-group: 3;
                            -ms-flex-order: 3;
                            order: 3;
-                           height: 620px;
+                           height: 510px;
                            min-width: 304px;
                            margin-right: 0px;
                        }

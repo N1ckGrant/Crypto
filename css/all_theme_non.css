@@ -345,16 +345,17 @@
 
 
 
+
 /*-----------------------------------------------------------*/
 
 .white_theme .notifications_history h2 {
     color: #242a48;
-    /*border-bottom: 2px solid #d3daf7;*/
+    border-bottom: 2px solid #d3daf7;
 }
 
 .white_theme .notifications_history tr th {
     color: #96a6ee;
-    border-bottom: 1px solid #d3daf7;
+    /*border-bottom: 1px solid #d3daf7;*/
     padding-bottom: 30px;
 }
 
@@ -1186,9 +1187,58 @@
 .white_theme .hover_row:hover{
     background-color: #edebf3;
 }
-.buy_block_left .box_table_block{
+
+.white_theme .buy_block_left .box_table_block{
     border-color: #d3daf7;
 }
+.operation_hist_row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.white_theme .operation_hist_row:hover{
+    background-color: #edebf3;
+}
+.white_theme .orders_value_table:hover{
+    background-color: #edebf3;
+}
+.white_theme .caption_table{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.white_theme .table_history{
+    border-color: #d3daf7;
+}
+.white_theme .table_history:hover{
+    background-color: #edebf3;
+}
+.white_theme .box_mobile_table_history{
+    border-color: #d3daf7;
+}
+.white_theme .notifications_history_box_mobile tr:hover{
+    background-color: #edebf3;
+}
+.white_theme .notifications_history_box_mobile tr:first-child:hover{
+    background-color: transparent;
+}
+.white_theme .notifications_history tr:hover{
+    background-color: #edebf3;
+}
+.white_theme .notifications_history tr:first-child:hover{
+    background-color: transparent;
+}
+.white_theme .container_deposit:hover{
+    background-color: #edebf3;
+}
+.white_theme .table_block_right .buy_block_right{
+    color: #2bb538
+}
+.white_theme .table_block_right .sale_block_right {
+    color: #dc3852
+}
+.white_theme .coin_unit:hover{
+    background-color: #edebf3;
+}
+
 
 /*_________________________________________________mob_____________________________________________*/
 
