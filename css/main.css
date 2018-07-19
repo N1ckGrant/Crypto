@@ -4884,7 +4884,7 @@ a.btn_close {}
 
 
 .block_right_deposit span {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     cursor: pointer;
 }
@@ -5740,7 +5740,10 @@ marquee .row-marquee{
     text-align: right;
     cursor: pointer;
 }
-
+.exchange_body .orders_container_table .order_box_change_page{
+    max-height: 320px;
+    overflow: scroll;
+}
 /*выпадающие селекты-------------------------------------------------------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Roboto:300,400");
