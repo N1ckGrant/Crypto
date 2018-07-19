@@ -34,12 +34,14 @@
 
 
 
+
 /*border----------------------------------------------------------*/
 
 .white_theme .capcha-sheck {
     background-color: #fff;
     border: 1px solid #c7cff1;
 }
+
 
 
 
@@ -54,6 +56,7 @@
     background-color: rgb(38, 41, 93);
     cursor: pointer;
 }
+
 
 
 
@@ -336,12 +339,14 @@
 
 
 
+
 /*-----------------------------------------------------заголовок*/
 
 .white_theme .notifications_form h2 {
     color: #96a6ee;
     border-bottom: 2px solid #d3daf7;
 }
+
 
 
 
@@ -575,7 +580,6 @@
 .white_theme .search_forma input {
     background-color: #d3daf7;
     color: #242a48;
-    
 }
 
 .white_theme .btc_block_left {
@@ -650,6 +654,7 @@
 .white_theme .tab-link:hover {
     color: #242a48;
 }
+
 .tab-link.current2 {
     display: inherit;
     color: #fff;
@@ -751,7 +756,6 @@
 
 .white_theme .amount_box input {
     color: #242a48;
-   
 }
 
 .white_theme .sell_block_left span {
@@ -920,7 +924,8 @@
 .white_theme .nav-table span {
     color: #96a6ee;
 }
-.white_theme .nav-table span:after{
+
+.white_theme .nav-table span:after {
     content: "";
     height: 1px;
     width: 0%;
@@ -930,7 +935,8 @@
     position: absolute;
     transition: all 0.3s;
 }
-.white_theme .nav-table span:hover:after{
+
+.white_theme .nav-table span:hover:after {
     content: "";
     height: 1px;
     width: 100%;
@@ -940,7 +946,8 @@
     position: absolute;
     transition: all 0.3s;
 }
-.white_theme .nav-table span.active_tabs:after{
+
+.white_theme .nav-table span.active_tabs:after {
     content: "";
     height: 1px;
     width: 100%;
@@ -950,6 +957,7 @@
     position: absolute;
     transition: all 0.3s;
 }
+
 .white_theme .svg_icon_home_table {
     fill: #96a6ee;
 }
@@ -1032,76 +1040,98 @@
 .white_theme .company {
     background-color: #f4f4f4;
 }
-.white_theme .home.white_theme .sub_menu li a{
-	color: #242a48;
+
+.white_theme .home.white_theme .sub_menu li a {
+    color: #242a48;
 }
-.white_theme .block_center{
-	background-color: rgba(251, 251, 252, 0.8);
+
+.white_theme .block_center {
+    background-color: rgba(251, 251, 252, 0.8);
     /*background-image: none;*/
     box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
-.white_theme .block_center_mobile{
-	background-color: rgba(251, 251, 252, 0.8);
+
+.white_theme .block_center_mobile {
+    background-color: rgba(251, 251, 252, 0.8);
     background-image: none;
     box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
-.white_theme .loss-box .selectWrapper .selectBox p{
-    color: #242a48; 
+
+.white_theme .loss-box .selectWrapper .selectBox p {
+    color: #242a48;
 }
-.white_theme .loss-box .selectWrapper .selectBox.active ul{
+
+.white_theme .loss-box .selectWrapper .selectBox.active ul {
     padding-top: 10px;
     background-color: #3687f5;
     color: #fff;
 }
-.white_theme .stop-loss .amount_box div .select_butom div{
+
+.white_theme .stop-loss .amount_box div .select_butom div {
     margin-top: 0px;
     /*justify-content: flex-start;*/
     background-color: #3687f5;
 }
-.home.white_theme .menu-right .sub_menu  a{
-	color: #242a48;
+
+.home.white_theme .menu-right .sub_menu a {
+    color: #242a48;
 }
-.white_theme .sub_menu{
-	background-color: #96a6ee;
+
+.white_theme .sub_menu {
+    background-color: #96a6ee;
 }
-.white_theme .my_triangle::after{
-	border-bottom-color: #96a6ee;
+
+.white_theme .my_triangle::after {
+    border-bottom-color: #96a6ee;
 }
-.white_theme .sub_menu li:hover{
-	border-color: #d3daf7;
+
+.white_theme .sub_menu li:hover {
+    border-color: #d3daf7;
 }
-.white_theme .selectWrapper .selectBox ul{
-	background-color: #96a6ee;
+
+.white_theme .selectWrapper .selectBox ul {
+    background-color: #96a6ee;
 }
-.white_theme #blue .selectWrapper .selectBox ul li:hover, #blue .selectWrapper .selectBox ul li.active{
-	border-color: #d3daf7;
+
+.white_theme #blue .selectWrapper .selectBox ul li:hover,
+#blue .selectWrapper .selectBox ul li.active {
+    border-color: #d3daf7;
 }
-.white_theme .datepicker--nav{
-	background-color: #96a6ee;
+
+.white_theme .datepicker--nav {
+    background-color: #96a6ee;
 }
-.white_theme .modal p{
-	color: #242a48;
+
+.white_theme .modal p {
+    color: #242a48;
 }
-.white_theme .modal{
-	background-color: rgba(251, 251, 252, 0.8);
-	border-color: #96a6ee;
-	box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
+
+.white_theme .modal {
+    background-color: rgba(251, 251, 252, 0.8);
+    border-color: #96a6ee;
+    box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
-.white_theme .chart{
-	background-color: rgba(251, 251, 252, 0.8);
+
+.white_theme .chart {
+    background-color: rgba(251, 251, 252, 0.8);
     background-image: none;
     box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
-.white_theme .chart_index span,.white_theme .chart_index{
-	color: #242a48;
+
+.white_theme .chart_index span,
+.white_theme .chart_index {
+    color: #242a48;
 }
-.white_theme .autorization_form .incorrect_login{
+
+.white_theme .autorization_form .incorrect_login {
     color: red;
     text-align: center;
 }
-.white_theme .nav_bar_chenge i{
+
+.white_theme .nav_bar_chenge i {
     color: #96a6ee;
 }
+
 .white_theme .menu-right a:hover:before {
     content: "";
     width: 100%;
@@ -1122,6 +1152,7 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
+
 .white_theme .menu-left a:hover:before {
     content: "";
     width: 100%;
@@ -1142,29 +1173,36 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.white_theme .sort-icon-up:hover{
+
+.white_theme .sort-icon-up:hover {
     color: #96a6ee;
 }
-.white_theme .sort-icon-down:hover{
+
+.white_theme .sort-icon-down:hover {
     color: #96a6ee;
 }
+
 .white_theme .price {
     color: #42d207;
 }
-.white_theme .decs{
+
+.white_theme .decs {
     color: #242a48;
 }
-.white_theme .rate{
+
+.white_theme .rate {
     color: #dc4145;
 }
-.white_theme .datepicker--pointer{
-    background-color:  #96a6ee;
+
+.white_theme .datepicker--pointer {
+    background-color: #96a6ee;
 }
+
 .white_theme .filter_orders .active_tabs:after {
     content: "";
     border-bottom: 2px solid #2b4fe9;
     position: absolute;
-    bottom: -2px;
+    bottom: -1px;
     width: 100%;
     height: 1px;
     left: 0px;
@@ -1172,71 +1210,124 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.white_theme .filter_orders .active_tabs{
-    color:#242a48;
+
+.white_theme .filter_orders .active_tabs {
+    color: #242a48;
 }
+
 .white_theme marquee {
     /*height: 150px;*/
-   background-color: rgba(251, 251, 252, 0.8);
+    background-color: rgba(251, 251, 252, 0.8);
     border-color: #96a6ee;
     box-shadow: 0px 5px 19px 1px rgba(12, 11, 47, 0.2);
 }
-.white_theme .name_cash{
+
+.white_theme .name_cash {
     color: #242a48;
 }
-.white_theme .hover_row:hover{
+
+.white_theme .hover_row:hover {
     background-color: #edebf3;
 }
 
-.white_theme .buy_block_left .box_table_block{
+.white_theme .buy_block_left .box_table_block {
     border-color: #d3daf7;
 }
-.operation_hist_row{
+
+.operation_hist_row {
     padding-left: 15px;
     padding-right: 15px;
 }
-.white_theme .operation_hist_row:hover{
+
+.white_theme .operation_hist_row:hover {
     background-color: #edebf3;
 }
-.white_theme .orders_value_table:hover{
+
+.white_theme .orders_value_table:hover {
     background-color: #edebf3;
 }
-.white_theme .caption_table{
+
+.white_theme .caption_table {
     padding-left: 15px;
     padding-right: 15px;
 }
-.white_theme .table_history{
+
+.white_theme .table_history {
     border-color: #d3daf7;
 }
-.white_theme .table_history:hover{
+
+.white_theme .table_history:hover {
     background-color: #edebf3;
 }
-.white_theme .box_mobile_table_history{
+
+.white_theme .box_mobile_table_history {
     border-color: #d3daf7;
 }
-.white_theme .notifications_history_box_mobile tr:hover{
+
+.white_theme .notifications_history_box_mobile tr:hover {
     background-color: #edebf3;
 }
-.white_theme .notifications_history_box_mobile tr:first-child:hover{
+
+.white_theme .notifications_history_box_mobile tr:first-child:hover {
     background-color: transparent;
 }
-.white_theme .notifications_history tr:hover{
+
+.white_theme .notifications_history tr:hover {
     background-color: #edebf3;
 }
-.white_theme .notifications_history tr:first-child:hover{
+
+.white_theme .notifications_history tr:first-child:hover {
     background-color: transparent;
 }
-.white_theme .container_deposit:hover{
+
+.white_theme .container_deposit:hover {
     background-color: #edebf3;
 }
-.white_theme .table_block_right .buy_block_right{
+
+.white_theme .table_block_right .buy_block_right {
     color: #2bb538
 }
+
 .white_theme .table_block_right .sale_block_right {
     color: #dc3852
 }
-.white_theme .coin_unit:hover{
+
+.white_theme .coin_unit:hover {
     background-color: #edebf3;
+}
+
+.white_theme .box_table_block_left div:hover {
+    background-color: #edebf3;
+}
+
+.white_theme .sell_block_left .box_table_block:hover {
+    background-color: #edebf3;
+}
+
+.white_theme .buy_block_left .box_table_block:hover {
+    background-color: #edebf3;
+}
+
+.white_theme .table_block_right:hover {
+    background-color: #edebf3;
+}
+
+.white_theme.exchange_body .orders_container_table .order_box_change_page::-webkit-scrollbar {
+    height: 6px;
+    width: 8px;
+}
+
+.white_theme.exchange_body .orders_container_table .order_box_change_page::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    height: 6px;
+    background-color: #f1f1f1;
+}
+
+.white_theme.exchange_body .orders_container_table .order_box_change_page::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #d3daf7;
 }
 
 
@@ -1258,7 +1349,7 @@
         height: 3px;
         background-color: #f1f1f1;
     }
-    .table_mobile_scroll_referral::-webkit-scrollbar-track {
+    .white_theme .table_mobile_scroll_referral::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         border-radius: 4px;
         height: 3px;
@@ -1424,10 +1515,10 @@
         background-color: #d3daf7;
     }
     .home.white_theme .menu-right a,
-.home.white_theme .menu-left a {
-    color: #242a48; 
-}
-.white_theme .nav-item:before{
-	background-color: #242a48;  
-}
+    .home.white_theme .menu-left a {
+        color: #242a48;
+    }
+    .white_theme .nav-item:before {
+        background-color: #242a48;
+    }
 }
