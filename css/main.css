@@ -645,7 +645,7 @@ section {
 .my_slider {
     position: relative;
     z-index: 1;
-    margin-top: -79px;
+    margin-top: -60px;
 }
 
 .slick-slide img {
@@ -5145,7 +5145,7 @@ a.btn_close {}
 .bg_red_block_left {
     background-color: #6f1b1c;
     position: absolute;
-    height: 35px;
+    height: 33px;
     width: 20%;
 }
 
@@ -5187,7 +5187,7 @@ a.btn_close {}
 .bg_green_block_left {
     background-color: #224b1d;
     position: absolute;
-    height: 35px;
+    height: 33px;
     width: 20%;
 }
 
@@ -5909,6 +5909,18 @@ marquee .row-marquee {
 }
 .exchange_body .orders_value_table{
     position: relative;
+}
+.nav_block_left .current{
+    color: #fff;
+}
+.nav_block_left .current:after {
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -12px;
 }
 
 /*выпадающие селекты-------------------------------------------------------------------------------------------------------------*/

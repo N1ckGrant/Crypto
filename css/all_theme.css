@@ -588,7 +588,10 @@
 }
 
 .white_theme .nav_block_left span {
-    color: #474b8b;
+    color: #828cb1
+}
+.white_theme .nav_block_left .current{
+    color: #242a48;
 }
 
 .white_theme .nav_block_left {
