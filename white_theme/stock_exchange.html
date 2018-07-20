@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Exchenge</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu-mobile.scss">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+    <link rel="stylesheet" href="css/all_theme.css">
+    <script src="Chart.js-master/Chart.bundle.js"></script>
+    <script src="Chart.js-master/utils.js"></script>
+    <style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.9.0.min.js" integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
+</head>
+
+<body class="autorization orders_page exchange_body white_theme">
+    <div class="back_img_animate">
+        <header class="static_page_header">
+            <div class="container">
+                <div class="nav nav_mobile_all">
+                    <div class="menu-left">
+                        <a href="">EXCHANGE </a>
+                        <a href="">MARGIN</a>
+                    </div>
+                    <div class="menu-right">
+                        <ul class="menu_nav">
+                            <li class="menu_balances"><a href="#">Balances<i class="fa fa-sort-down"></i></a>
+                                <ul class="sub_menu sub_balances my_triangle">
+                                    <li><a href="">Balances</a></li>
+                                    <li><a href="">Balances</a></li>
+                                    <li><a href="">-Balances</a></li>
+                                    <li><a href="">---Balances---</a></li>
+                                    <li><a href="">---Balances---</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">ORDER</a></li>
+                            <li><a href="#" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
+                                <ul class="sub_menu my_triangle sub_menu_emeil">
+                                    <li><a href="">аll****@gmail.com</a></li>
+                                    <li><a href="">аll****@gmail.com</a></li>
+                                    <li><a href="">аll****@gmail.com</a></li>
+                                    <li><a href="">аll****@gmail.com</a></li>
+                                    <li><a href="">аll****@gmail.com</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 478.703 478.703" style="enable-background:new 0 0 478.703 478.703;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M454.2,189.101l-33.6-5.7c-3.5-11.3-8-22.2-13.5-32.6l19.8-27.7c8.4-11.8,7.1-27.9-3.2-38.1l-29.8-29.8
+            c-5.6-5.6-13-8.7-20.9-8.7c-6.2,0-12.1,1.9-17.1,5.5l-27.8,19.8c-10.8-5.7-22.1-10.4-33.8-13.9l-5.6-33.2
+            c-2.4-14.3-14.7-24.7-29.2-24.7h-42.1c-14.5,0-26.8,10.4-29.2,24.7l-5.8,34c-11.2,3.5-22.1,8.1-32.5,13.7l-27.5-19.8
+            c-5-3.6-11-5.5-17.2-5.5c-7.9,0-15.4,3.1-20.9,8.7l-29.9,29.8c-10.2,10.2-11.6,26.3-3.2,38.1l20,28.1
+            c-5.5,10.5-9.9,21.4-13.3,32.7l-33.2,5.6c-14.3,2.4-24.7,14.7-24.7,29.2v42.1c0,14.5,10.4,26.8,24.7,29.2l34,5.8
+            c3.5,11.2,8.1,22.1,13.7,32.5l-19.7,27.4c-8.4,11.8-7.1,27.9,3.2,38.1l29.8,29.8c5.6,5.6,13,8.7,20.9,8.7c6.2,0,12.1-1.9,17.1-5.5
+            l28.1-20c10.1,5.3,20.7,9.6,31.6,13l5.6,33.6c2.4,14.3,14.7,24.7,29.2,24.7h42.2c14.5,0,26.8-10.4,29.2-24.7l5.7-33.6
+            c11.3-3.5,22.2-8,32.6-13.5l27.7,19.8c5,3.6,11,5.5,17.2,5.5l0,0c7.9,0,15.3-3.1,20.9-8.7l29.8-29.8c10.2-10.2,11.6-26.3,3.2-38.1
+            l-19.8-27.8c5.5-10.5,10.1-21.4,13.5-32.6l33.6-5.6c14.3-2.4,24.7-14.7,24.7-29.2v-42.1
+            C478.9,203.801,468.5,191.501,454.2,189.101z M451.9,260.401c0,1.3-0.9,2.4-2.2,2.6l-42,7c-5.3,0.9-9.5,4.8-10.8,9.9
+            c-3.8,14.7-9.6,28.8-17.4,41.9c-2.7,4.6-2.5,10.3,0.6,14.7l24.7,34.8c0.7,1,0.6,2.5-0.3,3.4l-29.8,29.8c-0.7,0.7-1.4,0.8-1.9,0.8
+            c-0.6,0-1.1-0.2-1.5-0.5l-34.7-24.7c-4.3-3.1-10.1-3.3-14.7-0.6c-13.1,7.8-27.2,13.6-41.9,17.4c-5.2,1.3-9.1,5.6-9.9,10.8l-7.1,42
+            c-0.2,1.3-1.3,2.2-2.6,2.2h-42.1c-1.3,0-2.4-0.9-2.6-2.2l-7-42c-0.9-5.3-4.8-9.5-9.9-10.8c-14.3-3.7-28.1-9.4-41-16.8
+            c-2.1-1.2-4.5-1.8-6.8-1.8c-2.7,0-5.5,0.8-7.8,2.5l-35,24.9c-0.5,0.3-1,0.5-1.5,0.5c-0.4,0-1.2-0.1-1.9-0.8l-29.8-29.8
+            c-0.9-0.9-1-2.3-0.3-3.4l24.6-34.5c3.1-4.4,3.3-10.2,0.6-14.8c-7.8-13-13.8-27.1-17.6-41.8c-1.4-5.1-5.6-9-10.8-9.9l-42.3-7.2
+            c-1.3-0.2-2.2-1.3-2.2-2.6v-42.1c0-1.3,0.9-2.4,2.2-2.6l41.7-7c5.3-0.9,9.6-4.8,10.9-10c3.7-14.7,9.4-28.9,17.1-42
+            c2.7-4.6,2.4-10.3-0.7-14.6l-24.9-35c-0.7-1-0.6-2.5,0.3-3.4l29.8-29.8c0.7-0.7,1.4-0.8,1.9-0.8c0.6,0,1.1,0.2,1.5,0.5l34.5,24.6
+            c4.4,3.1,10.2,3.3,14.8,0.6c13-7.8,27.1-13.8,41.8-17.6c5.1-1.4,9-5.6,9.9-10.8l7.2-42.3c0.2-1.3,1.3-2.2,2.6-2.2h42.1
+            c1.3,0,2.4,0.9,2.6,2.2l7,41.7c0.9,5.3,4.8,9.6,10,10.9c15.1,3.8,29.5,9.7,42.9,17.6c4.6,2.7,10.3,2.5,14.7-0.6l34.5-24.8
+            c0.5-0.3,1-0.5,1.5-0.5c0.4,0,1.2,0.1,1.9,0.8l29.8,29.8c0.9,0.9,1,2.3,0.3,3.4l-24.7,34.7c-3.1,4.3-3.3,10.1-0.6,14.7
+            c7.8,13.1,13.6,27.2,17.4,41.9c1.3,5.2,5.6,9.1,10.8,9.9l42,7.1c1.3,0.2,2.2,1.3,2.2,2.6v42.1H451.9z" />
+                                                <path d="M239.4,136.001c-57,0-103.3,46.3-103.3,103.3s46.3,103.3,103.3,103.3s103.3-46.3,103.3-103.3S296.4,136.001,239.4,136.001
+            z M239.4,315.601c-42.1,0-76.3-34.2-76.3-76.3s34.2-76.3,76.3-76.3s76.3,34.2,76.3,76.3S281.5,315.601,239.4,315.601z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
+                                <ul class="sub_menu my_triangle en_ru_submenu">
+                                    <li><a href="#">RU</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-menu-mobile">
+                    <!-- Этот чекбокс даст нам поведение переключателя, 
+  он будет скрыт, но работать -->
+                    <input id="toggle" type="checkbox">
+                    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении 
+  состояния чекбокса, является «братским» элементом для чекбокса -->
+                    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                    <label class="toggle-container" for="toggle">
+                        <!-- Если меню открыто, то здесь будет иконка «X», 
+  в противном случае просто иконка гамбургера -->
+                        <span class="button button-toggle"></span>
+                    </label>
+                    <!-- Навигация -->
+                    <nav class="nav-mobile-menu">
+                        <a class="nav-item" href="">Balances</a>
+                        <a class="nav-item" href="">Order</a>
+                        <a class="nav-item" href="">Settings</a>
+                        <a class="nav-item" href="">Profile</a>
+                        <a class="logout_mobile nav-item " href="#">Logout</a>
+                    </nav>
+                </div>
+        </header>
+        <section class="stock_exchange_page">
+            <div class="container">
+                <!-- <div class="nav_bar_chenge nav_bar_support">
+                    <a href="">Orders</a>
+                </div> -->
+                <div class="section_exchange">
+                    <div class="block_left ">
+                        <p class="title_block_left">Estimated Net Value:</p>
+                        <p class="btc_block_left">0.00000000 BTC <span>~0.00USD</span></p>
+                        <form class="search_forma" action="">
+                            <span>Markers</span>
+                            <input type="search">
+                            <span>USD</span>
+                        </form>
+                        <div class="box_table_tabs ">
+                            <div class="nav_block_left tabs">
+                                <span class="tab-link current" data-tab="tab-1" href="#">USDT</span>
+                                <span class="tab-link" data-tab="tab-2" >BTC</span>
+                                <span class="tab-link" data-tab="tab-3" href="#">ETH</span>
+                                <span class="tab-link" data-tab="tab-4" href="#">Marked</span>
+                            </div>
+                            <div class="nav_table_block_left">
+                                    <a href="#">Coin</a>
+                                    <a href="#">Last Price</a>
+                                    <a href="#">Change</a>
+                                </div>
+                            <div class="box_table_block_left tab-content current" id="tab-1"> 
+                                
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_green">+12.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                            </div>
+                            <div class="box_table_block_left tab-content" id="tab-2">
+                                
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_green">+12.63%</div>
+                                </div>
+                            </div>
+                            <div class="box_table_block_left tab-content" id="tab-3">
+                                
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                            </div>
+                            <div class="box_table_block_left tab-content" id="tab-4">
+                                
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                                <div class="table_block_left">
+                                    <div><i class="marker un_marker"></i>BTC</div>
+                                    <div>8469.68</div>
+                                    <div class="value_red">-3.63%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_center chartjsimg">
+
+                    </div>
+                    <div class="block_right">
+                        <!-- <form action=""> -->
+                            <div class="nav_block_right tabs_sell tabs ">
+                                <input type="radio" id="BUY">
+                                <label for="BUY" class="tab-link current2" data-tab="tab-20">BUY</label>
+                                <input type="radio" id="SELL">
+                                <label for="SELL" class="tab-link" data-tab="tab-21">SELL</label>
+                            </div>
+                            <!-- -------------------------- -->
+                            <div class="box_sell_tabs tab-content_sell_buy current2"id="tab-20">
+                            <div class="order_box_block_right subtabs">
+                                <input type="radio" id="limit_Order">
+                                <label for="limit_Order" class="tab-link current" data-tab="tab-10">Limit Order</label>
+                                <input type="radio" id="Market Order">
+                                <label for="Market Order" class="tab-link" data-tab="tab-11">Market Order</label>
+                                <input type="radio" id="Stop-Loss">
+                                <label for="Stop-Loss" class="tab-link " data-tab="tab-12">Stop-Loss</label>
+                            </div>
+                                <!-- -------------------------- -->
+                                
+                            <div class="box_tabs tab-content_right current" id="tab-10">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            
+                            
+                            <div class="box_tabs tab-content_right" id="tab-11">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                 </form>
+                            </div>
+
+                            <div class="box_tabs tab-content_right stop-loss" id="tab-12">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box loss-box">
+                                        <label for="amount">loren</label>
+                                        <div>
+                                            <div class="select_butom">
+                                                <select class="my_select" name="" id="">
+                                                    <option value="111">111d1</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1ss111</option>
+                                                </select>
+                                            </div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                 </form>
+                            </div>
+                           
+                            </div>
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+                            <div class="box_sell_tabs tab-content_sell_buy" id="tab-21" >
+                           <div class="order_box_block_right subtabs">
+                                <input type="radio" id="limit_Order">
+                                <label for="limit_Order" class="tab-link current" data-tab="tab-30">Limit Order</label>
+                                <input type="radio" id="Market Order">
+                                <label for="Market Order" class="tab-link" data-tab="tab-31">Market Order</label>
+                                <input type="radio" id="Stop-Loss">
+                                <label for="Stop-Loss" class="tab-link " data-tab="tab-32">Stop-Loss</label>
+                            </div>
+                            <!-- -------------------------- -->
+                            
+                            <div class="box_tabs tab-content_right current" id="tab-30">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            
+                            
+                            <div class="box_tabs tab-content_right" id="tab-31">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="box_change">
+                                        <input required type="text" value="2.89863322">
+                                        <span>BTC</span>
+                                    </div>
+                                    <div class="USD_change">≈ 7713.41 USD</div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+
+                            <div class="box_tabs tab-content_right stop-loss" id="tab-32">
+                                <form action="">
+                                <div class="block_right_deposit">
+                                    <span>Available 0.0000000 USDT</span>
+                                    <span>Deposit</span>
+                                </div>
+                                <div class="change_deposit_block_right">
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box">
+                                        <label for="amount">Amount</label>
+                                        <div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="amount_box loss-box">
+                                        <label for="amount">loren</label>
+                                        <div>
+                                            <div class="select_butom">
+                                                <select class="my_select" name="" id="">
+                                                    <option value="111">111d1</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1111</option>
+                                                    <option value="111">11a11</option>
+                                                    <option value="111">1ss111</option>
+                                                </select>
+                                            </div>
+                                            <input required type="text" id="amount"><span>SMT</span>
+                                        </div>
+                                    </div>
+                                    <div class="total_price">Total 0.00000000000 USDT</div>
+                                    <div class="btn_box">
+                                        <input class="buy_smt" type="submit" value="BUY SMT">
+                                    </div>
+                                </div>
+                                 </form>
+                            </div>
+                            
+                            </div>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+
+                        <!-- </form> -->
+                    </div>
+                
+                <!-- <div class="section_exchange"> -->
+                    <div class="block_left block_left_mobile">
+                        <p class="btc_block_right">0.00000000 BTC <span>~0.00USD</span></p>
+                        <div class="caption_block_left_bottom">
+                            <div>Price(USDT)</div>
+                            <div>Amount(SMT)</div>
+                            <div>Sum(SMIT)</div>
+                        </div>
+                        <div class="section_scroll_sell_buy">
+                            <div class="sell_box_block_left">
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 40%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 7</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 20%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 6</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 70%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 5</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 30%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 4</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 3</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 2</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buy_box_block_left">
+                                <div class="buy_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 50%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 1</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 20%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 2</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 3</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 30%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 4</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 90%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 6</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 90%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_center block_center_mobile">
+                        <div style="width: 100%; height: 100%;">
+        <canvas id="canvas" style="height: 100%; width: 100%;"></canvas>
+    </div>
+
+    <script>
+        var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        var config = {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    
+                    borderColor: 'rgba(34, 75, 29, 0.7)',
+                    backgroundColor: 'rgba(34, 75, 29, 0.7)',
+                    data: [
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor()
+                    ],
+                }, {
+                    
+                    borderColor: 'rgba(111, 27, 28, 0.7)',
+                    backgroundColor:'rgba(111, 27, 28, 0.7)',
+                    data: [
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor()
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true
+                    
+                },
+                tooltips: {
+                    mode: 'index',
+                },
+                hover: {
+                    mode: 'index'
+                },
+                scales: {
+                    xAxes: [{
+                        scaleLabel: {
+                            display: false,
+                            
+                        }
+                    }],
+                    yAxes: [{
+                        stacked: true,
+                        scaleLabel: {
+                            display: false,
+                            
+                        }
+                    }]
+                }
+            }
+        };
+
+        window.onload = function() {
+            var ctx = document.getElementById('canvas').getContext('2d');
+            window.myLine = new Chart(ctx, config);
+        };
+
+        document.getElementById('randomizeData').addEventListener('click', function() {
+            config.data.datasets.forEach(function(dataset) {
+                dataset.data = dataset.data.map(function() {
+                    return randomScalingFactor();
+                });
+
+            });
+
+            window.myLine.update();
+        });
+
+        var colorNames = Object.keys(window.chartColors);
+        document.getElementById('addDataset').addEventListener('click', function() {
+            var colorName = colorNames[config.data.datasets.length % colorNames.length];
+            var newColor = window.chartColors[colorName];
+            var newDataset = {
+                label: 'Dataset ' + config.data.datasets.length,
+                borderColor: newColor,
+                backgroundColor: newColor,
+                data: [],
+            };
+
+            for (var index = 0; index < config.data.labels.length; ++index) {
+                newDataset.data.push(randomScalingFactor());
+            }
+
+            config.data.datasets.push(newDataset);
+            window.myLine.update();
+        });
+
+        document.getElementById('addData').addEventListener('click', function() {
+            if (config.data.datasets.length > 0) {
+                var month = MONTHS[config.data.labels.length % MONTHS.length];
+                config.data.labels.push(month);
+
+                config.data.datasets.forEach(function(dataset) {
+                    dataset.data.push(randomScalingFactor());
+                });
+
+                window.myLine.update();
+            }
+        });
+
+        document.getElementById('removeDataset').addEventListener('click', function() {
+            config.data.datasets.splice(0, 1);
+            window.myLine.update();
+        });
+
+        document.getElementById('removeData').addEventListener('click', function() {
+            config.data.labels.splice(-1, 1); // remove the label first
+
+            config.data.datasets.forEach(function(dataset) {
+                dataset.data.pop();
+            });
+
+            window.myLine.update();
+        });
+    </script>
+                    </div>
+                    <div class="block_right block_right_mobile">
+                        <p>Market Trades</p>
+                        <div class="table_box_block_right">
+                            <div class="caption_table_block_right">
+                                <div>Date</div>
+                                <div>Type</div>
+                                <div>Price(BTC)</div>
+                                <div>Amount(HT)</div>
+                            </div>
+                            <div class="scroll_table_block_right">
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="sale_block_right">Sale</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="container">
+                <script>
+                    $(function() {
+  $('#button').on('click', function(e) {
+      $('#block').slideToggle(function() {
+        console.log($(e.target).is(':visible'));
+        $(e.target).text($(this).is(':visible') ? '' : '');
+      });
+  });
+});
+                </script>
+                <div class="referral_table_container orders_container_table ">
+                    <div class="box_orders_nav">
+                        <div class="nav_orders">
+                            <span id="button" class="button_stock_exch open_button close_button"></span>
+                            <div class="source source-1">Open orders</div>
+                            <div class="source source-2">Order history</div>
+                        </div>
+                        <div class="title_orders">
+                            <div class="filter_orders">
+                                <div>Buy</div>
+                                <div>Sell</div>
+                                <div>All</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orders_table order_box_change_page" id="block">
+                        <div class="caption_table">
+                            <div>Date</div>
+                            <div>Pair</div>
+                            <div>Type</div>
+                            <div>Operation</div>
+                            <div>Price</div>
+                            <div>Amount</div>
+                            <div>Total</div>
+                            <div>Commision</div>
+                            <div>Action</div>
+                        </div>
+                        <div class="orders_box_value_table  target target-1">
+
+                            
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="orders_value_table">
+                                <div>12.02.2018</div>
+                                <div>BTC / USD </div>
+                                <div>Market </div>
+                                <div>Buy</div>
+                                <div>8023.01</div>
+                                <div>0.25 BT</div>
+                                <div>2021.01</div>
+                                <div>0,28 USD</div>
+                                <div>
+                                    <a class="btn_close trigger" href="javascript:;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                        <defs>
+                                            
+                                        </defs>
+                                       
+                                            <path  d="M20.489,3.511 C15.809,-1.169 8.192,-1.170 3.511,3.511 C-1.170,8.192 -1.169,15.808 3.511,20.489 C8.192,25.170 15.808,25.170 20.489,20.489 C25.170,15.808 25.170,8.192 20.489,3.511 ZM16.735,16.734 C16.374,17.095 15.789,17.095 15.429,16.734 L12.000,13.306 L8.409,16.897 C8.048,17.258 7.464,17.258 7.103,16.897 C6.743,16.537 6.743,15.952 7.103,15.592 L10.695,12.000 L7.266,8.572 C6.906,8.211 6.906,7.626 7.266,7.266 C7.627,6.905 8.211,6.905 8.572,7.266 L12.000,10.694 L15.265,7.429 C15.626,7.069 16.211,7.069 16.571,7.429 C16.932,7.790 16.932,8.375 16.571,8.735 L13.306,12.000 L16.735,15.429 C17.095,15.789 17.095,16.374 16.735,16.734 Z" />
+                                        
+                                    </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orders_box_value_table target target-2">
+                            <div class="orders_value_table other_history_orders">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="75px">
+                                    <path fill-rule="evenodd" fill="#484c83" d="M31.646,8.299 C31.001,8.299 30.479,7.774 30.479,7.125 C30.479,6.477 31.001,5.951 31.646,5.951 L53.538,5.951 C54.183,5.951 54.706,6.477 54.706,7.125 C54.706,7.774 54.183,8.299 53.538,8.299 L31.646,8.299 ZM79.866,39.199 L71.166,72.072 C70.710,73.796 69.150,75.000 67.372,75.000 L3.927,75.000 C2.698,75.000 1.564,74.440 0.815,73.463 C0.298,72.788 0.019,71.985 0.001,71.160 C0.001,71.155 -0.000,71.150 -0.000,71.145 L-0.000,21.234 C-0.000,18.990 1.820,17.165 4.057,17.164 L12.047,17.164 C14.029,17.164 15.822,18.263 16.728,20.031 L17.745,22.018 C18.200,22.907 19.093,23.465 20.085,23.488 L20.085,4.110 C20.085,1.844 21.923,0.000 24.183,0.000 L59.574,0.000 C61.833,0.000 63.671,1.844 63.671,4.110 L63.671,14.508 C63.671,15.158 63.147,15.684 62.499,15.684 C61.852,15.684 61.328,15.158 61.328,14.508 L61.328,4.110 C61.328,3.140 60.541,2.351 59.574,2.351 L24.183,2.351 C23.216,2.351 22.429,3.140 22.429,4.110 L22.429,34.251 L33.576,34.251 L49.757,34.251 L61.327,34.251 L61.327,20.031 C61.327,19.382 61.852,18.856 62.499,18.856 C63.146,18.856 63.671,19.382 63.671,20.031 L63.671,23.490 L63.756,23.490 C66.396,23.490 68.544,25.644 68.544,28.293 L68.544,34.252 L76.072,34.252 C77.300,34.252 78.434,34.812 79.183,35.788 C79.932,36.765 80.181,38.008 79.866,39.199 ZM20.086,25.839 C18.211,25.816 16.519,24.769 15.661,23.092 L14.643,21.105 C14.141,20.125 13.146,19.515 12.047,19.515 L4.057,19.515 C3.112,19.515 2.344,20.287 2.344,21.234 L2.344,61.698 L8.832,37.179 C9.288,35.456 10.849,34.252 12.626,34.252 L20.086,34.252 L20.086,25.839 ZM66.200,28.293 C66.200,26.941 65.104,25.841 63.756,25.841 L63.671,25.841 L63.671,34.252 L66.200,34.252 L66.200,28.293 ZM77.325,37.222 C77.024,36.828 76.567,36.603 76.072,36.603 L45.886,36.603 C45.884,36.603 45.882,36.603 45.880,36.603 C45.879,36.603 45.878,36.603 45.876,36.603 L37.445,36.603 C37.444,36.603 37.442,36.603 37.441,36.603 L12.626,36.603 C11.910,36.603 11.281,37.088 11.097,37.782 L3.379,66.947 L10.612,66.947 C11.259,66.947 11.784,67.474 11.784,68.123 C11.784,68.772 11.259,69.298 10.612,69.298 L2.757,69.298 L2.398,70.656 C2.398,70.656 2.398,70.657 2.398,70.657 C2.380,70.725 2.368,70.794 2.359,70.863 C2.356,70.884 2.355,70.906 2.353,70.928 C2.349,70.976 2.347,71.025 2.347,71.074 C2.348,71.416 2.459,71.750 2.673,72.030 C2.975,72.423 3.432,72.649 3.927,72.649 L67.372,72.649 C68.088,72.649 68.717,72.164 68.901,71.469 L69.475,69.298 L16.052,69.298 C15.405,69.298 14.880,68.772 14.880,68.123 C14.880,67.473 15.405,66.947 16.052,66.947 L70.097,66.947 L77.600,38.596 C77.727,38.116 77.627,37.615 77.325,37.222 Z" />
+                                </svg>
+                                <p>You have no deposit history</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-wrapper">
+                    <div class="modal">
+                        <h1>Delete order</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
+                        <div class="btn_modal_box">
+                            <input id="delete-yes" type="submit" value="Confirm">
+                            <input class="btn-close trigger" id="" type="submit" value="Cancel">
+                        </div>
+                        <!-- <div class="head">
+                        <a class="btn-close trigger" href="javascript:;"></a>
+                    </div> -->
+                        <!--  <div class="content_popup">
+                        
+                    </div> -->
+                    </div>
+                </div>
+        </section>
+        <script>
+        $(document).ready(function() {
+            $('.trigger').click(function() {
+                $('.modal-wrapper').toggleClass('open');
+                $('.page-wrapper').toggleClass('blur');
+                return false;
+            });
+        });
+        </script>
+        <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/main-table.js"></script>
+        <script type="text/javascript" src="js/main_js.js"></script>
+        <script type="text/javascript" src="js/my_tabs.js"></script>
+        <script type="text/javascript" src="js/my_select.js"></script>
+
+        </div>
+</body>
+
+</html>
