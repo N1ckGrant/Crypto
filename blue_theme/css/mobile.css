@@ -261,7 +261,7 @@
                            padding-left: 10px;
                        }
                        .orders_container_table .orders_table {
-                           overflow-x: scroll;
+                           overflow-x: auto;
                            overflow-y: hidden;
                        }
 
@@ -1425,6 +1425,10 @@
                        /*change pass*/
                        .change_password_page_header {
                            margin-bottom: 0px;
+                           height: 70px;
+                       }
+                       header{
+                        height: 70px;
                        }
 
                        .nav_bar_chenge a {
@@ -2090,6 +2094,7 @@
 
                        .operation_history {
                            margin-bottom: 0px;
+                           height: 70px;
                        }
 
                        .operation_history .operation_history_table {
@@ -2797,6 +2802,7 @@
 
                        .home header {
                            margin-bottom: 0px;
+                           height: 100%;
                        }
 
                        .slick-dotted.slick-slider {

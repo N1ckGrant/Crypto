@@ -1621,7 +1621,7 @@ section {
     -ms-flex-align: baseline;
     align-items: baseline;
     color: #2b4fe9;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Helvetica Neue";
 }
 
@@ -1639,6 +1639,7 @@ section {
 
 .chenge_pass i {
     padding-right: 14px;
+
 }
 
 .pass_title {
@@ -2000,8 +2001,14 @@ input[type=checkbox]:checked+label:before {
     color: #0e0e3f;*/
 }
 
-.title_404 img {
-    width: 60%;
+.title_404 div {
+    width: 50%;
+    background-image: url(../img/404.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 300px;
+    background-size: contain;
+
 }
 
 .page_404 p {
@@ -2030,6 +2037,7 @@ input[type=checkbox]:checked+label:before {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 150px;
+    transition: all 0.3s;
 }
 
 .page_404 a:hover {
@@ -2277,21 +2285,21 @@ input[type=checkbox]:checked+label:before {
 .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
     color: #484c83;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
 .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
     color: #484c83;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
 .input_pass_new .calendar input[type=""]::placeholder {
     color: #484c83;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
@@ -2900,7 +2908,7 @@ input[type=checkbox]:checked+label:before {
     display: -ms-flexbox;
     display: flex;
     /*padding-bottom: 30px;*/
-    border-bottom: 1px solid #23265a;
+    border-bottom: 2px solid #23265a;
 }
 
 .nav__referral input {
@@ -3824,6 +3832,8 @@ input[type=checkbox]:checked+label:before {
     color: #2f316d;
     text-align: left;
     font-weight: 700;
+    vertical-align: middle;
+    line-height: 23px;
 }
 
 .basic_info_box {
@@ -3895,7 +3905,7 @@ input[type=checkbox]:checked+label:before {
 }
 
 .two_factor_box .pass_check {
-    height: 22px;
+    height: 23px;
     width: 180px;
     background-color: #0e0e40;
     padding-top: 0px;
@@ -4467,8 +4477,9 @@ a.btn_close {}
 }
 
 .operation_hist_row {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 24px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #23265a;
     color: #fff;
     font-size: 16px;
@@ -5712,6 +5723,7 @@ marquee .row-marquee {
     cursor: pointer;
     left: -30px;
     bottom: -2px;
+    fill: #000;
 }
 
 .box_hover_row {
@@ -5803,6 +5815,9 @@ marquee .row-marquee {
 
 .notifications_history td:last-child {
     text-align: center;
+}
+.notifications_history .notifications_history_box_mobile td:last-child {
+    text-align: left;
 }
 
 .notifications_history tr:hover {
@@ -5949,6 +5964,12 @@ marquee .row-marquee {
     width: 100%;
     left: 0px;
     bottom: -12px;
+}
+.chenge_pass i{
+    font-size: 25px;
+}
+.operation_history_window:hover{
+    background-color: transparent;
 }
 
 /*выпадающие селекты-------------------------------------------------------------------------------------------------------------*/

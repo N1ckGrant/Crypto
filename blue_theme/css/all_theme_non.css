@@ -237,28 +237,28 @@
 .white_theme .input_pass_new .calendar input[type=""]::-webkit-input-placeholder {
     color: #96a6ee;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
 .white_theme .input_pass_new .calendar input[type=""]:-ms-input-placeholder {
     color: #96a6ee;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
 .white_theme .input_pass_new .calendar input[type=""]::-ms-input-placeholder {
     color: #96a6ee;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
 .white_theme .input_pass_new .calendar input[type=""]::placeholder {
     color: #96a6ee;
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 20px;
 }
 
@@ -1334,6 +1334,35 @@
 }
 .white_theme .buy_block_left{
     border-color: #d3daf7;
+}
+.white_theme .title_404 div {
+    
+    background-image: url(../img/404_white.png);
+}
+.page_404.white_theme  p{
+    color: #0e0e3f
+}
+.page_404.white_theme a{
+    background-color: #96a6ee;
+}
+.page_404.white_theme  a:hover{
+    background-color: rgb(38, 41, 93);
+    box-shadow: 0px 0px 20px 6px #0e0e3f
+}
+.white_theme .photo_id h2{
+    color: #242a48;
+}
+.white_theme .ID-Verification_jpg .title_id_passport h2{
+    color: #96a6ee
+}
+.white_theme .level_pass{
+    color: #96a6ee
+}
+.white_theme .btn_pass_box .change_btn_pass{
+    color: #96a6ee
+}
+.white_theme .operation_history_window:hover{
+    background-color: transparent;
 }
 
 /*_________________________________________________mob_____________________________________________*/
