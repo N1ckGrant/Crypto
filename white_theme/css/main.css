@@ -4939,7 +4939,7 @@ a.btn_close {}
 }
 
 .order_box_block_right label:nth-child(4):after {
-    left: -1px;
+    left: -3px;
 }
 
 .order_box_block_right label:after {
@@ -4954,6 +4954,10 @@ a.btn_close {}
 .order_box_block_right label:hover {
     color: #fff;
     background-color: #474b8b;
+}
+.order_box_block_right label:hover:after {
+    opacity: 0;
+    transition: 0.4s;
 }
 
 .order_box_block_right label:active {
@@ -5612,6 +5616,7 @@ marquee .row-marquee {
 .order_box_block_right label.current {
     color: #fff;
     background-color: #474b8b;
+    z-index: 1;
 }
 
 .form_edje {
