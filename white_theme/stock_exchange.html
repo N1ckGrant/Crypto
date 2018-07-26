@@ -28,31 +28,38 @@
             <div class="container">
                 <div class="nav nav_mobile_all">
                     <div class="menu-left">
-                        <a href="">EXCHANGE </a>
-                        <a href="">MARGIN</a>
-                    </div>
-                    <div class="menu-right">
-                        <ul class="menu_nav">
-                            <li class="menu_balances"><a href="#">Balances<i class="fa fa-sort-down"></i></a>
-                                <ul class="sub_menu sub_balances my_triangle">
-                                    <li><a href="">Balances</a></li>
-                                    <li><a href="">Balances</a></li>
-                                    <li><a href="">-Balances</a></li>
-                                    <li><a href="">---Balances---</a></li>
-                                    <li><a href="">---Balances---</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="">ORDER</a></li>
-                            <li><a href="#" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
-                                <ul class="sub_menu my_triangle sub_menu_emeil">
-                                    <li><a href="">аll****@gmail.com</a></li>
-                                    <li><a href="">аll****@gmail.com</a></li>
-                                    <li><a href="">аll****@gmail.com</a></li>
-                                    <li><a href="">аll****@gmail.com</a></li>
-                                    <li><a href="">аll****@gmail.com</a></li>
-                                </ul>
-                            </li>
-                            <li>
+                            <a href="">EXCHANGE </a>
+                            <!-- <a href="">MARGIN</a> -->
+                        </div>
+                        <div class="menu-right">
+                            <ul class="menu_nav">
+                                <li class="menu_balances portfolio_value_menu"><a href="#">Portfolio value<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu sub_balances my_triangle ">
+                                        <li><a href="#">123.22311231 <span>BTC</span></a></li>
+                                        <li><a href="#">123.12 <span>USD</span></a></li>
+                                        <li><a href="#">123.2 <span>EUR</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_balances"><a href="#">Balances<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu sub_balances my_triangle">
+                                        <li><a href="">Balances</a></li>
+                                        <li><a href="">Balances</a></li>
+                                        <li><a href="">-Balances</a></li>
+                                        <li><a href="">---Balances---</a></li>
+                                        <li><a href="">---Balances---</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">ORDER</a></li>
+                                <li class="mail_mobile_menu"><a href="#" class="emeil">аll****@gmail.com<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu my_triangle sub_menu_emeil">
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                        <li><a href="">аll****@gmail.com</a></li>
+                                    </ul>
+                                </li>
+                                <li class="change_theme_icon">
                                 <a href="">
                                     <?xml version="1.0" encoding="iso-8859-1"?>
                                     <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -117,13 +124,13 @@
                                     </svg>
                                 </a>
                             </li>
-                            <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
-                                <ul class="sub_menu my_triangle en_ru_submenu">
-                                    <li><a href="#">RU</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                                <li class="en_ru"><a href="">EN<i class="fa fa-sort-down"></i></a>
+                                    <ul class="sub_menu my_triangle en_ru_submenu">
+                                        <li><a href="#">RU</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
                 <div class="container-menu-mobile">
                     <!-- Этот чекбокс даст нам поведение переключателя, 
@@ -152,8 +159,19 @@
                 <!-- <div class="nav_bar_chenge nav_bar_support">
                     <a href="">Orders</a>
                 </div> -->
+
                 <div class="section_exchange">
+                    <div class="wraper_block">
+                    <!-- --------------------------------------------------табы всего блока, переключение между основными блоками -->
                     <div class="block_left ">
+                        <div class="tabs_block_box tabs">
+                            <label for="market" class="tab-link current_box" data-tab="tab-40">Market</label>
+                            <input type="radio" id="market">
+                            <label for="trades" class="tab-link" data-tab="tab-41">Trades</label>
+                            <input type="radio" id="trades">
+                        </div>
+                    <!-- _______________________________________________________________________конец блока с переключением табов -->
+                        <div class="block_markets_trades block_markets tab-content_box current_box"id="tab-40">
                         <p class="title_block_left">Estimated Net Value:</p>
                         <p class="btc_block_left">0.00000000 BTC <span>~0.00USD</span></p>
                         <form class="search_forma" action="">
@@ -161,6 +179,9 @@
                             <input type="search">
                             <span>USD</span>
                         </form>
+
+                        <!-- _____________________________________________________________________табы первого блока -->
+                        
                         <div class="box_table_tabs ">
                             <div class="nav_block_left tabs">
                                 <span class="tab-link current" data-tab="tab-1" href="#">USDT</span>
@@ -277,20 +298,118 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block_center chartjsimg">
+                        <!-- --------------------------------------------------конец табов первого блока -->
 
+
+
+                        <!-- _______________________________________начало__________________________________________________ -->
+
+                        <div class="block_markets_trades block_trades tab-content_box"id="tab-41">
+                            <div class="block_trades">
+                        <p>Trades</p>
+                        <div class="table_box_block_right">
+                            <div class="caption_table_block_right">
+                                <div>Date</div>
+                                <div>Type</div>
+                                <div>Price(BTC)</div>
+                                <div>Amount(HT)</div>
+                            </div>
+                            <div class="scroll_table_block_right">
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="sale_block_right">Sale</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>      
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="sale_block_right">Sale</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>      
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="sale_block_right">Sale</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>      
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="sale_block_right">Sale</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>      
+                                <div class="table_block_right">
+                                    <div>18.12.18</div>
+                                    <div class="buy_block_right">Buy</div>
+                                    <div>1288.66</div>
+                                    <div>678943266</div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+                </div>
+
+                        <!-- _________________________________________конец___________________________________________________ -->
+                    </div>
+
+
+
                     <div class="block_right">
                         <!-- <form action=""> -->
                             <div class="nav_block_right tabs_sell tabs ">
                                 <input type="radio" id="BUY">
-                                <label for="BUY" class="tab-link current2" data-tab="tab-20">BUY</label>
+
+                                <label for="BUY" class="tab-link current2" data-tab="tab-20">BUY</label><!-- переключатель SELL -->
                                 <input type="radio" id="SELL">
                                 <label for="SELL" class="tab-link" data-tab="tab-21">SELL</label>
                             </div>
                             <!-- -------------------------- -->
-                            <div class="box_sell_tabs tab-content_sell_buy current2"id="tab-20">
-                            <div class="order_box_block_right subtabs">
+                            <div class="box_sell_tabs tab-content_sell_buy current2"id="tab-20"><!-- блок, который переключает SELL -->
+                            <div class="order_box_block_right subtabs"><!-- блок с табами внутри блока SELL -->
                                 <input type="radio" id="limit_Order">
                                 <label for="limit_Order" class="tab-link current" data-tab="tab-10">Limit Order</label>
                                 <input type="radio" id="Market Order">
@@ -510,8 +629,18 @@
 
                         <!-- </form> -->
                     </div>
+
+
+
+
+                </div>
+                    <div class="block_center chartjsimg">
+
+                    </div>
+                    
                 
                 <!-- <div class="section_exchange"> -->
+                    <div class="my_height_block">
                     <div class="block_left block_left_mobile">
                         <p class="btc_block_right">0.00000000 BTC <span>~0.00USD</span></p>
                         <div class="caption_block_left_bottom">
@@ -584,6 +713,43 @@
                                         <span class="sell_number">Sell 1</span>
                                     </div>
                                 </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 1</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 1</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 1</span>
+                                    </div>
+                                </div>
+                                <div class="sell_block_left">
+                                    <div class="box_table_block">
+                                        <div class="bg_red_block_left" style="width: 10%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="sell_number">Sell 1</span>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="buy_box_block_left">
                                 <div class="buy_block_left">
@@ -623,6 +789,69 @@
                                         <span class="buy_number">Buy 5</span>
                                     </div>
                                     <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
+                                        <div class="bg_green_block_left" style="width: 60%"></div>
+                                        <span>678943266</span>
+                                        <span>1288.66</span>
+                                        <span>0.889645</span>
+                                        <span class="buy_number">Buy 5</span>
+                                    </div>
+                                    <div class="box_table_block">
                                         <div class="bg_green_block_left" style="width: 90%"></div>
                                         <span>678943266</span>
                                         <span>1288.66</span>
@@ -639,6 +868,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                     <div class="block_center block_center_mobile">
                         <div style="width: 100%; height: 100%;">
@@ -772,140 +1002,6 @@
             window.myLine.update();
         });
     </script>
-                    </div>
-                    <div class="block_right block_right_mobile">
-                        <p>Market Trades</p>
-                        <div class="table_box_block_right">
-                            <div class="caption_table_block_right">
-                                <div>Date</div>
-                                <div>Type</div>
-                                <div>Price(BTC)</div>
-                                <div>Amount(HT)</div>
-                            </div>
-                            <div class="scroll_table_block_right">
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="sale_block_right">Sale</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                                <div class="table_block_right">
-                                    <div>18.12.18</div>
-                                    <div class="buy_block_right">Buy</div>
-                                    <div>1288.66</div>
-                                    <div>678943266</div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

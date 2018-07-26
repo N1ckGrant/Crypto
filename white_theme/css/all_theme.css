@@ -1364,6 +1364,24 @@
 .white_theme .operation_history_window:hover{
     background-color: transparent;
 }
+.white_theme .tabs_block_box label{
+    color: #d3daf7;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.white_theme .tabs_block_box label:hover{
+    color: #242a48;
+}
+.white_theme .tabs_block_box{
+    border-color: #d3daf7;
+}
+.white_theme .block_trades p{
+    color: #242a48;
+}
+.white_theme .tabs_block_box label.current_box{
+    color: #242a48;
+}
+
 
 /*_________________________________________________mob_____________________________________________*/
 

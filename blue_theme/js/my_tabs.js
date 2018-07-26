@@ -47,6 +47,22 @@ $(document).ready(function(){
   })
 
 })
+$(document).ready(function(){
+  console.log('box_table_market')
+  
+  $('div.tabs_block_box label').click(function(){
+
+    var tab_id = $(this).attr('data-tab');
+    console.log('click_two')
+
+    $('div.tabs_block_box label').removeClass('current_box');
+    $('.tab-content_box').removeClass('current_box');
+
+    $(this).addClass('current_box');
+    $("#"+tab_id).addClass('current_box');
+  })
+
+})
 
 
 

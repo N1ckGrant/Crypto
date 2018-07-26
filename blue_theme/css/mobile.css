@@ -16,32 +16,43 @@
 
                            -ms-flex-order: 1;
                            order: 1;
-                           height: 510px;
+                           /*height: 510px;*/
                            min-width: 304px;
-                           width: 29%;
+                           width: 50%;
                            margin-right: 0px;
                        }
                        .block_left_mobile {
                            -ms-flex-order: 4;
                            order: 4;
-                           width: 50%;
+                           width: 100%;
+                       }
+                       .wraper_block{
+                        order: 3;
+                        width: 70%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-left: 0px;
                        }
                        .block_center {
-                           margin-left: 10px;
+                           margin-left: 0px;
                            -ms-flex-order: 2;
-                           order: 2;
+                           order: 1;
                            height: 510px;
                            width: 70%;
                            /*min-width: 304px;*/
                            margin-right: 0px;
-                           margin-bottom: 15px;
+                           margin-bottom: 10px;
                        }
                        .block_center_mobile {
                            order: 6;
-                           width: 70%;
+                           width: 100%;
                            margin-top: 10px;
-                           margin-left: 10px;
+                           margin-left: 0px;
                        }
+                       .my_height_block{
+                        width: 29%;
+                       }
+                       
                        .block_right {
                            width: 49%;
                            -webkit-box-ordinal-group: 3;
@@ -85,9 +96,9 @@
                            min-width: 260px;
                        }
                        .block_left_mobile {
-                           width: 50%;
+                           width: 100%;
                        }
-
+                      
 
                        /*шрифт меньше*/
                        .nav_bar_chenge a {
@@ -636,7 +647,7 @@
 
                        }
                        .block_center_mobile{
-                        margin-top: 0px;
+                        /*margin-top: 0px;*/
                        }
                        .block_right_mobile{
                         margin-top: 0px;
@@ -918,6 +929,9 @@
                        .block_center {
                            width: 69%;
                        }
+                       .block_center_mobile{
+                        width: 100%;
+                       }
                        marquee {
                         width: 100%;
                         height: 90px;
@@ -1042,9 +1056,22 @@
                            width: 100%;
                            margin-left: 0px;
                        }
+                       .wraper_block{
+                        width: 50%;
+                        flex-direction: column;
+                        height: 100%;
+                        margin-right: 0px;
+                       }
                        .block_left {
                            order: 3;
-                           width: 49%;
+                           width: 100%;
+                       }
+                       .my_height_block{
+                        width: 49%;
+                        height: 100%;
+                       }
+                       .block_right{
+                        width: 100%;
                        }
                        .block_center_mobile {
                            order: 6;
@@ -1095,6 +1122,15 @@
                         margin-bottom: 10px;
                         display: flex;
                         align-items: center;
+                      }
+                      .menu-right a{
+                        font-size: 13px;
+                      }
+                      .menu-right a i{
+                        height: 19px;
+                      }
+                      .mobile_simplified .menu-right a i{
+                        height: 22px;
                       }
                    }
                    /*-----------------------------------------------------------------------------------------------------------------*/
@@ -1177,12 +1213,16 @@
                        .block_center {
                            /*-webkit-box-ordinal-group: 2;*/
                            -ms-flex-order: 2;
-                           order: 2;
+                           order: 0;
                            /*height: 620px;*/
                            width: 100%;
                            /*min-width: 304px;*/
                            margin-right: 0px;
                            margin-bottom: 15px;
+                       }
+                       .wraper_block{
+                        order: 1;
+                        width: 100%;
                        }
                        .block_right {
                            width: 100%;
@@ -1193,8 +1233,19 @@
                            min-width: 304px;
                            margin-right: 0px;
                        }
+                       .my_height_block{
+                        order: 3;
+                        width: 100%;
+                       }
+                       .block_left_mobile{
+                        max-height: 510px;
+                       }
+                       .section_scroll_sell_buy{
+                        max-height: 380px;
+                       }
                        .block_left_mobile {
-                           order: 4;
+                           /*order: 3;*/
+                           width: 100%;
                        }
                        .block_right_mobile {
                            order: 5;
@@ -1254,6 +1305,21 @@
                        }
                        .notifications_history .mobile_table_scroll_refferal_common tr td {
                            min-width: 110px;
+                       }
+                       .menu-right a, .menu-left a{
+                        font-size: 12px;
+                       }
+                       .menu-right .emeil{
+                        font-size: 13px;
+                       }
+                       .portfolio_value_menu{
+                        min-width: 120px;
+                       }
+                       .nav{
+                        margin-left: 25px;
+                       }
+                       .menu-right{
+                        margin-right: 25px;
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------------*/
@@ -1327,6 +1393,9 @@
                        .menu_nav a svg {
                            display: none;
                        }
+                       .mobile_simplified .menu_nav a svg{
+                        display: block;
+                       }
 
                        .nav_mobile_all .menu-right {
                            width: 60%;
@@ -1339,6 +1408,9 @@
                        .menu-right a {
                            font-size: 11px;
                        }
+                       .mobile_simplified .menu-right a {
+                           font-size: 14px;
+                       }
                        .menu-right .emeil {
                            font-size: 11px;
                        }
@@ -1349,6 +1421,17 @@
                        .nav_mobile_all .nav_tuning {
                            display: none;
                        }
+                       .change_theme_icon{
+                        display: none;
+                       }
+                       .mail_mobile_menu{
+                        display: none;
+                       }
+                       .nav_mobile_all .menu-right .portfolio_value_menu{
+                        min-width: 120px;
+                        margin-right: 15px;
+                       }
+                          
 
                        .nav_mobile_all .menu-right li {
                            -ms-flex-pack: distribute;
@@ -1356,6 +1439,7 @@
                            margin-right: 30px;
                            position: relative;
                        }
+
 
                        .menu-right .sub_menu li {
                            margin-right: 0px;
@@ -3098,7 +3182,14 @@
                            font-size: 13px;
                        }
                        .nav_mobile_all .menu-right li {
-                           margin-right: 17px;
+                           margin-right: 10px;
+                       }
+                       .nav_mobile_all .menu-right .portfolio_value_menu{
+                           margin-right: 10px;
+                           min-width: 111px;
+                       }
+                       .nav_mobile_all .menu-right .sub_menu li{
+                        margin-right: 0px;
                        }
                    }
                    /*----------------------------------------------------------------------------------------------------------*/

@@ -326,6 +326,7 @@ section {
 
 .menu-right li {
     margin-right: 30px;
+    position: relative;
 }
 
 .menu-right .sub_menu li {
@@ -333,13 +334,13 @@ section {
 }
 
 .menu-left {
-    width: 30%;
+    width: 15%;
     z-index: 10;
 }
 
 .menu-right {
     position: relative;
-    width: 70%;
+    width: 85%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -458,7 +459,7 @@ section {
 .sub_balances {
     position: absolute;
     top: 36px;
-    left: 4px;
+    right: -36px;
 }
 
 .sub_menu li {
@@ -488,7 +489,7 @@ section {
 
 .sub_menu_emeil {
     top: 36px;
-    right: 76px;
+    right: -36px;
 }
 
 .en_ru {
@@ -785,6 +786,7 @@ section {
     width: 100%;
     display: table;
     table-layout: fixed;
+    padding-left: 10px;
     /*padding: 16px 0 6px;*/
 }
 
@@ -910,6 +912,7 @@ section {
 
 .coin_unit {
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .coin_unit span {
@@ -4217,6 +4220,7 @@ input[type=checkbox]:checked+label:before {
 
 
 
+
 .recovery_pass_page {
     padding-top: 45px;
 }
@@ -4503,7 +4507,7 @@ a.btn_close {}
     flex-wrap: wrap;
     /*margin-bottom: 10px;*/
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .block_left {
@@ -4513,9 +4517,10 @@ a.btn_close {}
     max-height: 510px;
     padding-right: 10px;
     padding-left: 10px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     /*height: 100%;*/
-    width: 19%;
+    width: 100%;
+    order: 3;
     /*overflow-y: hidden;*/
     /*background-color: #15133b;*/
     background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
@@ -4523,12 +4528,30 @@ a.btn_close {}
     background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
     background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
 }
+.block_left_mobile{
+    order: 2;
+    width: 100%;
+     height: 1030px;
+    max-height: 1030px;
+    /*width: 19%;*/
+}
+.my_height_block{
+     height: 510px;
+    width: 19%;
+    order: 1;
+}
+.wraper_block{
+    width: 19%;
+    /*margin-right: 10px;*/
+    order: 2;
+    height: 510px;
+}
 
 
 .box_table_block_left {
     overflow-y: scroll;
     overflow-x: hidden;
-    max-height: 280px;
+    max-height: 238px;
 }
 
 .box_table_block_left div {
@@ -4563,20 +4586,25 @@ a.btn_close {}
     /*height: 100%;*/
     height: 510px;
     width: 60%;
+    order: 0;
     /*background-color: #15133b;*/
     background-image: -webkit-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
     background-image: -ms-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
     background-image: -o-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
     background-image: -moz-linear-gradient( -70deg, rgb(12, 13, 45) 0%, rgba(20, 24, 85, 0.8) 73%, rgba(20, 24, 89, 0.8) 100%);
 }
+.block_center_mobile{
+    order: 2;
+}
 
 .block_right {
+    order: 4;
     position: relative;
     margin-bottom: 10px;
     margin-right: 10px;
     /*height: 100%;*/
     height: 510px;
-    width: 19%;
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     /*background-color: #15133b;*/
@@ -4607,7 +4635,7 @@ a.btn_close {}
 .search_forma input {
     background-color: #26295d;
     border: none;
-    height: 35px;
+    height: 30px;
     width: 145px;
     color: #fff;
     background-image: url(../img/icon10.svg);
@@ -4615,11 +4643,11 @@ a.btn_close {}
     box-sizing: border-box;
     padding-left: 5px;
     background-repeat: no-repeat;
-    background-position: 120px 9px;
+    background-position: 120px 7px;
 }
 
 .search_forma {
-    margin-top: 15px;
+    margin-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5225,7 +5253,7 @@ a.btn_close {}
 .section_scroll_sell_buy {
     overflow-y: scroll;
     overflow-x: hidden;
-    max-height: 390px;
+    max-height: 905px;
 }
 
 .section_scroll_sell_buy div div {
@@ -5326,7 +5354,7 @@ a.btn_close {}
 .scroll_table_block_right {
     overflow-y: scroll;
     overflow-x: hidden;
-    max-height: 415px;
+    max-height: 363px;
 }
 
 
@@ -5971,6 +5999,78 @@ marquee .row-marquee {
 .operation_history_window:hover{
     background-color: transparent;
 }
+.order_box_block_right .tab-link.current:after{
+    display: none;
+}
+.block_markets_trades{
+    display: none;
+}
+.block_markets_trades.current_box{
+    display: inherit;
+}
+.tabs_block_box label{
+    color: #3c407a;
+    position: relative;
+     padding-top: 20px;
+    padding-bottom: 15px;
+    width: 50%;
+    text-align: center;
+        font-family: "Helvetica Neue Medium";
+    font-size: 20px;
+}
+.tabs_block_box label:hover{
+    color: #fff;
+}
+.tabs_block_box label:after{
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    height: 1px;
+    position: absolute;
+    width: 0%;
+    left: 0px;
+    bottom: -2px;
+    transition: all 0.3s;
+
+}
+.tabs_block_box label:hover:after{
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+    transition: all 0.3s;
+}
+.tabs_block_box label.current_box{
+    color: #fff;
+}
+.tabs_block_box label.current_box:after{
+    content: "";
+    border-bottom: 2px solid #2b4fe9;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+}
+.tabs_block_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* padding-top: 20px;
+    padding-bottom: 15px;*/
+    border-bottom: 2px solid #232658;
+}
+.block_trades p{
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
 
 /*выпадающие селекты-------------------------------------------------------------------------------------------------------------*/
 
